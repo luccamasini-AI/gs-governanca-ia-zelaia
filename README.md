@@ -73,5 +73,5 @@ O Hub Web Moderno (Design *Bento Grid / Glassmorphism*) abrirá automaticamente 
 
 ## 4. Links de Entrega
 
-- **Vídeo de Demonstração (YouTube Não Listado - 5 a 7 minutos):** *[Inserir Link do Vídeo Aqui após gravação]*
+- **Vídeo de Demonstração (YouTube Não Listado - 5 a 7 minutos):** [https://youtu.be/NVlXG8PhlQo](https://youtu.be/NVlXG8PhlQo)
 - **Relatório Técnico ABNT/FIAP:** [`Relatorio_Integracao_Governanca_IA_ZelaIA_ABNT.docx`](Relatorio_Integracao_Governanca_IA_ZelaIA_ABNT.docx)
