@@ -1,3 +1,6 @@
+# O Hub Executivo Web (hub_governanca.py) utiliza exclusivamente a Biblioteca Padrão do Python 3.10+
+# (http.server, json, dataclasses, pathlib, re, threading, webbrowser) para iniciar sem dependências externas.
+# Pacotes abaixo são utilizados apenas caso deseje executar individualmente os submódulos Streamlit/ML das pastas:
 streamlit>=1.40.0
 plotly>=5.24.0
 pandas>=2.2.0

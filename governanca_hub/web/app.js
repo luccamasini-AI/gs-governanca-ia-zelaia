@@ -115,6 +115,10 @@ function populateCvSamplesSelector() {
   updateCvSimulator();
 }
 
+function formatPtBrDecimal(value, decimals) {
+  return Number(value).toFixed(decimals).replace('.', ',');
+}
+
 function updateCvSimulator() {
   if (!hubTelemetry || !hubTelemetry.cv_samples || hubTelemetry.cv_samples.length === 0) return;
   const selectEl = document.getElementById('simCvSelect');
@@ -126,22 +130,23 @@ function updateCvSimulator() {
   imgEl.src = sample.url;
 
   const threshold = shadowMode ? 0.35 : 0.50;
-  const prob = sample.is_crack ? (shadowMode ? 97.6 : 99.4) : 0.8;
+  const prob = sample.is_crack ? (shadowMode ? 46.1 : 99.4) : 0.8;
   const badgeEl = document.getElementById('simCvResultBadge');
   const probBar = document.getElementById('simCvProbBar');
   const metaEl = document.getElementById('simCvMetaText');
 
   if (sample.is_crack) {
-    badgeEl.innerHTML = `<span class="status-badge integrated" style="background:rgba(244,63,94,0.16); color:#fb7185; border-color:rgba(244,63,94,0.4);">⚠️ FISSURA DETECTADA (${prob.toFixed(1)}%) • Priorizar Vistoria</span>`;
+    const modeNote = shadowMode ? 'Recuperada sob Sombra (T=0,35)' : 'Priorizar Vistoria';
+    badgeEl.innerHTML = `<span class="status-badge integrated" style="background:rgba(244,63,94,0.16); color:#fb7185; border-color:rgba(244,63,94,0.4);">⚠️ FISSURA DETECTADA (Prob: ${formatPtBrDecimal(prob, 1)}%) • ${modeNote}</span>`;
     probBar.className = 'bar-fill rose';
     probBar.style.width = `${prob}%`;
   } else {
-    badgeEl.innerHTML = `<span class="status-badge integrated">✅ SUPERFÍCIE ÍNTEGRA (${(100 - prob).toFixed(1)}% Normal)</span>`;
+    badgeEl.innerHTML = `<span class="status-badge integrated">✅ SUPERFÍCIE ÍNTEGRA (${formatPtBrDecimal(100 - prob, 1)}% Normal)</span>`;
     probBar.className = 'bar-fill emerald';
     probBar.style.width = '100%';
   }
 
-  metaEl.innerHTML = `Limiar ativo: <strong>T = ${threshold.toFixed(2)}</strong> ${shadowMode ? '(Recall sob sombra sobe de 89,4% para 97,6%)' : '(Padrão ideal)'} • Triagem 2D preventiva.`;
+  metaEl.innerHTML = `Limiar ativo: <strong>T = ${formatPtBrDecimal(threshold, 2)}</strong> ${shadowMode ? '(Amostra limítrofe c/ sombra 46,1% ≥ 35,0% • Recall sobe de 89,4% para 97,6%)' : '(Padrão ideal)'} • Localização WSOL / Grad-CAM 2D preventiva.`;
 }
 
 function setLgpdPreset(presetId) {
@@ -188,9 +193,9 @@ async function runLiveSimulation() {
     const cluster = result.cluster;
     document.getElementById('simClusterWorkloadLabel').textContent =
       `${cluster.total_mflop.toLocaleString('pt-BR')} MFLOP | ${cluster.total_network_mbit.toLocaleString('pt-BR')} Mbit`;
-    document.getElementById('simCluster2WText').textContent = `${cluster.time_2_workers_seconds.toFixed(2)} s`;
+    document.getElementById('simCluster2WText').textContent = `${formatPtBrDecimal(cluster.time_2_workers_seconds, 3)} s`;
     document.getElementById('simCluster4WText').textContent =
-      `${cluster.time_4_workers_seconds.toFixed(2)} s (-${cluster.time_saved_seconds.toFixed(2)} s)`;
+      `${formatPtBrDecimal(cluster.time_4_workers_seconds, 3)} s (-${formatPtBrDecimal(cluster.time_saved_seconds, 3)} s)`;
 
     // 3. Atualiza Otimização Quântica
     const opt = result.optimization;
@@ -219,9 +224,9 @@ function renderIotAnalyticsComparison() {
   const rowsHtml = rows.map(r => `
     <div style="display:grid; grid-template-columns: 1.3fr 1fr 1fr 1fr; gap:8px; padding:9px 12px; background:var(--bg-subtle); border-radius:8px; margin-bottom:8px; font-size:0.81rem; align-items:center;">
       <strong>${r.condition}</strong>
-      <span style="font-family:'JetBrains Mono',monospace;">Studio: ${r.studio_08_int8.toFixed(1)}%</span>
-      <span style="font-family:'JetBrains Mono',monospace; color:var(--accent-cyan);">Base: ${r.public_base.toFixed(1)}%</span>
-      <span style="font-family:'JetBrains Mono',monospace; color:var(--accent-emerald); font-weight:700;">+Sint: ${r.plus_synthetics.toFixed(1)}%</span>
+      <span style="font-family:'JetBrains Mono',monospace;">Studio: ${formatPtBrDecimal(r.studio_08_int8, 1)}%</span>
+      <span style="font-family:'JetBrains Mono',monospace; color:var(--accent-cyan);">Base: ${formatPtBrDecimal(r.public_base, 1)}%</span>
+      <span style="font-family:'JetBrains Mono',monospace; color:var(--accent-emerald); font-weight:700;">+Sint: ${formatPtBrDecimal(r.plus_synthetics, 1)}%</span>
     </div>
   `).join('');
 

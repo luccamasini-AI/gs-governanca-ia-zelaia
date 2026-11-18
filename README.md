@@ -18,15 +18,14 @@ Repositório unificado (monorepo) contendo os **8 módulos disciplinares** desen
 
 ```text
 .
-├── hub_governanca.py                                      # Aplicação Streamlit do Hub de Governança e Business Analytics
+├── hub_governanca.py                                      # Servidor Web HTTP do Hub de Governança e Business Analytics (SPA)
 ├── Iniciar_Hub_Governanca.bat                             # Inicializador rápido em 1 clique para Windows (Porta 8505)
-├── governanca_hub/                                        # Módulos de domínio, telemetria, simulação e interface do Hub
+├── governanca_hub/                                        # Módulos de domínio, telemetria, simulação e interface Web do Hub
 │   ├── domain_contracts.py                                # Contratos imutáveis de auditoria e otimização
 │   ├── repository_data_loader.py                          # Carregador de métricas JSON/CSV e artefatos das 8 pastas
 │   ├── governance_simulation_engine.py                    # Sanitizador LGPD, simulador iSPD e solver combinatório QAOA
-│   └── ui_views.py                                        # Visões de arquitetura, analytics, simulador e conformidade
+│   └── web/                                               # Front-End SPA (Bento Grid / Glassmorphism: index.html, styles.css, app.js)
 ├── Relatorio_Integracao_Governanca_IA_ZelaIA_ABNT.docx    # Relatório Técnico Oficial (Normas ABNT/FIAP - 13 páginas)
-├── ROTEIRO_VIDEO_5_A_7_MINUTOS.md                         # Roteiro cronometrado para gravação do vídeo de 5 a 7 minutos
 ├── requirements.txt                                       # Dependências do Hub de Governança
 ├── GS - FRONT END/                                        # 1. Plataforma ZelaAI (Streamlit + FastAPI + ML + Gemini 2.5)
 ├── GS - VISÃO COMPUTACIONAL/                              # 2. Inspeção Preventiva de Fissuras (MobileNetV3 + Grad-CAM)

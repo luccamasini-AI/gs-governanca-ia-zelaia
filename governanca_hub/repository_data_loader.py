@@ -213,9 +213,13 @@ def list_folder_verified_files(folder_name: str, limit: int = 16) -> List[str]:
         return []
     files_found: List[str] = []
     for path_item in sorted(folder_path.rglob("*")):
-        if path_item.is_file() and not any(
-            ignored in str(path_item)
-            for ignored in [".git", "__pycache__", ".venv", "node_modules", "test_images"]
+        if (
+            path_item.is_file()
+            and path_item.name not in (".env", "__init__.py")
+            and not any(
+                ignored in str(path_item)
+                for ignored in [".git", "__pycache__", ".venv", "node_modules", "test_images"]
+            )
         ):
             files_found.append(str(path_item.relative_to(folder_path)).replace("\\", "/"))
             if len(files_found) >= limit:
@@ -275,7 +279,7 @@ def get_all_module_governance_records() -> List[ModuleGovernanceRecord]:
             main_metric_label="Redução (2 ➔ 4 Workers)",
             main_metric_value="-49,9945% no Tempo",
             secondary_metric_label="Tempo p/ 1.000 Fotos",
-            secondary_metric_value="500,02 s ➔ 250,04 s",
+            secondary_metric_value="500,019 s ➔ 250,037 s",
             lgpd_mechanism="Simulação executada sobre arquivo de trace sintético (ocorrencias.wmsx) sem dados pessoais.",
             human_in_the_loop_mechanism="Auditoria manual das métricas por recurso no motor iSPD contra rótulos globais distorcidos.",
             hallucination_or_error_control="Carga única determinística (1.000 tarefas de 1.000 MFLOP e 8 Mbit) repetida 3 vezes sem variação.",
