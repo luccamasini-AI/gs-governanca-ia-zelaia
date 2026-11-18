@@ -1,0 +1,604 @@
+- navigation:
+  - link:
+    - /url: /
+  - list:
+    - link " Dashboard":
+      - /url: /studio/1161308
+      - generic: 
+      - text: Dashboard
+    - link " Devices":
+      - /url: /studio/1161308/devices
+      - generic: 
+      - text: Devices
+    - list
+    - link " Data acquisition":
+      - /url: /studio/1161308/acquisition/training
+      - generic: 
+      - text: Data acquisition
+    - list
+    - link " Experiments":
+      - /url: /studio/1161308/impulses
+      - generic: 
+      - text: Experiments
+    - list:
+      - link " EON Tuner":
+        - /url: /studio/1161308/tuner
+        - generic: 
+        - text: EON Tuner
+    - list
+    - button " 08 — MFE com FFT de 512 pontos ":
+      - generic: 
+      - generic "08 — MFE com FFT de 512 pontos"
+      - generic: 
+      - text: 
+    - list:
+      - link " Create impulse":
+        - /url: /studio/1161308/impulse/8/create-impulse
+        - generic: 
+        - generic: Create impulse
+      - list
+      - link " MFE":
+        - /url: /studio/1161308/impulse/8/dsp/mfe/24
+        - generic: 
+        - generic: MFE
+      - list
+      - link " Classifier":
+        - /url: /studio/1161308/impulse/8/learning/keras/25
+        - generic: 
+        - generic: Classifier
+      - list
+      - link "  Retrain model":
+        - /url: /studio/1161308/impulse/8/retrain
+        - generic "Training data was updated since the model was trained last time. Retrain the model to ensure the latest updates are visible.":
+          - text: 
+          - generic: 
+        - text: Retrain model
+      - link " Live classification":
+        - /url: /studio/1161308/impulse/8/classification
+        - generic: 
+        - text: Live classification
+      - list
+      - link " Model testing":
+        - /url: /studio/1161308/impulse/8/validation
+        - generic: 
+        - text: Model testing
+      - list
+      - link " Perf. calibration":
+        - /url: /studio/1161308/impulse/8/performance-calibration
+        - generic: 
+        - generic: Perf. calibration
+      - link " Deployment":
+        - /url: /studio/1161308/impulse/8/deployment
+        - generic: 
+        - text: Deployment
+      - list
+    - link " Versioning":
+      - /url: /studio/1161308/versions
+      - generic: 
+      - text: Versioning
+    - list
+  - separator
+  - heading "Getting started" [level=6]
+  - list:
+    - link " Documentation":
+      - /url: https://docs.edgeimpulse.com/
+      - generic: 
+      - text: Documentation
+    - link " Forums":
+      - /url: https://forum.edgeimpulse.com
+      - generic: 
+      - text: Forums
+    - link " Discord":
+      - /url: https://discord.gg/edgeimpulse
+      - generic: 
+      - generic: Discord
+  - text: 
+  - generic: 
+  - generic:      
+  - separator
+  - list:
+    - generic: 
+    - heading "Upgrade Plan" [level=3]
+    - paragraph: Get access to higher job limits and more collaborators.
+    - link "View plans":
+      - /url: "#"
+- link "betitanx":
+  - /url: /studio/profile/projects
+- generic: /
+- generic: OuviAí
+- generic: Personal
+- 'link " Target: Cortex-M4F 80MHz"':
+  - /url: "#"
+  - generic: 
+  - text: "Target: Cortex-M4F 80MHz"
+- text: 
+- list:
+  - button "b":
+    - generic "betitanx": b
+  - text:      
+- alert:
+  - generic: 
+  - text: This lists all test data. You can manage this data through
+  - link "Data acquisition":
+    - /url: /studio/1161308/acquisition/testing
+  - text: .
+- heading "Test data" [level=3]
+- button " Classify all":
+  - generic: 
+  - text: Classify all
+- link "":
+  - /url: "#"
+  - generic: 
+  - text: 
+- button "":
+  - generic: 
+- generic: Set the 'expected outcome' for each sample to the desired outcome to automatically score the impulse.
+- text:     
+- text: 
+- table:
+  - rowgroup:
+    - row "Sample name Expected outcome Length Accuracy Result":
+      - columnheader "Sample name"
+      - columnheader "Expected outcome"
+      - columnheader "Length"
+      - columnheader "Accuracy"
+      - columnheader "Result"
+      - columnheader
+  - rowgroup:
+    - row "campainha.robustez.332563.limpo campainha 5s 0% ambiente ":
+      - cell "campainha.robustez.332563.limpo"
+      - cell "campainha"
+      - cell "5s"
+      - cell "0%"
+      - cell "ambiente"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "campainha.robustez.330400.snr10 campainha 5s 0% ambiente ":
+      - cell "campainha.robustez.330400.snr10"
+      - cell "campainha"
+      - cell "5s"
+      - cell "0%"
+      - cell "ambiente"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "campainha.robustez.330400.menos12db campainha 5s 0% ambiente ":
+      - cell "campainha.robustez.330400.menos12db"
+      - cell "campainha"
+      - cell "5s"
+      - cell "0%"
+      - cell "ambiente"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "campainha.robustez.31775.menos12db campainha 5s 100% campainha ":
+      - cell "campainha.robustez.31775.menos12db"
+      - cell "campainha"
+      - cell "5s"
+      - cell "100%"
+      - cell "campainha"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "campainha.robustez.330400.snr20 campainha 5s 0% ambiente ":
+      - cell "campainha.robustez.330400.snr20"
+      - cell "campainha"
+      - cell "5s"
+      - cell "0%"
+      - cell "ambiente"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "campainha.robustez.20285.menos12db campainha 5s 0% uncertain ":
+      - cell "campainha.robustez.20285.menos12db"
+      - cell "campainha"
+      - cell "5s"
+      - cell "0%"
+      - cell "uncertain"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "campainha.robustez.218317.menos12db campainha 5s 100% campainha ":
+      - cell "campainha.robustez.218317.menos12db"
+      - cell "campainha"
+      - cell "5s"
+      - cell "100%"
+      - cell "campainha"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "campainha.robustez.20285.snr20 campainha 5s 0% ambiente ":
+      - cell "campainha.robustez.20285.snr20"
+      - cell "campainha"
+      - cell "5s"
+      - cell "0%"
+      - cell "ambiente"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "campainha.robustez.218317.snr20 campainha 5s 0% uncertain ":
+      - cell "campainha.robustez.218317.snr20"
+      - cell "campainha"
+      - cell "5s"
+      - cell "0%"
+      - cell "uncertain"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "campainha.robustez.31775.limpo campainha 5s 100% campainha ":
+      - cell "campainha.robustez.31775.limpo"
+      - cell "campainha"
+      - cell "5s"
+      - cell "100%"
+      - cell "campainha"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "campainha.robustez.330400.limpo campainha 5s 0% ambiente ":
+      - cell "campainha.robustez.330400.limpo"
+      - cell "campainha"
+      - cell "5s"
+      - cell "0%"
+      - cell "ambiente"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "campainha.robustez.110165.limpo campainha 5s 0% uncertain ":
+      - cell "campainha.robustez.110165.limpo"
+      - cell "campainha"
+      - cell "5s"
+      - cell "0%"
+      - cell "uncertain"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "campainha.robustez.110165.snr10 campainha 5s 0% ambiente ":
+      - cell "campainha.robustez.110165.snr10"
+      - cell "campainha"
+      - cell "5s"
+      - cell "0%"
+      - cell "ambiente"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "campainha.robustez.20285.limpo campainha 5s 0% ambiente ":
+      - cell "campainha.robustez.20285.limpo"
+      - cell "campainha"
+      - cell "5s"
+      - cell "0%"
+      - cell "ambiente"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "campainha.robustez.218317.snr10 campainha 5s 0% ambiente ":
+      - cell "campainha.robustez.218317.snr10"
+      - cell "campainha"
+      - cell "5s"
+      - cell "0%"
+      - cell "ambiente"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "campainha.robustez.106803.menos12db campainha 5s 100% campainha ":
+      - cell "campainha.robustez.106803.menos12db"
+      - cell "campainha"
+      - cell "5s"
+      - cell "100%"
+      - cell "campainha"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "campainha.robustez.106803.snr10 campainha 5s 0% ambiente ":
+      - cell "campainha.robustez.106803.snr10"
+      - cell "campainha"
+      - cell "5s"
+      - cell "0%"
+      - cell "ambiente"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "campainha.robustez.110165.snr20 campainha 5s 0% ambiente ":
+      - cell "campainha.robustez.110165.snr20"
+      - cell "campainha"
+      - cell "5s"
+      - cell "0%"
+      - cell "ambiente"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "campainha.robustez.31775.snr10 campainha 5s 0% ambiente ":
+      - cell "campainha.robustez.31775.snr10"
+      - cell "campainha"
+      - cell "5s"
+      - cell "0%"
+      - cell "ambiente"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "campainha.robustez.20285.snr10 campainha 5s 0% ambiente ":
+      - cell "campainha.robustez.20285.snr10"
+      - cell "campainha"
+      - cell "5s"
+      - cell "0%"
+      - cell "ambiente"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "campainha.robustez.218317.limpo campainha 5s 100% campainha ":
+      - cell "campainha.robustez.218317.limpo"
+      - cell "campainha"
+      - cell "5s"
+      - cell "100%"
+      - cell "campainha"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "campainha.robustez.31775.snr20 campainha 5s 0% ambiente ":
+      - cell "campainha.robustez.31775.snr20"
+      - cell "campainha"
+      - cell "5s"
+      - cell "0%"
+      - cell "ambiente"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "campainha.robustez.106803.limpo campainha 5s 100% campainha ":
+      - cell "campainha.robustez.106803.limpo"
+      - cell "campainha"
+      - cell "5s"
+      - cell "100%"
+      - cell "campainha"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "campainha.robustez.110165.menos12db campainha 5s 0% uncertain ":
+      - cell "campainha.robustez.110165.menos12db"
+      - cell "campainha"
+      - cell "5s"
+      - cell "0%"
+      - cell "uncertain"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "campainha.robustez.106803.snr20 campainha 5s 0% ambiente ":
+      - cell "campainha.robustez.106803.snr20"
+      - cell "campainha"
+      - cell "5s"
+      - cell "0%"
+      - cell "ambiente"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "campainha.fsd50k.397919 campainha 5s 0% uncertain ":
+      - cell "campainha.fsd50k.397919"
+      - cell "campainha"
+      - cell "5s"
+      - cell "0%"
+      - cell "uncertain"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "campainha.fsd50k.69385 campainha 5s 100% campainha ":
+      - cell "campainha.fsd50k.69385"
+      - cell "campainha"
+      - cell "5s"
+      - cell "100%"
+      - cell "campainha"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "batida_porta.esc-50.5-256512-A-30 batida_porta 5s 100% batida_porta ":
+      - cell "batida_porta.esc-50.5-256512-A-30"
+      - cell "batida_porta"
+      - cell "5s"
+      - cell "100%"
+      - cell "batida_porta"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "campainha.fsd50k.263078 campainha 5s 0% uncertain ":
+      - cell "campainha.fsd50k.263078"
+      - cell "campainha"
+      - cell "5s"
+      - cell "0%"
+      - cell "uncertain"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "campainha.fsd50k.393333 campainha 5s 0% ambiente ":
+      - cell "campainha.fsd50k.393333"
+      - cell "campainha"
+      - cell "5s"
+      - cell "0%"
+      - cell "ambiente"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "campainha.fsd50k.345275 campainha 5s 0% uncertain ":
+      - cell "campainha.fsd50k.345275"
+      - cell "campainha"
+      - cell "5s"
+      - cell "0%"
+      - cell "uncertain"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "batida_porta.esc-50.5-235644-A-30 batida_porta 5s 0% uncertain ":
+      - cell "batida_porta.esc-50.5-235644-A-30"
+      - cell "batida_porta"
+      - cell "5s"
+      - cell "0%"
+      - cell "uncertain"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "batida_porta.esc-50.5-251426-B-30 batida_porta 5s 100% batida_porta ":
+      - cell "batida_porta.esc-50.5-251426-B-30"
+      - cell "batida_porta"
+      - cell "5s"
+      - cell "100%"
+      - cell "batida_porta"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "batida_porta.esc-50.5-250026-A-30 batida_porta 5s 100% batida_porta ":
+      - cell "batida_porta.esc-50.5-250026-A-30"
+      - cell "batida_porta"
+      - cell "5s"
+      - cell "100%"
+      - cell "batida_porta"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "batida_porta.esc-50.5-218980-A-30 batida_porta 5s 100% batida_porta ":
+      - cell "batida_porta.esc-50.5-218980-A-30"
+      - cell "batida_porta"
+      - cell "5s"
+      - cell "100%"
+      - cell "batida_porta"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "ambiente.esc-50.5-194892-A-10 ambiente 5s 100% ambiente ":
+      - cell "ambiente.esc-50.5-194892-A-10"
+      - cell "ambiente"
+      - cell "5s"
+      - cell "100%"
+      - cell "ambiente"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "ambiente.esc-50.5-223099-B-32 ambiente 5s 100% ambiente ":
+      - cell "ambiente.esc-50.5-223099-B-32"
+      - cell "ambiente"
+      - cell "5s"
+      - cell "100%"
+      - cell "ambiente"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "ambiente.esc-50.5-238021-A-35 ambiente 5s 100% ambiente ":
+      - cell "ambiente.esc-50.5-238021-A-35"
+      - cell "ambiente"
+      - cell "5s"
+      - cell "100%"
+      - cell "ambiente"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "ambiente.esc-50.5-263490-A-25 ambiente 5s 100% ambiente ":
+      - cell "ambiente.esc-50.5-263490-A-25"
+      - cell "ambiente"
+      - cell "5s"
+      - cell "100%"
+      - cell "ambiente"
+      - cell "":
+        - button "":
+          - generic: 
+    - row "ambiente.esc-50.5-263902-A-36 ambiente 5s 100% ambiente ":
+      - cell "ambiente.esc-50.5-263902-A-36"
+      - cell "ambiente"
+      - cell "5s"
+      - cell "100%"
+      - cell "ambiente"
+      - cell "":
+        - button "":
+          - generic: 
+- text:   
+- heading "Model testing output" [level=3]
+- generic: 
+- text: (0)
+- text: 
+- link "":
+  - /url: "#"
+  - generic: 
+- textbox "Terminal input"
+- heading "Results" [level=3]
+- text: "Model version:"
+- generic: 
+- button "Quantized (int8) ":
+  - text: Quantized (int8)
+  - generic: 
+- generic: 
+- heading "Accuracy" [level=5]
+- generic "44.62%"
+- heading "Metrics for Classifier" [level=4]
+- link "":
+  - /url: /v1/api/1161308/learn-data/25/model/metrics
+  - generic: 
+- table:
+  - rowgroup:
+    - row "Metric Value":
+      - columnheader "Metric"
+      - columnheader "Value"
+  - rowgroup:
+    - row "Area under ROC Curve  0.63":
+      - cell "Area under ROC Curve ":
+        - text: Area under ROC Curve
+        - generic: 
+      - cell "0.63"
+    - row "Weighted average Precision  0.64":
+      - cell "Weighted average Precision ":
+        - text: Weighted average Precision
+        - generic: 
+      - cell "0.64"
+    - row "Weighted average Recall  0.52":
+      - cell "Weighted average Recall ":
+        - text: Weighted average Recall
+        - generic: 
+      - cell "0.52"
+    - row "Weighted average F1 score  0.51":
+      - cell "Weighted average F1 score ":
+        - text: Weighted average F1 score
+        - generic: 
+      - cell "0.51"
+- heading "Confusion matrix" [level=4]
+- table:
+  - rowgroup:
+    - row "ambiente batida_porta campainha uncertain":
+      - columnheader
+      - columnheader "ambiente"
+      - columnheader "batida_porta"
+      - columnheader "campainha"
+      - columnheader "uncertain"
+  - rowgroup:
+    - row "ambiente 67.7% 15.4% 3.1% 13.8%":
+      - rowheader "ambiente"
+      - cell "67.7%"
+      - cell "15.4%"
+      - cell "3.1%"
+      - cell "13.8%"
+    - row "batida_porta 50.8% 40% 0% 9.2%":
+      - rowheader "batida_porta"
+      - cell "50.8%"
+      - cell "40%"
+      - cell "0%"
+      - cell "9.2%"
+    - row "campainha 47.7% 6.2% 26.2% 20%":
+      - rowheader "campainha"
+      - cell "47.7%"
+      - cell "6.2%"
+      - cell "26.2%"
+      - cell "20%"
+    - row "f1 score 0.51 0.50 0.40":
+      - rowheader "f1 score"
+      - cell "0.51"
+      - cell "0.50"
+      - cell "0.40"
+      - cell
+- heading "Feature explorer " [level=4]:
+  - text: Feature explorer
+  - generic: 
+- generic: 
+- contentinfo:
+  - text: © 2026
+  - link "EdgeImpulse Inc.":
+    - /url: https://www.edgeimpulse.com
+  - text: All rights reserved
+- text:      
+- button "":
+  - generic: 
+- text:    
+- text: 
+- text:                           

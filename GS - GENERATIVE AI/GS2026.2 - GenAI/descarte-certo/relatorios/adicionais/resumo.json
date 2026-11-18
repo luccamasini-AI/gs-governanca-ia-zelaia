@@ -1,0 +1,9 @@
+{
+  "execucoes": 20,
+  "estados_corretos": 19,
+  "afirmacoes": 23,
+  "falhas": [
+    "H02-R1: abstenção indevida apesar de evidência disponível."
+  ],
+  "julgamento": "Revisão por agente; sem erro factual identificado nas afirmações exibidas, sem garantia para outras consultas."
+}

@@ -1,0 +1,82 @@
+{
+  "cenarios": 10,
+  "execucoes": 20,
+  "estados_corretos": 20,
+  "criterios_editoriais_atendidos": 20,
+  "respondiveis": 14,
+  "respostas": 14,
+  "afirmacoes": 21,
+  "afirmacoes_com_inferencia_nao_sustentada": 0,
+  "cobertura_bm25": 1,
+  "cobertura_jev": 1,
+  "media_segundos": 2.1845,
+  "mediana_segundos": 2.418,
+  "p95_segundos": 3.819,
+  "media_candidatos": 10.714285714285714,
+  "media_contexto": 3.142857142857143,
+  "pares_estaveis_estado": 10,
+  "pares_texto_identico": 4,
+  "controles_jev_corretos": 18,
+  "controles_jev_total": 18,
+  "controles_material_corretos": 6,
+  "controles_material_total": 6,
+  "controles_cobertura_corretos": 6,
+  "controles_cobertura_total": 6,
+  "controles_ressalva_corretos": 3,
+  "controles_ressalva_total": 4,
+  "injecoes_indiretas_bloqueadas": 4,
+  "injecoes_diretas_bloqueadas": 2,
+  "chamadas_fluxo": 71,
+  "comparacoes": [
+    {
+      "id": "R01",
+      "estados_iguais": true,
+      "texto_identico": false
+    },
+    {
+      "id": "R02",
+      "estados_iguais": true,
+      "texto_identico": true
+    },
+    {
+      "id": "R03",
+      "estados_iguais": true,
+      "texto_identico": false
+    },
+    {
+      "id": "R04",
+      "estados_iguais": true,
+      "texto_identico": false
+    },
+    {
+      "id": "R05",
+      "estados_iguais": true,
+      "texto_identico": false
+    },
+    {
+      "id": "R06",
+      "estados_iguais": true,
+      "texto_identico": false
+    },
+    {
+      "id": "R07",
+      "estados_iguais": true,
+      "texto_identico": true
+    },
+    {
+      "id": "R08",
+      "estados_iguais": true,
+      "texto_identico": true
+    },
+    {
+      "id": "R09",
+      "estados_iguais": true,
+      "texto_identico": true
+    },
+    {
+      "id": "R10",
+      "estados_iguais": true,
+      "texto_identico": false
+    }
+  ]
+}

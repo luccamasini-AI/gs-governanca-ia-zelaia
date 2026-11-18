@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#123e32">
+  <title>Descarte Certo</title>
+  <link rel="stylesheet" href="/estilo.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="pular" href="#pergunta">Ir para a pergunta</a>
+  <header>
+    <a class="marca" href="/" aria-label="Descarte Certo, início"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M22 37C17 17 29 7 45 6c1 18-8 29-23 31Z"/><path d="M15 39C2 32 3 20 10 12c10 9 12 18 5 27Z"/><path class="nervura" d="M16 44 37 15M15 39 10 23"/></svg><span>Descarte Certo</span></a>
+    <nav aria-label="Navegação principal"><button id="aba-assistente" class="ativo" aria-current="page">Assistente</button><button id="aba-fontes">Fontes</button></nav>
+    <span class="cidade">São Paulo</span>
+  </header>
+  <main id="tela-assistente">
+    <aside aria-label="Materiais">
+      <h2>Materiais</h2>
+      <div class="materiais">
+        <button data-pergunta="Onde móveis velhos podem ser descartados em São Paulo?">Móveis</button>
+        <button data-pergunta="Qual é o limite de entulho nos ecopontos de São Paulo?">Entulho</button>
+        <button data-pergunta="Como preparar os materiais para a coleta seletiva?">Recicláveis</button>
+        <button data-pergunta="Onde gesso pode ser entregue na região de Pinheiros?">Gesso</button>
+        <button data-pergunta="Como entregar óleo de cozinha usado nos pontos de coleta?">Óleo de cozinha</button>
+      </div>
+      <a class="canal" href="https://sp156.prefeitura.sp.gov.br/portal" target="_blank" rel="noopener noreferrer">Consultar SP156 <span aria-hidden="true">↗</span></a>
+    </aside>
+    <section class="conversa" aria-label="Assistente de descarte">
+      <div class="area-conversa">
+        <div id="inicio">
+          <h1>Descarte de resíduos</h1>
+          <div class="sugestoes">
+            <button data-pergunta="Onde um sofá pode ser entregue?">Onde um sofá pode ser entregue?<span aria-hidden="true">↗</span></button>
+            <button data-pergunta="Qual é o limite de entulho?">Qual é o limite de entulho?<span aria-hidden="true">↗</span></button>
+            <button data-pergunta="Ecopontos abrem aos domingos?">Ecopontos abrem aos domingos?<span aria-hidden="true">↗</span></button>
+          </div>
+        </div>
+        <div id="mensagens" role="log" aria-label="Mensagens" aria-live="polite" aria-relevant="additions"></div>
+        <p id="andamento" role="status" hidden>Consultando as fontes…</p>
+      </div>
+      <form id="formulario">
+        <div class="linha-rotulo"><label for="pergunta">Pergunta</label><button id="nova" type="button" hidden>Nova conversa</button></div>
+        <div class="compositor"><textarea id="pergunta" name="pergunta" rows="2" maxlength="1500" required></textarea><button id="enviar" type="submit">Enviar <span aria-hidden="true">↗</span></button></div>
+        <p id="erro" role="alert" hidden></p>
+      </form>
+    </section>
+  </main>
+  <section id="tela-fontes" hidden aria-labelledby="titulo-fontes">
+    <h1 id="titulo-fontes">Fontes consultadas</h1>
+    <p class="nota-fontes">Base de sínteses editoriais de páginas oficiais, consultadas em 10/11/2026. Itinerários e funcionamento em tempo real dependem de confirmação pelo serviço municipal.</p>
+    <div id="lista-fontes"></div>
+  </section>
+  <footer><span>Protótipo acadêmico · CitizenTech 2026.2</span><details><summary>Equipe</summary><p>Lucca Phelipe Masini · RM 564121<br>Igor Paixão Sarak · RM 563726<br>Bernardo Braga Perobeli · RM 562468</p></details></footer>
+</body>
+</html>

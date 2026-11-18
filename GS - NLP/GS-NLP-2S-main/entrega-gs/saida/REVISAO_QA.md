@@ -1,0 +1,1390 @@
+# Revisão do QA
+
+Para cada par: a resposta está sustentada pelo trecho e responde à pergunta? Preencha só o valor depois de cada rótulo editável; mantenha cada valor em uma linha. Decisão: ok, corrigir (escreva nova pergunta e/ou nova resposta) ou excluir. Mantenha 100 pares ou mais.
+
+
+## QA 1
+
+- **Pergunta:** No plano de pagamento, o juiz pode diminiur os encargos da dívida?
+- **Resposta:** Sim, podem ser incluídas medidas para reduzir os encargos da dívida.
+- **Trecho:** § 4º Constarão do plano de pagamento referido no § 3º deste artigo: I - medidas de dilação dos prazos de pagamento e de redução dos encargos da dívida ou da remuneração do fornecedor, entre outras destinadas a facilitar o pagamento da dívida; II - referência à suspensão ou à extinção das ações judiciais em curso; III - data a partir da qual será providenciada a exclusão do consumidor de bancos de dados e de cadastros de inadimplentes;
+- **Fonte:** lei_14181_2021.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 2
+
+- **Pergunta:** Se eu discordar de uma cobrança com cartão de crédito, o que devo fazer?
+- **Resposta:** Deve notificar a administradora do cartão com antecedência de 10 dias antes do vencimento da fatura. O valor contestado não pode ser mantido na fatura seguinte.
+- **Trecho:** I - realizar ou proceder à cobrança ou ao débito em conta de qualquer quantia que houver sido contestada pelo consumidor em compra realizada com cartão de crédito ou similar, enquanto não for adequadamente solucionada a controvérsia, desde que o consumidor haja notificado a administradora do cartão com antecedência de pelo menos 10 (dez) dias contados da data de vencimento da fatura, vedada a manutenção do valor na fatura seguinte e assegurado ao consumidor o direito de deduzir do total da fatura o valor em disputa e efetuar o pagamento da parte não contestada, podendo o emissor lançar como cr
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 3
+
+- **Pergunta:** os vendedores online precisam mostrar o endereço deles ?
+- **Resposta:** Sim, eles devem mostrar o endereço físico e eletrônico.
+- **Trecho:** II - endereço físico e eletrônico, e demais informações necessárias para sua localização e contato; III - características essenciais do produto ou do serviço, incluídos os riscos à saúde e à segurança dos consumidores; IV - discriminação, no preço, de quaisquer despesas adicionais ou acessórias, tais como as de entrega ou seguros; V - condições integrais da oferta, incluídas modalidades de pagamento, disponibilidade, forma e prazo da execução do serviço ou da entrega ou disponibilização do produto; e
+- **Fonte:** decreto_7962_2013.txt
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 4
+
+- **Pergunta:** se uma loja vende brinquedos e só atende crianças que têm mais de 10 anos, isso está certo?
+- **Resposta:** Não, isso está errado porque a publicidade não pode explorar a deficiência de julgamento de crianças.
+- **Trecho:** § 2º É abusiva, dentre outras a publicidade discriminatória de qualquer natureza, a que incite à violência, explore o medo ou a superstição, se aproveite da deficiência de julgamento e experiência da criança, desrespeita valores ambientais, ou que seja capaz de induzir o consumidor a se comportar de forma prejudicial ou perigosa à sua saúde ou segurança.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** excluir
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Pergunta sobre loja que só atende crianças maiores de 10 anos não tem relação com a resposta (publicidade abusiva).
+
+## QA 5
+
+- **Pergunta:** Se a loja diz que não me deovlve o dinheiro caso eu mude de ideia, isso está errado?
+- **Resposta:** Sim, isso está errado. O consumidor tem direito à opção de reembolso.
+- **Trecho:** II - subtraiam ao consumidor a opção de reembolso da quantia já paga, nos casos previstos neste código; III - transfiram responsabilidades a terceiros; IV - estabeleçam obrigações consideradas iníquas, abusivas, que coloquem o consumidor em desvantagem exagerada, ou sejam incompatíveis com a boa-fé ou a eqüidade; V - ; VI - estabeleçam inversão do ônus da prova em prejuízo do consumidor;
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** corrigir
+- **Nova pergunta:** Uma cláusula do contrato pode tirar do consumidor a opção de reembolso prevista no CDC?
+- **Nova resposta:** Não. São nulas as cláusulas que tiram do consumidor a opção de reembolso da quantia já paga nos casos previstos no CDC.
+- **Comentário:** [proposta] A pergunta falava em arrependimento, que o trecho não cobre.
+
+## QA 6
+
+- **Pergunta:** O contrato precisa dizer o prazo de validade da oferta?
+- **Resposta:** Sim, o prazo deve ser pelo menos dois dias.
+- **Trecho:** III - o montante das prestações e o prazo de validade da oferta, que deve ser, no mínimo, de 2 (dois) dias; IV - o nome e o endereço, inclusive o eletrônico, do fornecedor; V - o direito do consumidor à liquidação antecipada e não onerosa do débito, nos termos do § 2º do art. 52 deste Código e da regulamentação em vigor.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 7
+
+- **Pergunta:** Quando eu pedir a devolução, o vendedor tem que me dizer que recebeu minha solicitação?
+- **Resposta:** Sim, o vendedor deve confirmar imediatamente que recebeu sua solicitação de devolução.
+- **Trecho:** § 4º O fornecedor deve enviar ao consumidor confirmação imediata do recebimento da manifestação de arrependimento.
+- **Fonte:** decreto_7962_2013.txt
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 8
+
+- **Pergunta:** Qual é o meu direito se o produto tiver um defeito?
+- **Resposta:** Você tem direito à garantia de produtos duráveis e à troca ou ao reparo de produtos com defeito, sem custos adicionais. Se o problema não for resolvido, você pode exigir a troca do produto, o abatimento no preço ou a devolução do valor pago.
+- **Trecho:** O consumidor tem direito à garantia de produtos duráveis (Art. 26) e à troca ou ao reparo de produtos com defeito, sem custos adicionais. Se o problema não for resolvido, o cliente pode exigir a troca do produto, o abatimento no preço ou a devolução do valor pago (Art. 18).
+- **Fonte:** guia_senacon_black_friday.pdf
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 9
+
+- **Pergunta:** Se eu perder uma ação coletiva, posso ainda buscar indenização individualmente?
+- **Resposta:** Sim, você pode propor uma ação individual para buscar indenização.
+- **Trecho:** § 2º Na hipótese prevista no inciso III, em caso de improcedência do pedido, os interessados que não tiverem intervindo no processo como litisconsortes poderão propor ação de indenização a título individual.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 10
+
+- **Pergunta:** Os contratos de adesão devem ser escritos como?
+- **Resposta:** Em termos claros e com caracteres legíveis, de tamanho pelo menos doze.
+- **Trecho:** § 3 o Os contratos de adesão escritos serão redigidos em termos claros e com caracteres ostensivos e legíveis, cujo tamanho da fonte não será inferior ao corpo doze, de modo a facilitar sua compreensão pelo consumidor.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 11
+
+- **Pergunta:** Se eu comprar algo danificado e só descobrir depois de muito tempo, posso pedir reparações?
+- **Resposta:** Sim, mas você tem até cinco anos após descobrir o dano e quem o causou.
+- **Trecho:** Art. 27. Prescreve em cinco anos a pretensão à reparação pelos danos causados por fato do produto ou do serviço prevista na Seção II deste Capítulo, iniciando-se a contagem do prazo a partir do conhecimento do dano e de sua autoria.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 12
+
+- **Pergunta:** Se eu estou superendividado, quando posso ser excluído de cadastros de inadimplentes??
+- **Resposta:** A partir da data em que você assinar um acordo com a autoridade de defesa do consumidor.
+- **Trecho:** § 2º O acordo firmado perante os órgãos públicos de defesa do consumidor, em caso de superendividamento do consumidor pessoa natural, incluirá a data a partir da qual será providenciada a exclusão do consumidor de bancos de dados e de cadastros de inadimplentes, bem como o condicionamento de seus efeitos à abstenção, pelo consumidor, de condutas que importem no agravamento de sua situação de superendividamento, especialmente a de contrair novas dívidas.'
+- **Fonte:** lei_14181_2021.html
+- **Decisão (ok / corrigir / excluir):** corrigir
+- **Nova pergunta:** 
+- **Nova resposta:** Pelo acordo firmado nos órgãos de defesa do consumidor, que deve prever a data a partir da qual você será excluído dos cadastros de inadimplentes.
+- **Comentário:** [proposta] A resposta dizia 'data da assinatura'; o trecho fala em data prevista no acordo.
+
+## QA 13
+
+- **Pergunta:** em qual tribunal a ação coletiva deve ser feita?
+- **Resposta:** A ação será feita no foro local onde ocorreu o dano, ou na Capital do Estado ou no Distrito Federal, dependendo do âmbito do dano.
+- **Trecho:** Art. 93. Ressalvada a competência da Justiça Federal, é competente para a causa a justiça local: I - no foro do lugar onde ocorreu ou deva ocorrer o dano, quando de âmbito local; II - no foro da Capital do Estado ou no do Distrito Federal, para os danos de âmbito nacional ou regional, aplicando-se as regras do Código de Processo Civil aos casos de competência concorrente.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 14
+
+- **Pergunta:** SE EU ESTIVER COM MUITAS DÍVIDAS, POSSO CONCILIAR COM OS BANCOS??
+- **Resposta:** Sim, você pode conciliar suas dívidas com os bancos através de uma audiência global promovida pelos órgãos de defesa do consumidor.
+- **Trecho:** Art. 104-C. Compete concorrente e facultativamente aos órgãos públicos integrantes do Sistema Nacional de Defesa do Consumidor a fase conciliatória e preventiva do processo de repactuação de dívidas, nos moldes do art. 104-A deste Código, no que couber, com possibilidade de o processo ser regulado por convênios específicos celebrados entre os referidos órgãos e as instituições credoras ou suas associações.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 15
+
+- **Pergunta:** Se eu ganhar uma ação contra um fornecedor, posso pedir multa diária?
+- **Resposta:** Sim, o juiz pode impor multa diária se a obrigação não for cumprida dentro do prazo estabelecido.
+- **Trecho:** § 4º O juiz poderá, na hipótese do § 3º ou na sentença, impor multa diária ao réu, independentemente de pedido do autor, se for suficiente ou compatível com a obrigação, fixando prazo razoável para o cumprimento do preceito.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 16
+
+- **Pergunta:** Quais tipos de dívidas estão incluídas no superendividamento?
+- **Resposta:** As dívidas incluem qualquer compromisso financeiro feito em uma relação de consumo, como empréstimos, compras a prazo e serviços contínuos.
+- **Trecho:** § 2º As dívidas referidas no § 1º deste artigo englobam quaisquer compromissos financeiros assumidos decorrentes de relação de consumo, inclusive operações de crédito, compras a prazo e serviços de prestação continuada.
+- **Fonte:** lei_14181_2021.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 17
+
+- **Pergunta:** Como posso saber quanto custa exatamente o produto que vou comprar?
+- **Resposta:** Deve haver informação clara sobre o preço por unidade, como por quilo ou por metro.
+- **Trecho:** XIII - a informação acerca dos preços dos produtos por unidade de medida, tal como por quilo, por litro, por metro ou por outra unidade, conforme o caso.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 18
+
+- **Pergunta:** Se eu quiser comprar algo em parcelas, o vendedor pode me fazer pagar mais se eu já estiver com processo na Justiça?
+- **Resposta:** Não, isso não pode ser exigido. O vendedor não pode condicionar o atendimento ou o crédito a isso.
+- **Trecho:** V - condicionar o atendimento de pretensões do consumidor ou o início de tratativas à renúncia ou à desistência de demandas judiciais, ao pagamento de honorários advocatícios ou a depósitos judiciais.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** excluir
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] A pergunta (pagar mais por ter processo) não corresponde ao trecho.
+
+## QA 19
+
+- **Pergunta:** oi, como eles informam quanto tempo eu vou esperar?
+- **Resposta:** Eles devem me dizer quanto tempo esperar para falar com alguém ou para ser transferido.
+- **Trecho:** § 2º O consumidor será informado sobre o tempo estimado de espera para: I - o contato direto com o atendente, quando selecionar a opção de atendimento realizado por pessoa humana; e II - a transferência ao setor competente, quando o primeiro atendente não for o responsável pelo atendimento definitivo da demanda.
+- **Fonte:** decreto_13135_2026.docx
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 20
+
+- **Pergunta:** Se um produto é perigoso, quem deve avisar as pessoas?
+- **Resposta:** O fabricante ou vendedor deve avisar imediatamente as autoridades e consumidores.
+- **Trecho:** § 1º O fornecedor de produtos e serviços que, posteriormente à sua introdução no mercado de consumo, tiver conhecimento da periculosidade que apresentem, deverá comunicar o fato imediatamente às autoridades competentes e aos consumidores, mediante anúncios publicitários.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 21
+
+- **Pergunta:** quem pode defender meus direitos conforme a lei?
+- **Resposta:** Pode ser a União, Estados, Municípios, Distrito Federal, órgãos públicos e associações legais.
+- **Trecho:** II - a União, os Estados, os Municípios e o Distrito Federal; III - as entidades e órgãos da Administração Pública, direta ou indireta, ainda que sem personalidade jurídica, especificamente destinados à defesa dos interesses e direitos protegidos por este código; IV - as associações legalmente constituídas há pelo menos um ano e que incluam entre seus fins institucionais a defesa dos interesses e direitos protegidos por este código, dispensada a autorização assemblear.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 22
+
+- **Pergunta:** oi, Se eu comprei algo q ta vencido, posso pedir o dinheiro de volta?
+- **Resposta:** Sim, você pode pedir o produto novo ou outro equivalente, ou até rescindir o contrato e pedir o dinheiro de volta.
+- **Trecho:** Art. 35. Se o fornecedor de produtos ou serviços recusar cumprimento à oferta, apresentação ou publicidade, o consumidor poderá, alternativamente e à sua livre escolha: I - exigir o cumprimento forçado da obrigação, nos termos da oferta, apresentação ou publicidade; II - aceitar outro produto ou prestação de serviço equivalente; III - rescindir o contrato, com direito à restituição de quantia eventualmente antecipada, monetariamente atualizada, e a perdas e danos.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** corrigir
+- **Nova pergunta:** oi, se a loja não quer cumprir o que ofereceu, o que eu posso pedir?
+- **Nova resposta:** 
+- **Comentário:** [proposta] Produto vencido não é respondido pelo art. 35 (recusa de cumprir a oferta).
+
+## QA 23
+
+- **Pergunta:** Se o juiz achar q vale à pena, posso nao precisar pagar antes de ganhar uma causa?
+- **Resposta:** Sim, se houver interesse social significativo ou proteção de um bem importante.
+- **Trecho:** § 4.° O requisito da pré-constituição poderá ser dispensado pelo juiz, quando haja manifesto interesse social evidenciado pela dimensão ou característica do dano, ou pela relevância do bem jurídico a ser protegido.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** excluir
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] A resposta (interesse social) trata de associação, não de pagar antes de ganhar.
+
+## QA 24
+
+- **Pergunta:** Posso cancelar o contrato se o cartão de crédito foi usado para comprar algo?
+- **Resposta:** Sim, se o cartão de crédito e o produto foram fornecidos pelo mesmo vendedor, você pode cancelar o contrato.
+- **Trecho:** II - contra o administrador ou o emitente de cartão de crédito ou similar quando o cartão de crédito ou similar e o produto ou serviço forem fornecidos pelo mesmo fornecedor ou por entidades pertencentes a um mesmo grupo econômico.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** excluir
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] O cancelamento do contrato não está no trecho.
+
+## QA 25
+
+- **Pergunta:** Como posso denunciar uma loja que está fazendo propaganda enganosa?
+- **Resposta:** Denuncie à Procon local. Isso ajuda a fiscalizar e punir irregularidades.
+- **Trecho:** O consumidor tem o direito de ser protegido contra abusos e fraudes, e a Senacon, em parceria com Procons estaduais, atua para fiscalizar e punir irregularidades.
+- **Fonte:** guia_senacon_black_friday.pdf
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 26
+
+- **Pergunta:** O que o fornecedor precisa fazer antes de vender algo?
+- **Resposta:** O fornecedor deve informar o consumidor sobre o que está vendendo e entregar uma cópia do contrato depois de feito o negócio.
+- **Trecho:** § 2º Nos contratos de adesão, o fornecedor deve prestar ao consumidor, previamente, as informações de que tratam o art. 52 e o caput do art. 54-B deste Código, além de outras porventura determinadas na legislação em vigor, e fica obrigado a entregar ao consumidor cópia do contrato, após a sua conclusão
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 27
+
+- **Pergunta:** Qual é a função do fornecedor?
+- **Resposta:** Desenvolve atividades como produção, importação ou comercialização de produtos ou prestação de serviços.
+- **Trecho:** Art. 3º Fornecedor é toda pessoa física ou jurídica, pública ou privada, nacional ou estrangeira, bem como os entes despersonalizados, que desenvolvem atividade de produção, montagem, criação, construção, transformação, importação, exportação, distribuição ou comercialização de produtos ou prestação de serviços.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 28
+
+- **Pergunta:** COMO A EMPRESA PODE ATENDER VIA TELEFONE???
+- **Resposta:** A empresa pode atender por telefone, mesmo usando vozes automáticas ou menus eletrônicos.
+- **Trecho:** § 1º Considera-se atendimento por canal telefônico aquele realizado por meio de chamada telefônica entre o consumidor e o SAC, ainda que envolva menu eletrônico ou outras etapas automatizadas.
+- **Fonte:** decreto_13135_2026.docx
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 29
+
+- **Pergunta:** Se eu achar que alguém está cometendo uma infração, qual órgão pode aplicar sanções?
+- **Resposta:** A autoridade administrativa pode aplicar sanções no âmbito de suas atribuições.
+- **Trecho:** Parágrafo único. As sanções previstas neste artigo serão aplicadas pela autoridade administrativa, no âmbito de sua atribuição, podendo ser aplicadas cumulativamente, inclusive por medida cautelar, antecedente ou incidente de procedimento administrativo.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** excluir
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [revisão do grupo] reprovado na amostra de fidelidade (resposta vaga ou desconexa da pergunta).
+
+## QA 30
+
+- **Pergunta:** Se eu pedir para cancelar algo, quando isso acontece?
+- **Resposta:** O cancelamento acontece imediatamente, mas pode haver exceções se for necessário algum processo técnico.
+- **Trecho:** II - os efeitos do pedido de cancelamento serão imediatos, independentemente do adimplemento contratual, exceto quando for justificada expressamente a necessidade de processamento técnico da demanda; III - o comprovante do pedido de cancelamento será encaminhado por meio eletrônico; e IV - a opção para cancelamento programado poderá ser oferecida, sujeita à anuência do consumidor.
+- **Fonte:** decreto_13135_2026.docx
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 31
+
+- **Pergunta:** Se eu não pagar a prestação a tempo, qual é o limite da multa?
+- **Resposta:** A multa não pode ser maior que 2% do valor da prestação.
+- **Trecho:** § 1º As multas de mora decorrentes do inadimplemento de obrigações no seu termo não poderão ser superiores a dois por cento do valor da prestação. (Redação dada pela Lei nº 9.298, de 1º.8.1996)
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 32
+
+- **Pergunta:** Se eu for acusado de algo relacionado a consumidor, quanto pode ser a fiança?
+- **Resposta:** A fiança pode ser de cem a duzentas mil vezes o valor do Bônus do Tesouro Nacional. Ela pode ser reduzida ou aumentada pelo juiz.
+- **Trecho:** Art. 79. O valor da fiança, nas infrações de que trata este código, será fixado pelo juiz, ou pela autoridade que presidir o inquérito, entre cem e duzentas mil vezes o valor do Bônus do Tesouro Nacional (BTN), ou índice equivalente que venha a substituí-lo.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** excluir
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Fiança em BTN: índice extinto, valor volátil.
+
+## QA 33
+
+- **Pergunta:** AS ASOSCIAÇÕES DE CONSUMIDORES PODEM AJUDAR A PROTEGER O MEIO AMBIENTE??
+- **Resposta:** Sim, as associações de consumidores podem incluir a proteção ao meio ambiente entre suas finalidades institucionais.
+- **Trecho:** Art. 111. O inciso II do art. 5º da Lei n° 7.347, de 24 de julho de 1985, passa a ter a seguinte redação: II - inclua, entre suas finalidades institucionais, a proteção ao meio ambiente, ao consumidor, ao patrimônio artístico, estético, histórico, turístico e paisagístico, ou a qualquer outro interesse difuso ou coletivo".
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 34
+
+- **Pergunta:** o que acontece se uma empresa de serviço público não cumpre suas obrigações?
+- **Resposta:** A concessão pode ser cassada.
+- **Trecho:** § 1º A pena de cassação da concessão será aplicada à concessionária de serviço público, quando violar obrigação legal ou contratual.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 35
+
+- **Pergunta:** Se eu for idoso e ignorante, posso ser pressionado a comprar algo?
+- **Resposta:** Não, você pode recusar. O vendedor não pode usar sua fraqueza para impingir produtos.
+- **Trecho:** IV - prevalecer-se da fraqueza ou ignorância do consumidor, tendo em vista sua idade, saúde, conhecimento ou condição social, para impingir-lhe seus produtos ou serviços; V - exigir do consumidor vantagem manifestamente excessiva; VI - executar serviços sem a prévia elaboração de orçamento e autorização expressa do consumidor, ressalvadas as decorrentes de práticas anteriores entre as partes; VII - repassar informação depreciativa, referente a ato praticado pelo consumidor no exercício de seus direitos;
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 36
+
+- **Pergunta:** Se eu pedir para parar as ações judiciais, o que acontece?
+- **Resposta:** O pedido não causa declaração de insolvência e pode ser feito novamente apenas após dois anos.
+- **Trecho:** § 5º O pedido do consumidor a que se refere o caput deste artigo não importará em declaração de insolvência civil e poderá ser repetido somente após decorrido o prazo de 2 (dois) anos, contado da liquidação das obrigações previstas no plano de pagamento homologado, sem prejuízo de eventual repactuação.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** excluir
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [revisão do grupo] reprovado na amostra de fidelidade (resposta vaga ou desconexa da pergunta).
+
+## QA 37
+
+- **Pergunta:** Como psoso evitar ficar superendividado? por favor
+- **Resposta:** A lei incentiva a educação financeira para ajudar os consumidores a evitar ficarem superendividados.
+- **Trecho:** IX - fomento de ações direcionadas à educação financeira e ambiental dos consumidores; X - prevenção e tratamento do superendividamento como forma de evitar a exclusão social do consumidor.
+- **Fonte:** lei_14181_2021.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 38
+
+- **Pergunta:** Se eu ganho uma ação e o réu falido, quem paga?
+- **Resposta:** Se o réu for declarado falido, o síndico será intimado a informar a existência de seguro de responsabilidade, permitindo a ação direta contra o segurador.
+- **Trecho:** II - o réu que houver contratado seguro de responsabilidade poderá chamar ao processo o segurador, vedada a integração do contraditório pelo Instituto de Resseguros do Brasil. Nesta hipótese, a sentença que julgar procedente o pedido condenará o réu nos termos do art. 80 do Código de Processo Civil. Se o réu houver sido declarado falido, o síndico será intimado a informar a existência de seguro de responsabilidade, facultando-se, em caso afirmativo, o ajuizamento de ação de indenização diretamente contra o segurador, vedada a denunciação da lide ao Instituto de Resseguros do Brasil e dispensad
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 39
+
+- **Pergunta:** Existe um telefone para ligar se eu tiver problemas com um produto?
+- **Resposta:** Sim, os fornecedores devem manter um telefone para atender órgãos do SNDC, especialmente os Procons.
+- **Trecho:** Art. 22. Os fornecedores sujeitos ao disposto neste Decreto deverão manter canal telefônico destinado ao atendimento dos órgãos integrantes do SNDC, especialmente os Programas de Proteção e Defesa do Consumidor – Procons, para tratamento de demandas relacionadas à defesa do consumidor.
+- **Fonte:** decreto_13135_2026.docx
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 40
+
+- **Pergunta:** Quando eu pago uma fatura, eles precisam mostrar o CPF do fornecedor?
+- **Resposta:** Sim, eles precisam mostrar o nome, o endereço e o número do CPF ou CNPJ do fornecedor na fatura.
+- **Trecho:** Art. 42-A. Em todos os documentos de cobrança de débitos apresentados ao consumidor, deverão constar o nome, o endereço e o número de inscrição no Cadastro de Pessoas Físicas – CPF ou no Cadastro Nacional de Pessoa Jurídica – CNPJ do fornecedor do produto ou serviço correspondente.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 41
+
+- **Pergunta:** Se eu estou super endividado, quem pode ajudar a fazer um plano de pagamento ? por favor
+- **Resposta:** O juiz pode nomear um administrador para criar um plano de pagamento. Isso pode ser feito após ele fazer algumas verificações.
+- **Trecho:** § 3º O juiz poderá nomear administrador, desde que isso não onere as partes, o qual, no prazo de até 30 (trinta) dias, após cumpridas as diligências eventualmente necessárias, apresentará plano de pagamento que contemple medidas de temporização ou de atenuação dos encargos.
+- **Fonte:** lei_14181_2021.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 42
+
+- **Pergunta:** o que devo fazer antes de comprar algo na Black Friday
+- **Resposta:** Compare preços em sites confiáveis e analise se o desconto realmente se alinha ao histórico de preços. Evite promoções com percentuais de desconto extremamente altos em lojas que você não conhece ou que não apresentam informações claras sobre o produto.
+- **Trecho:** - Compare preços em sites confiáveis e analise se o desconto realmente se alinha ao histórico de preços.
+- **Fonte:** guia_senacon_black_friday.pdf
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 43
+
+- **Pergunta:** Qual meu direito se a empresa me cobrar mais do que o preço do produto?
+- **Resposta:** Você tem o direito de modificar cláusulas contratuais desproporcionais ou revisar contratos em caso de fatos supervenientes.
+- **Trecho:** V - a modificação das cláusulas contratuais que estabeleçam prestações desproporcionais ou sua revisão em razão de fatos supervenientes que as tornem excessivamente onerosas; VI - a efetiva prevenção e reparação de danos patrimoniais e morais, individuais, coletivos e difusos; VII - o acesso aos órgãos judiciários e administrativos com vistas à prevenção ou reparação de danos patrimoniais e morais, individuais, coletivos ou difusos, assegurada a proteção Jurídica, administrativa e técnica aos necessitados;
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** corrigir
+- **Nova pergunta:** Se o contrato me impõe prestações desproporcionais, posso pedir a modificação das cláusulas?
+- **Nova resposta:** 
+- **Comentário:** [proposta] A pergunta (cobrança acima do preço) não corresponde à resposta.
+
+## QA 44
+
+- **Pergunta:** Se eu comprar algo que depois descubro que era mentira na descrição, o vendedor pode ter problemas?
+- **Resposta:** Sim, o vendedor pode ser punido por fazer publicidade enganosa. Isso vale para todos os vendedores.
+- **Trecho:** Art. 67. Fazer ou promover publicidade que sabe ou deveria saber ser enganosa ou abusiva:
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 45
+
+- **Pergunta:** aff, Como posso saber se minhas compras estão seguras?
+- **Resposta:** O sistema de defesa do consumidor pode informar e conscientizar você sobre a segurança das compras através dos meios de comunicação.
+- **Trecho:** IV - informar, conscientizar e motivar o consumidor através dos diferentes meios de comunicação; V - solicitar à polícia judiciária a instauração de inquérito policial para a apreciação de delito contra os consumidores, nos termos da legislação vigente; VI - representar ao Ministério Público competente para fins de adoção de medidas processuais no âmbito de suas atribuições; VII - levar ao conhecimento dos órgãos competentes as infrações de ordem administrativa que violarem os interesses difusos, coletivos, ou individuais dos consumidores;
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** excluir
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] A resposta sobre o papel do SNDC não responde à pergunta.
+
+## QA 46
+
+- **Pergunta:** se comprei um produto que esta danificado, eu posso reclamar?
+- **Resposta:** Sim, se o produto não é seguro como deveria ser. Isso inclui como ele foi apresentado, usado e quando foi colocado à venda.
+- **Trecho:** § 1º O produto é defeituoso quando não oferece a segurança que dele legitimamente se espera, levando-se em consideração as circunstâncias relevantes, entre as quais: I - sua apresentação; II - o uso e os riscos que razoavelmente dele se esperam; III - a época em que foi colocado em circulação.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** excluir
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [revisão do grupo] reprovado na amostra de fidelidade (resposta vaga ou desconexa da pergunta).
+
+## QA 47
+
+- **Pergunta:** Se eu pedir para conciliar minhas dívidas, o juiz pode fazer isso?
+- **Resposta:** Sim, o juiz pode instaurar um processo para conciliar suas dívidas.
+- **Trecho:** Art. 104-A. A requerimento do consumidor superendividado pessoa natural, o juiz poderá instaurar processo de repactuação de dívidas, com vistas à realização de audiência conciliatória, presidida por ele ou por conciliador credenciado no juízo, com a presença de todos os credores de dívidas previstas no art. 54-A deste Código, na qual o consumidor apresentará proposta de plano de pagamento com prazo máximo de 5 (cinco) anos, preservados o mínimo existencial, nos termos da regulamentação, e as garantias e as formas de pagamento originalmente pactuadas.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 48
+
+- **Pergunta:** O atendimento telefônico pode encaminhar para outro canal?
+- **Resposta:** Não, exceto quando for necessário atendimento presencial.
+- **Trecho:** Art. 16. Os canais telefônicos não poderão utilizar mais de cinco níveis de atendimento para finalizar a demanda do consumidor, vedado o encaminhamento para outro canal de atendimento, exceto para o atendimento presencial na hipótese de este ser indispensável à resolução da demanda.
+- **Fonte:** decreto_13135_2026.docx
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 49
+
+- **Pergunta:** Se eu pedir, o juiz pode fzaer uma reunião onde eu pago menos?
+- **Resposta:** Sim, se você pedir, o juiz pode fazer uma reunião onde você apresenta um plano de pagamento. Isso só vale se você for uma pessoa natural e tiver muitas dívidas.
+- **Trecho:** 'Art. 104-A. A requerimento do consumidor superendividado pessoa natural, o juiz poderá instaurar processo de repactuação de dívidas, com vistas à realização de audiência conciliatória, presidida por ele ou por conciliador credenciado no juízo, com a presença de todos os credores de dívidas previstas no art. 54-A deste Código, na qual o consumidor apresentará proposta de plano de pagamento com prazo máximo de 5 (cinco) anos, preservados o mínimo existencial, nos termos da regulamentação, e as garantias e as formas de pagamento originalmente pactuadas.
+- **Fonte:** lei_14181_2021.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 50
+
+- **Pergunta:** O que acontece se o produto estiver viciado
+- **Resposta:** Você pode pedir a substituição do produto por outro igual, receber o dinheiro de volta ou pedir um desconto no preço.
+- **Trecho:** § 1º Não sendo o vício sanado no prazo máximo de trinta dias, pode o consumidor exigir, alternativamente e à sua escolha: I - a substituição do produto por outro da mesma espécie, em perfeitas condições de uso; II - a restituição imediata da quantia paga, monetariamente atualizada, sem prejuízo de eventuais perdas e danos; III - o abatimento proporcional do preço.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 51
+
+- **Pergunta:** como eivtar comprar coisas que eu não preciso?
+- **Resposta:** Faça uma lista de prioridades antes de comprar. Isso ajuda a evitar compras impulsivas.
+- **Trecho:** - Defina uma lista de prioridades para evitar compras por impulso e foque no que realmente precisa.
+- **Fonte:** guia_senacon_black_friday.pdf
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 52
+
+- **Pergunta:** SE EU ACHAR UM DEFEITO EM UM PRODUTO COMPRADO, QUANTO TEMPO TENHO PARA RECLAMAR ?
+- **Resposta:** Tem 30 dias para produtos não duráveis e 90 dias para produtos duráveis. Contam a partir da entrega do produto.
+- **Trecho:** Art. 26. O direito de reclamar pelos vícios aparentes ou de fácil constatação caduca em: I - trinta dias, tratando-se de fornecimento de serviço e de produtos não duráveis; II - noventa dias, tratando-se de fornecimento de serviço e de produtos duráveis.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 53
+
+- **Pergunta:** quanto tempo as informacoes negativas podem ficar em meu cadastro?
+- **Resposta:** As informações negativas só podem ficar no seu cadastro por até cinco anos.
+- **Trecho:** § 1º Os cadastros e dados de consumidores devem ser objetivos, claros, verdadeiros e em linguagem de fácil compreensão, não podendo conter informações negativas referentes a período superior a cinco anos.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 54
+
+- **Pergunta:** as regras do contrato são sempre contra mim?
+- **Resposta:** Não, as regras devem ser interpretadas de maneira mais favorável ao consumidor.
+- **Trecho:** Art. 47. As cláusulas contratuais serão interpretadas de maneira mais favorável ao consumidor.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 55
+
+- **Pergunta:** Se a empresa incluir coisas extras no contrato que parecem exageradas, eu posso reclamar?
+- **Resposta:** Sim, você pode pedir que essas cláusulas sejam canceladas se elas ofendem princípios jurídicos ou são muito onerosas.
+- **Trecho:** § 1º Presume-se exagerada, entre outros casos, a vantagem que: I - ofende os princípios fundamentais do sistema jurídico a que pertence; II - restringe direitos ou obrigações fundamentais inerentes à natureza do contrato, de tal modo a ameaçar seu objeto ou equilíbrio contratual; III - se mostra excessivamente onerosa para o consumidor, considerando-se a natureza e conteúdo do contrato, o interesse das partes e outras circunstâncias peculiares ao caso.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 56
+
+- **Pergunta:** O que as empresas precisam fazer se tiverem plataformas digitais?
+- **Resposta:** Precisam enviar modelos de atendimento ao consumidor à secretaria nacional do consumidor.
+- **Trecho:** Art. 2º Os fornecedores que operem plataformas digitais de intermediação da oferta ou comercialização de produtos ou serviços por terceiros, de transporte remunerado privado individual de passageiros ou de entrega de produtos ou mercadorias apresentarão à Secretaria Nacional do Consumidor do Ministério da Justiça e Segurança Pública, na forma e no prazo estabelecidos, os seus modelos de atendimento ao consumidor, acompanhados, no mínimo, das seguintes informações:
+- **Fonte:** decreto_13135_2026.docx
+- **Decisão (ok / corrigir / excluir):** excluir
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [revisão do grupo] reprovado na amostra de fidelidade (resposta vaga ou desconexa da pergunta).
+
+## QA 57
+
+- **Pergunta:** qual e uma maneira de melhorar as relacoes entre consumidores e fornecedores?
+- **Resposta:** Criar mecanismos alternativos para resolver conflitos e garantir a qualidade e segurança dos produtos.
+- **Trecho:** V - incentivo à criação pelos fornecedores de meios eficientes de controle de qualidade e segurança de produtos e serviços, assim como de mecanismos alternativos de solução de conflitos de consumo; VI - coibição e repressão eficientes de todos os abusos praticados no mercado de consumo, inclusive a concorrência desleal e utilização indevida de inventos e criações industriais das marcas e nomes comerciais e signos distintivos, que possam causar prejuízos aos consumidores;
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 58
+
+- **Pergunta:** aff, Quadno o serviço é considerado inadequado, eu posso exigir que seja fetio novamente?
+- **Resposta:** Sim, você pode exigir que o serviço seja feito novamente sem custo adicional, desde que isso seja possível.
+- **Trecho:** Art. 20. O fornecedor de serviços responde pelos vícios de qualidade que os tornem impróprios ao consumo ou lhes diminuam o valor, assim como por aqueles decorrentes da disparidade com as indicações constantes da oferta ou mensagem publicitária, podendo o consumidor exigir, alternativamente e à sua escolha: I - a reexecução dos serviços, sem custo adicional e quando cabível; II - a restituição imediata da quantia paga, monetariamente atualizada, sem prejuízo de eventuais perdas e danos;
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 59
+
+- **Pergunta:** aff, Se eu ganhar uma ação contra um fornecedor, precsio pagar custos?
+- **Resposta:** Não, você não precisa pagar custos como honorários de advogado, custas e despesas processuais.
+- **Trecho:** Art. 18. Nas ações de que trata esta lei, não haverá adiantamento de custas, emolumentos, honorários periciais e quaisquer outras despesas, nem condenação da associação autora, salvo comprovada má-fé, em honorários de advogado, custas e despesas processuais".
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** corrigir
+- **Nova pergunta:** Numa ação coletiva de associação de consumidores, é preciso adiantar custas?
+- **Nova resposta:** Não. Nas ações coletivas não há adiantamento de custas, emolumentos, honorários periciais e outras despesas; a associação autora só paga honorários e custas se houver comprovada má-fé.
+- **Comentário:** [proposta] A resposta generalizava para qualquer ação do consumidor.
+
+## QA 60
+
+- **Pergunta:** Se eu falhar na conciliação, o juiz vai fazer um plano judicial para mim?
+- **Resposta:** Sim, se a conciliação falhar, o juiz instaura um processo por superendividamento e fará um plano judicial compulsório.
+- **Trecho:** 'Art. 104-B. Se não houver êxito na conciliação em relação a quaisquer credores, o juiz, a pedido do consumidor, instaurará processo por superendividamento para revisão e integração dos contratos e repactuação das dívidas remanescentes mediante plano judicial compulsório e procederá à citação de todos os credores cujos créditos não tenham integrado o acordo porventura celebrado.
+- **Fonte:** lei_14181_2021.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 61
+
+- **Pergunta:** o que acontece se eu pedir uma cópia do contrato de um empréstimo ? help
+- **Resposta:** O fornecedor do crédito deve fornecer a cópia do contrato após confirmar com a fonte pagadora que há margem consignável.
+- **Trecho:** § 1º Sem prejuízo do dever de informação e esclarecimento do consumidor e de entrega da minuta do contrato, no empréstimo cuja liquidação seja feita mediante consignação em folha de pagamento, a formalização e a entrega da cópia do contrato ou do instrumento de contratação ocorrerão após o fornecedor do crédito obter da fonte pagadora a indicação sobre a existência de margem consignável.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 62
+
+- **Pergunta:** Quais informações devem estar claras sobre o produto antes de comprar?
+- **Resposta:** Devem estar claras as informações sobre os riscos à saúde e à segurança do produto.
+- **Trecho:** III - características essenciais do produto ou do serviço, incluídos os riscos à saúde e à segurança dos consumidores; IV - discriminação, no preço, de quaisquer despesas adicionais ou acessórias, tais como as de entrega ou seguros; V - condições integrais da oferta, incluídas modalidades de pagamento, disponibilidade, forma e prazo da execução do serviço ou da entrega ou disponibilização do produto; e
+- **Fonte:** decreto_7962_2013.txt
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 63
+
+- **Pergunta:** Se uma empresa envia um produto para mim sem eu pedir, posso reclamar?? help
+- **Resposta:** Sim, você pode reclamar porque a empresa não pode enviar produtos sem solicitação prévia do consumidor.
+- **Trecho:** III - enviar ou entregar ao consumidor, sem solicitação prévia, qualquer produto, ou fornecer qualquer serviço;
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 64
+
+- **Pergunta:** Se a empresa diz que pode mudar o que eu comprei sem meu consentimento, isso está certo?
+- **Resposta:** Não, isso está errado. O contrato não pode ser alterado unilateralmente pelo fornecedor.
+- **Trecho:** XIII - autorizem o fornecedor a modificar unilateralmente o conteúdo ou a qualidade do contrato, após sua celebração; XIV - infrinjam ou possibilitem a violação de normas ambientais; XV - estejam em desacordo com o sistema de proteção ao consumidor; XVI - possibilitem a renúncia do direito de indenização por benfeitorias necessárias.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 65
+
+- **Pergunta:** Quais informações devem estar no contrato de crédito?
+- **Resposta:** Deve constar o custo efetivo total, o agente financiador e a soma total a pagar, com e sem financiamento.
+- **Trecho:** § 3º Sem prejuízo do disposto no art. 37 deste Código, a oferta de crédito ao consumidor e a oferta de venda a prazo, ou a fatura mensal, conforme o caso, devem indicar, no mínimo, o custo efetivo total, o agente financiador e a soma total a pagar, com e sem financiamento.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 66
+
+- **Pergunta:** Se eu comprar algo pela internet e o produto não for como descrito, posso reclamar?
+- **Resposta:** Sim, você pode reclamar desde que o produto não atenda às condições da oferta.
+- **Trecho:** Art. 6º As contratações no comércio eletrônico deverão observar o cumprimento das condições da oferta, com a entrega dos produtos e serviços contratados, observados prazos, quantidade, qualidade e adequação.
+- **Fonte:** decreto_7962_2013.txt
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 67
+
+- **Pergunta:** aff, Como posso garantir que o produto é seguro antes de comprar??
+- **Resposta:** Escolha métodos de pagamento seguros, preferindo opções como cartão de crédito e aqueles intermediados por sistemas de segurança.
+- **Trecho:** - Escolha métodos de pagamento seguros , preferindo opções como cartão de crédito e aqueles intermediados por sistemas de segurança.
+- **Fonte:** guia_senacon_black_friday.pdf
+- **Decisão (ok / corrigir / excluir):** corrigir
+- **Nova pergunta:** Que forma de pagamento é mais segura na compra online?
+- **Nova resposta:** 
+- **Comentário:** [proposta] A pergunta (produto seguro) não corresponde à resposta (forma de pagamento).
+
+## QA 68
+
+- **Pergunta:** Se eu perdi uma ação coletiva, posso usar isso contra mim mesmo numa ação individual?
+- **Resposta:** Não, se você não pediu a suspensão no prazo de 30 dias após saber da ação coletiva, você não pode usar isso contra você mesmo numa ação individual.
+- **Trecho:** Art. 104. As ações coletivas, previstas nos incisos I e II e do parágrafo único do art. 81, não induzem litispendência para as ações individuais, mas os efeitos da coisa julgada erga omnes ou ultra partes a que aludem os incisos II e III do artigo anterior não beneficiarão os autores das ações individuais, se não for requerida sua suspensão no prazo de trinta dias, a contar da ciência nos autos do ajuizamento da ação coletiva.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** corrigir
+- **Nova pergunta:** Se eu já tinha uma ação individual e saiu uma ação coletiva, o resultado me beneficia?
+- **Nova resposta:** Só se você pedir a suspensão da sua ação individual em até 30 dias depois de saber da ação coletiva. Se não pedir, a decisão da ação coletiva não beneficia a sua ação.
+- **Comentário:** [proposta] Pergunta confusa e resposta com o sentido invertido.
+
+## QA 69
+
+- **Pergunta:** oq acontece se houver cláusulas q limitam os direitos do consumidor?
+- **Resposta:** Elas devem ser redigidas com destaque para facilitar a compreensão.
+- **Trecho:** § 4º As cláusulas que implicarem limitação de direito do consumidor deverão ser redigidas com destaque, permitindo sua imediata e fácil compreensão.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 70
+
+- **Pergunta:** Se uma empresa faz coisas erradas para prejudicar os clientes, posso fazer ela pagar?
+- **Resposta:** Sim, o juiz pode desconsiderar a personalidade jurídica da empresa se ela agir mal em detrimento dos consumidores.
+- **Trecho:** Art. 28. O juiz poderá desconsiderar a personalidade jurídica da sociedade quando, em detrimento do consumidor, houver abuso de direito, excesso de poder, infração da lei, fato ou ato ilícito ou violação dos estatutos ou contrato social. A desconsideração também será efetivada quando houver falência, estado de insolvência, encerramento ou inatividade da pessoa jurídica provocados por má administração.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 71
+
+- **Pergunta:** Se eu sou idoso e negaram meu crédito por causa do endividamento, isso é crime?
+- **Resposta:** Não, não é crime se for devido ao superendividamento.
+- **Trecho:** § 3º Não constitui crime a negativa de crédito motivada por superendividamento do idoso.
+- **Fonte:** lei_14181_2021.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 72
+
+- **Pergunta:** Como as pessoas que têm interesse podem participar da ação coletiva?
+- **Resposta:** Elas podem intervir no processo como litisconsortes após a publicação de um edital no órgão oficial.
+- **Trecho:** Art. 94. Proposta a ação, será publicado edital no órgão oficial, a fim de que os interessados possam intervir no processo como litisconsortes, sem prejuízo de ampla divulgação pelos meios de comunicação social por parte dos órgãos de defesa do consumidor.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 73
+
+- **Pergunta:** quanto tempo leva pra pagar as dívidas se conciliar?
+- **Resposta:** O plano de pagamento conciliado deve ser pago em até 5 anos.
+- **Trecho:** § 4º O plano judicial compulsório assegurará aos credores, no mínimo, o valor do principal devido, corrigido monetariamente por índices oficiais de preço, e preverá a liquidação total da dívida, após a quitação do plano de pagamento consensual previsto no art. 104-A deste Código, em, no máximo, 5 (cinco) anos, sendo que a primeira parcela será devida no prazo máximo de 180 (cento e oitenta) dias, contado de sua homologação judicial, e o restante do saldo será devido em parcelas mensais iguais e sucessivas.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** excluir
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Atribui 5 anos ao plano conciliado; o trecho é do plano judicial compulsório (duplica o item 98).
+
+## QA 74
+
+- **Pergunta:** mano, Posso juntar uma ação de regresso a otura ação?
+- **Resposta:** Sim, pode ser feito em processo autônomo ou nos mesmos autos, mas não pode ser denunciada a lide.
+- **Trecho:** Art. 88. Na hipótese do art. 13, parágrafo único deste código, a ação de regresso poderá ser ajuizada em processo autônomo, facultada a possibilidade de prosseguir-se nos mesmos autos, vedada a denunciação da lide.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 75
+
+- **Pergunta:** pra quem esse capitulo nao se aplica??
+- **Resposta:** Não se aplica a pessoas que fizeram dívidas por fraude, má-fé ou com intenção de não pagar.
+- **Trecho:** § 3º O disposto neste Capítulo não se aplica ao consumidor cujas dívidas tenham sido contraídas mediante fraude ou má-fé, sejam oriundas de contratos celebrados dolosamente com o propósito de não realizar o pagamento ou decorram da aquisição ou contratação de produtos e serviços de luxo de alto valor.'
+- **Fonte:** lei_14181_2021.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 76
+
+- **Pergunta:** O que acontece se eu for prejudicado por causa de um produto?
+- **Resposta:** Todos os responsáveis solidariamente devem reparar os danos causados.
+- **Trecho:** Parágrafo único. Tendo mais de um autor a ofensa, todos responderão solidariamente pela reparação dos danos previstos nas normas de consumo.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 77
+
+- **Pergunta:** quando eu for buscar um credito, o vendedor precisa me explicar tudo sobre ele?
+- **Resposta:** Sim, ele precisa explicar sobre a natureza do crédito, os custos e as consequências caso eu não pague.
+- **Trecho:** Art. 54-D. Na oferta de crédito, previamente à contratação, o fornecedor ou o intermediário deverá, entre outras condutas: I - informar e esclarecer adequadamente o consumidor, considerada sua idade, sobre a natureza e a modalidade do crédito oferecido, sobre todos os custos incidentes, observado o disposto nos arts. 52 e 54-B deste Código, e sobre as consequências genéricas e específicas do inadimplemento;
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 78
+
+- **Pergunta:** se um produto está com defeito, quem deve pagar para consertar? help
+- **Resposta:** O fabricante, produtor ou importador deve pagar para consertar, mesmo que não tenha culpa.
+- **Trecho:** Art. 12. O fabricante, o produtor, o construtor, nacional ou estrangeiro, e o importador respondem, independentemente da existência de culpa, pela reparação dos danos causados aos consumidores por defeitos decorrentes de projeto, fabricação, construção, montagem, fórmulas, manipulação, apresentação ou acondicionamento de seus produtos, bem como por informações insuficientes ou inadequadas sobre sua utilização e riscos.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 79
+
+- **Pergunta:** Qual tipo de ação posso usar para defender meus direitos?
+- **Resposta:** Todas as ações que podem proteger seus direitos são aceitas.
+- **Trecho:** Art. 83. Para a defesa dos direitos e interesses protegidos por este código são admissíveis todas as espécies de ações capazes de propiciar sua adequada e efetiva tutela.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 80
+
+- **Pergunta:** Quando uma empersa para de produzir um produto, ainda preciso poder copmrar pecas dele??
+- **Resposta:** Sim, enquanto a empresa estiver fabricando ou importando o produto, você ainda pode comprar peças dele por algum tempo.
+- **Trecho:** Art. 32. Os fabricantes e importadores deverão assegurar a oferta de componentes e peças de reposição enquanto não cessar a fabricação ou importação do produto.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** excluir
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [revisão do grupo] reprovado na amostra de fidelidade (resposta vaga ou desconexa da pergunta).
+
+## QA 81
+
+- **Pergunta:** Se eu não quiser pagar as custas da ação, o Ministério Público pode fazer isso por mim?
+- **Resposta:** Sim, se a sentença for condenatória e eu não promover a execução, o Ministério Público pode fazer isso.
+- **Trecho:** Art. 15. Decorridos sessenta dias do trânsito em julgado da sentença condenatória, sem que a associação autora lhe promova a execução, deverá fazê-lo o Ministério Público, facultada igual iniciativa aos demais legitimados".
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** corrigir
+- **Nova pergunta:** Se a associação que ganhou a ação não pedir a execução, alguém faz isso?
+- **Nova resposta:** Sim. Depois de 60 dias do trânsito em julgado sem que a associação promova a execução, o Ministério Público deve fazê-lo.
+- **Comentário:** [proposta] A pergunta (custas) não corresponde ao trecho.
+
+## QA 82
+
+- **Pergunta:** SE O CONTRATO PRINCIPAL E NULO, O DE CREDITO TAMBEM FICA SEM EFEITO?
+- **Resposta:** Sim, se o contrato principal é nulo, o de crédito também fica sem efeito, mas o fornecedor do crédito pode pedir o dinheiro de volta.
+- **Trecho:** § 4º A invalidade ou a ineficácia do contrato principal implicará, de pleno direito, a do contrato de crédito que lhe seja conexo, nos termos do caput deste artigo, ressalvado ao fornecedor do crédito o direito de obter do fornecedor do produto ou serviço a devolução dos valores entregues, inclusive relativamente a tributos.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 83
+
+- **Pergunta:** O que devo fazer se a loja não aceita devolução?
+- **Resposta:** Denuncie à Procon local. Eles podem ajudar a resolver o problema.
+- **Trecho:** Dicas: - Acesse o portal consumidor.gov.br para registrar recla - mações e denúncias contra lojas e vendedores que descumprirem o CDC. - Denuncie práticas abusivas aos Procons locais , espe - cialmente em casos de publicidade enganosa ou dificuldades para devolução. - Informação clara e verdadeira sobre o produto, o preço e as condições de pagamento (CDC, Art. 6 e 31). - Proteção contra publicidade enganosa e práticas abusivas (CDC, Art. 37 e 39). - Direito de arrependimento em até sete dias para compras on-line, sem custos adicionais (CDC, Art. 49). - Garantia de produtos duráveis e troca de
+- **Fonte:** guia_senacon_black_friday.pdf
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 84
+
+- **Pergunta:** Quem pode fiscalizar a venda de produtos?
+- **Resposta:** A União, os Estados, o Distrito Federal e os Municípios podem fiscalizar a venda de produtos.
+- **Trecho:** § 1º A União, os Estados, o Distrito Federal e os Municípios fiscalizarão e controlarão a produção, industrialização, distribuição, a publicidade de produtos e serviços e o mercado de consumo, no interesse da preservação da vida, da saúde, da segurança, da informação e do bem-estar do consumidor, baixando as normas que se fizerem necessárias.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 85
+
+- **Pergunta:** oi, O que é consumidor??
+- **Resposta:** É qualquer pessoa que compre ou use algo como final de compra.
+- **Trecho:** Art. 2º Consumidor é toda pessoa física ou jurídica que adquire ou utiliza produto ou serviço como destinatário final.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 86
+
+- **Pergunta:** Qual é a finalidade do SAC?
+- **Resposta:** O SAC trata demandas dos consumidores, como prestar informações, esclarecer dúvidas, atender reclamações e receber contestações.
+- **Trecho:** Art. 3º Para fins do disposto neste Decreto, considera-se SAC o serviço de atendimento realizado por canais telefônicos ou por canais eletrônicos de comunicação, disponíveis e indicados pelo fornecedor, com a finalidade de tratar as demandas dos consumidores, como prestar informações, esclarecer dúvidas, atender reclamações, receber contestações e proceder à suspensão ou ao cancelamento de contratos ou serviços.
+- **Fonte:** decreto_13135_2026.docx
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 87
+
+- **Pergunta:** Existe algum caso onde a multa pode ser maior?
+- **Resposta:** Sim, quando as condutas forem praticadas por importadores, produtores, distribuidoras, transportadores-revendedores-retalhistas ou revendedores varejistas de combustíveis, biocombustíveis ou derivados de petróleo, a multa pode ser de R$ 20.000,00 a R$ 500.000.000,00.
+- **Trecho:** § 2º Quando as condutas previstas no art. 39, caput , incisos II e X, forem praticadas por importadores, produtores, distribuidoras, transportadores-revendedores-retalhistas ou revendedores varejistas de combustíveis, biocombustíveis ou derivados de petróleo, em qualquer etapa da cadeia de comercialização, a multa será de R$ 20.000,00 (vinte mil reais) a R$ 500.000.000,00 (quinhentos milhões de reais), hipótese em que não se aplica o limite previsto no § 1º.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** excluir
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Valores em reais da multa: dado volátil.
+
+## QA 88
+
+- **Pergunta:** Como vou saber que meu pedido de cancelamento foi aceito?
+- **Resposta:** Você receberá um comprovante do pedido de cancelamento por e-mail.
+- **Trecho:** III - o comprovante do pedido de cancelamento será encaminhado por meio eletrônico; e IV - a opção para cancelamento programado poderá ser oferecida, sujeita à anuência do consumidor.
+- **Fonte:** decreto_13135_2026.docx
+- **Decisão (ok / corrigir / excluir):** corrigir
+- **Nova pergunta:** 
+- **Nova resposta:** O comprovante do pedido de cancelamento será enviado por meio eletrônico.
+- **Comentário:** [proposta] O trecho diz 'meio eletrônico', não e-mail.
+
+## QA 89
+
+- **Pergunta:** mano, Posso pagar menos do que o devido se eu quiser resolevr o contrato?
+- **Resposta:** Sim, você pode liquidar o débito parcialmente e a multa e juros serão reduzidos proporcionalmente.
+- **Trecho:** § 2º É assegurado ao consumidor a liquidação antecipada do débito, total ou parcialmente, mediante redução proporcional dos juros e demais acréscimos.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** corrigir
+- **Nova pergunta:** Se eu quiser pagar a dívida antes do prazo, tenho redução nos juros?
+- **Nova resposta:** Sim. O consumidor pode liquidar o débito antes do prazo, total ou parcialmente, com redução proporcional dos juros e demais acréscimos.
+- **Comentário:** [proposta] A resposta citava 'multa', que o trecho não menciona.
+
+## QA 90
+
+- **Pergunta:** Quem pode ajudar o Ministério Público em casos de consumidor?
+- **Resposta:** Pessoas indicadas podem ajudar o Ministério Público. Também podem propor ação penal subsidiária se não houver denúncia no prazo legal.
+- **Trecho:** Art. 80. No processo penal atinente aos crimes previstos neste código, bem como a outros crimes e contravenções que envolvam relações de consumo, poderão intervir, como assistentes do Ministério Público, os legitimados indicados no art. 82, inciso III e IV, aos quais também é facultado propor ação penal subsidiária, se a denúncia não for oferecida no prazo legal.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 91
+
+- **Pergunta:** as associações de consumidores podem fazer acordos sobre preços
+- **Resposta:** Sim, podem fazer acordos sobre preço, qualidade, garantia e outras coisas relacionadas a produtos e serviços.
+- **Trecho:** Art. 107. As entidades civis de consumidores e as associações de fornecedores ou sindicatos de categoria econômica podem regular, por convenção escrita, relações de consumo que tenham por objeto estabelecer condições relativas ao preço, à qualidade, à quantidade, à garantia e características de produtos e serviços, bem como à reclamação e composição do conflito de consumo.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 92
+
+- **Pergunta:** SE UM FORNECEDOR FAZ A MESMA COISA DUAS VEZES, O QUE PODE ACONTECER?
+- **Resposta:** Se o fornecedor reincidir, pode ter sua licença cassada ou sua atividade interditada.
+- **Trecho:** Art. 59. As penas de cassação de alvará de licença, de interdição e de suspensão temporária da atividade, bem como a de intervenção administrativa, serão aplicadas mediante procedimento administrativo, assegurada ampla defesa, quando o fornecedor reincidir na prática das infrações de maior gravidade previstas neste código e na legislação de consumo.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** excluir
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [revisão do grupo] reprovado na amostra de fidelidade (resposta vaga ou desconexa da pergunta).
+
+## QA 93
+
+- **Pergunta:** Se eu pago tudo de uma vez, posso ser obrigado a pagar mais tarde?
+- **Resposta:** Não, eles não podem recusar a venda se você dispor de dinheiro para pagar imediatamente.
+- **Trecho:** IX - recusar a venda de bens ou a prestação de serviços, diretamente a quem se disponha a adquiri-los mediante pronto pagamento, ressalvados os casos de intermediação regulados em leis especiais; X - elevar sem justa causa o preço de produtos ou serviços. XI - Dispositivo incluído pela MPV nº 1.890-67, de 22.10.1999 , transformado em inciso XIII, quando da conversão na Lei nº 9.870, de 23.11.1999 XII - deixar de estipular prazo para o cumprimento de sua obrigação ou deixar a fixação de seu termo inicial a seu exclusivo critério .
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** corrigir
+- **Nova pergunta:** Uma loja pode recusar a venda se eu quiser pagar à vista?
+- **Nova resposta:** Não. É prática abusiva recusar a venda de bens ou serviços a quem se dispõe a pagar de imediato.
+- **Comentário:** [proposta] A pergunta não correspondia à resposta.
+
+## QA 94
+
+- **Pergunta:** Quanto tempo devo esperar antes de pedir de novo se as ações judiciais foram suspensas?
+- **Resposta:** Deve esperar dois anos após liquidar todas as obrigações previstas no plano de pagamento homologado.
+- **Trecho:** § 5º O pedido do consumidor a que se refere o caput deste artigo não importará em declaração de insolvência civil e poderá ser repetido somente após decorrido o prazo de 2 (dois) anos, contado da liquidação das obrigações previstas no plano de pagamento homologado, sem prejuízo de eventual repactuação.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 95
+
+- **Pergunta:** Qual e a funcao dos nucleos de conciliacao e mediacao mencionados na lei?
+- **Resposta:** Os núcleos de conciliação e mediação são instituídos para resolver conflitos relacionados a superendividamento.
+- **Trecho:** VII - instituição de núcleos de conciliação e mediação de conflitos oriundos de superendividamento.
+- **Fonte:** lei_14181_2021.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 96
+
+- **Pergunta:** Se eu ganho uma ação e o réu tem seguro, posso chamar o segurador?
+- **Resposta:** Sim, se o réu tiver seguro, você pode chamar o segurador para a ação, mas não através do Instituto de Resseguros do Brasil.
+- **Trecho:** II - o réu que houver contratado seguro de responsabilidade poderá chamar ao processo o segurador, vedada a integração do contraditório pelo Instituto de Resseguros do Brasil. Nesta hipótese, a sentença que julgar procedente o pedido condenará o réu nos termos do art. 80 do Código de Processo Civil. Se o réu houver sido declarado falido, o síndico será intimado a informar a existência de seguro de responsabilidade, facultando-se, em caso afirmativo, o ajuizamento de ação de indenização diretamente contra o segurador, vedada a denunciação da lide ao Instituto de Resseguros do Brasil e dispensad
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 97
+
+- **Pergunta:** SE EU APROVAR UM ORÇAMENTO, POSSO MUDAR DEPOIS?
+- **Resposta:** Sim, mas só se você e o fornecedor concordarem. O orçamento só pode ser alterado com negociação entre vocês.
+- **Trecho:** § 2º Uma vez aprovado pelo consumidor, o orçamento obriga os contraentes e somente pode ser alterado mediante livre negociação das partes.
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 98
+
+- **Pergunta:** Quanto tempo eu tenho para pagar o plano de pagamento do juiz?
+- **Resposta:** Você terá até 5 anos para pagar o plano de pagamento, contando a partir da quitação do plano de pagamento consensual.
+- **Trecho:** § 4º O plano judicial compulsório assegurará aos credores, no mínimo, o valor do principal devido, corrigido monetariamente por índices oficiais de preço, e preverá a liquidação total da dívida, após a quitação do plano de pagamento consensual previsto no art. 104-A deste Código, em, no máximo, 5 (cinco) anos, sendo que a primeira parcela será devida no prazo máximo de 180 (cento e oitenta) dias, contado de sua homologação judicial, e o restante do saldo será devido em parcelas mensais iguais e sucessivas.'
+- **Fonte:** lei_14181_2021.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 99
+
+- **Pergunta:** O que devo verificar nas condicoes de pagamento?
+- **Resposta:** Leia com atenção as condições de pagamento e de frete e fique atento a possíveis cobranças adicionais ou taxas inesperadas.
+- **Trecho:** Dicas: - Leia com atenção as condições de pagamento e de frete e fique atento a possíveis cobranças adicionais ou ta - xas inesperadas. Alguns sites oferecem o preço atrativo para o produto, mas aumentam o custo final com fretes elevados ou formas de pagamento menos seguras.
+- **Fonte:** guia_senacon_black_friday.pdf
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 100
+
+- **Pergunta:** Como posso saber se uma publicidade está enganosa?
+- **Resposta:** Você tem o direito de proteção contra publicidade enganosa e abusiva, além de métodos comerciais desleais.
+- **Trecho:** IV - a proteção contra a publicidade enganosa e abusiva, métodos comerciais coercitivos ou desleais, bem como contra práticas e cláusulas abusivas ou impostas no fornecimento de produtos e serviços; V - a modificação das cláusulas contratuais que estabeleçam prestações desproporcionais ou sua revisão em razão de fatos supervenientes que as tornem excessivamente onerosas; VI - a efetiva prevenção e reparação de danos patrimoniais e morais, individuais, coletivos e difusos;
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** corrigir
+- **Nova pergunta:** Qual é o meu direito em relação à publicidade enganosa?
+- **Nova resposta:** 
+- **Comentário:** [proposta] A resposta não respondia à pergunta 'como saber'.
+
+## QA 101
+
+- **Pergunta:** mano, se o vendedor não me entrega o termo de garantia correto, eles podem ter problemas?
+- **Resposta:** Sim, o vendedor pode ser punido por não entregar o termo de garantia adequado. Isso vale para todos os vendedores.
+- **Trecho:** Art. 74. Deixar de entregar ao consumidor o termo de garantia adequadamente preenchido e com especificação clara de seu conteúdo;
+- **Fonte:** cdc_lei_8078_1990.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 102
+
+- **Pergunta:** O SAC precisa retornar a ligação se eu encerrar a chamada?
+- **Resposta:** Sim, o SAC deve retornar a ligação caso a chamada seja encerrada antes da finalização do atendimento.
+- **Trecho:** § 1º Durante o período previsto no art. 14, § 1º, serão prestadas, no primeiro nível do atendimento telefônico, as informações: I - de que o consumidor poderá optar pelo atendimento realizado por pessoa humana; e II - de que o SAC deverá retornar a ligação, caso a chamada seja encerrada antes da finalização do atendimento, na forma prevista no art. 14, § 3º.
+- **Fonte:** decreto_13135_2026.docx
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 103
+
+- **Pergunta:** Qual tipo de dívida não entra nessa reunião?
+- **Resposta:** As dívidas que foram feitas de forma enganosa ou aquelas que envolvem garantia real, financiamentos imobiliários e crédito rural não podem entrar nessa reunião.
+- **Trecho:** § 1º Excluem-se do processo de repactuação as dívidas, ainda que decorrentes de relações de consumo, oriundas de contratos celebrados dolosamente sem o propósito de realizar pagamento, bem como as dívidas provenientes de contratos de crédito com garantia real, de financiamentos imobiliários e de crédito rural.
+- **Fonte:** lei_14181_2021.html
+- **Decisão (ok / corrigir / excluir):** corrigir
+- **Nova pergunta:** 
+- **Nova resposta:** Dívidas contraídas de má-fé, com o propósito de não pagar, e as de contratos com garantia real, financiamento imobiliário e crédito rural.
+- **Comentário:** [proposta] 'Enganosa' não está no trecho.
+
+## QA 104
+
+- **Pergunta:** Como evitar comprar coisas ruins ou que não chegam?
+- **Resposta:** Pesquise bem os sites onde vai comprar. Evite lojas e vendedores sem boa reputação para evitar produtos de baixa qualidade ou falta de entrega.
+- **Trecho:** Lojas e vendedores com pouca credibilidade aumentam o risco de fraudes. Você pode acabar comprando produtos de baixa qualidade ou nem receber os objetos encomendados.
+- **Fonte:** guia_senacon_black_friday.pdf
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 105
+
+- **Pergunta:** Os fornecedores precisam dar informações sobre os serviços que estão comprando?
+- **Resposta:** Sim, os fornecedores devem fornecer informações adequadas sobre os serviços contratados.
+- **Trecho:** Art. 1º Este Decreto regulamenta a Lei nº 8.078, de 11 de setembro de 1990 – Código de Defesa do Consumidor, para estabelecer diretrizes e normas sobre o Serviço de Atendimento ao Consumidor – SAC nas relações de consumo, com o objetivo de garantir os direitos do consumidor quanto: I - à obtenção de informação adequada sobre os serviços contratados; II - ao tratamento de suas demandas; e III - ao atendimento eficaz em canais de comunicação.
+- **Fonte:** decreto_13135_2026.docx
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 106
+
+- **Pergunta:** Se eu falhar na conciliação, o que acontece?
+- **Resposta:** O juiz instaura um processo por superendividamento e cita todos os credores.
+- **Trecho:** 'Art. 104-B. Se não houver êxito na conciliação em relação a quaisquer credores, o juiz, a pedido do consumidor, instaurará processo por superendividamento para revisão e integração dos contratos e repactuação das dívidas remanescentes mediante plano judicial compulsório e procederá à citação de todos os credores cujos créditos não tenham integrado o acordo porventura celebrado.
+- **Fonte:** lei_14181_2021.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 107
+
+- **Pergunta:** oi, O vendedor precisa dizer se posso cancelar a compra depois de comprar
+- **Resposta:** Sim, eles devem informar claramente se há direito de arrependimento.
+- **Trecho:** Art. 1º Este Decreto regulamenta a Lei nº 8.078, de 11 de setembro de 1990, para dispor sobre a contratação no comércio eletrônico, abrangendo os seguintes aspectos: I - informações claras a respeito do produto, serviço e do fornecedor; II - atendimento facilitado ao consumidor; e III - respeito ao direito de arrependimento.
+- **Fonte:** decreto_7962_2013.txt
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 108
+
+- **Pergunta:** oi, Se eu quiser devolver um produto compardo pela internet, qual é o meu direito?
+- **Resposta:** Você pode devolver o produto sem nenhum ônus. O fornecedor deve confirmar que recebeu sua solicitação imediatamente.
+- **Trecho:** § 4º O fornecedor deve enviar ao consumidor confirmação imediata do recebimento da manifestação de arrependimento.
+- **Fonte:** decreto_7962_2013.txt
+- **Decisão (ok / corrigir / excluir):** corrigir
+- **Nova pergunta:** 
+- **Nova resposta:** Ao exercer o direito de arrependimento, o fornecedor deve confirmar imediatamente o recebimento da sua manifestação.
+- **Comentário:** [proposta] 'Sem nenhum ônus' não está no trecho.
+
+## QA 109
+
+- **Pergunta:** O que devo procurar antes de comprar algo online?
+- **Resposta:** Procure informações claras sobre o produto, o preço e as condições de pagamento.
+- **Trecho:** - Informação clara e verdadeira sobre o produto, o preço e as condições de pagamento (CDC, Art. 6 e 31).
+- **Fonte:** guia_senacon_black_friday.pdf
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 110
+
+- **Pergunta:** O SAC pode usar inteligência artificial?
+- **Resposta:** Sim, mas o consumidor deve ter a opção de falar com uma pessoa durante todo o atendimento.
+- **Trecho:** § 3º O fornecedor poderá adotar procedimentos automatizados, inclusive sistemas de inteligência artificial, para a triagem, a distribuição interna e a resolução das demandas, desde que assegurada ao consumidor a opção de atendimento em tempo real por pessoa humana, nos períodos e nas condições previstos neste Decreto.
+- **Fonte:** decreto_13135_2026.docx
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 111
+
+- **Pergunta:** Eu posso escolher como receber a resposta da empresa sobre minha reclamação?
+- **Resposta:** Sim, você pode escolher o canal em que fez a reclamação ou outro meio que prefira.
+- **Trecho:** § 1º O consumidor será informado sobre a conclusão do tratamento de sua demanda e, mediante solicitação, receberá do fornecedor a comprovação pertinente, pelo canal em que tenha realizado a solicitação ou em outro meio escolhido a seu critério.
+- **Fonte:** decreto_13135_2026.docx
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 112
+
+- **Pergunta:** A lei diz algo sobre proteção do consumidor superendividado?
+- **Resposta:** Sim, a lei estabelece mecanismos de tratamento extrajudicial e judicial do superendividamento e proteção do consumidor pessoa natural.
+- **Trecho:** VI - instituição de mecanismos de prevenção e tratamento extrajudicial e judicial do superendividamento e de proteção do consumidor pessoa natural; VII - instituição de núcleos de conciliação e mediação de conflitos oriundos de superendividamento.
+- **Fonte:** lei_14181_2021.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 113
+
+- **Pergunta:** Quem pode ajudar a conciliar minha dívida antes de ir à justiça?
+- **Resposta:** Os órgãos do Sistema Nacional de Defesa do Consumidor podem ajudar na conciliação e na prevenção do superendividamento.
+- **Trecho:** 'Art. 104-C. Compete concorrente e facultativamente aos órgãos públicos integrantes do Sistema Nacional de Defesa do Consumidor a fase conciliatória e preventiva do processo de repactuação de dívidas, nos moldes do art. 104-A deste Código, no que couber, com possibilidade de o processo ser regulado por convênios específicos celebrados entre os referidos órgãos e as instituições credoras ou suas associações.
+- **Fonte:** lei_14181_2021.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 114
+
+- **Pergunta:** QUAL É O DIREITO DO CONSUMIDOR EM RELAÇÃO AO ACOMPANHAMENTO DAS DEMANDAS?
+- **Resposta:** O consumidor tem o direito de acompanhar todas as suas demandas por meio de registro numérico ou outro procedimento eletrônico que gere protocolo de atendimento.
+- **Trecho:** Art. 18. É direito do consumidor acompanhar, nos diversos canais do SAC, todas as suas demandas por meio de registro numérico ou de outro procedimento eletrônico que gere protocolo de atendimento.
+- **Fonte:** decreto_13135_2026.docx
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 115
+
+- **Pergunta:** Eu perciso receber todas as informações antes de assinar um contrato?
+- **Resposta:** Sim, o fornecedor deve me informar tudo antes e me dar uma cópia do contrato depois.
+- **Trecho:** § 2º Nos contratos de adesão, o fornecedor deve prestar ao consumidor, previamente, as informações de que tratam o art. 52 e o caput do art. 54-B deste Código, além de outras porventura determinadas na legislação em vigor, e fica obrigado a entregar ao consumidor cópia do contrato, após a sua conclusão.'
+- **Fonte:** lei_14181_2021.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 116
+
+- **Pergunta:** Quais empresas precisam enviar informações sobre como atender os clientes?
+- **Resposta:** As empresas que operam plataformas digitais de intermediação de produtos ou serviços, transporte remunerado de passageiros ou entrega de mercadorias devem enviar essas informações.
+- **Trecho:** Art. 2º Os fornecedores que operem plataformas digitais de intermediação da oferta ou comercialização de produtos ou serviços por terceiros, de transporte remunerado privado individual de passageiros ou de entrega de produtos ou mercadorias apresentarão à Secretaria Nacional do Consumidor do Ministério da Justiça e Segurança Pública, na forma e no prazo estabelecidos, os seus modelos de atendimento ao consumidor, acompanhados, no mínimo, das seguintes informações:
+- **Fonte:** decreto_13135_2026.docx
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 117
+
+- **Pergunta:** QUAL E O PRAZO PARA OS CREODRES RESPONDEREM A CITACAO?
+- **Resposta:** Os credores têm 15 dias para juntarem documentos e razões da negativa de participar do plano.
+- **Trecho:** § 2º No prazo de 15 (quinze) dias, os credores citados juntarão documentos e as razões da negativa de aceder ao plano voluntário ou de renegociar.
+- **Fonte:** lei_14181_2021.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 118
+
+- **Pergunta:** Quando faco uma compra em grupo, preciso saber quantas pessoas vao participar?
+- **Resposta:** Sim, eles devem informar a quantidade mínima de pessoas necessária para a compra ser feita.
+- **Trecho:** Art. 3º Os sítios eletrônicos ou demais meios eletrônicos utilizados para ofertas de compras coletivas ou modalidades análogas de contratação deverão conter, além das informações previstas no art. 2º , as seguintes: I - quantidade mínima de consumidores para a efetivação do contrato;
+- **Fonte:** decreto_7962_2013.txt
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 119
+
+- **Pergunta:** aff, O que acontece se eu quiser devolver um produto comprado pela internet?
+- **Resposta:** O fornecedor deve cancelar a transação na fatura do consumidor ou fazer um estorno do valor pago, dependendo do momento em que você solicitar a devolução.
+- **Trecho:** § 3º O exercício do direito de arrependimento será comunicado imediatamente pelo fornecedor à instituição financeira ou à administradora do cartão de crédito ou similar, para que: I - a transação não seja lançada na fatura do consumidor; ou II - seja efetivado o estorno do valor, caso o lançamento na fatura já tenha sido realizado.
+- **Fonte:** decreto_7962_2013.txt
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 120
+
+- **Pergunta:** O que devo fazer se a loja nao fornece informacoes claras sobre o produto?
+- **Resposta:** Denuncie à Procon local e ao portal consumidor.gov.br. As informações precisam ser claras e verdadeiras sobre o produto, o preço e as condições de pagamento.
+- **Trecho:** - Informação clara e verdadeira sobre o produto, o preço e as condições de pagamento (CDC, Art. 6 e 31).
+- **Fonte:** guia_senacon_black_friday.pdf
+- **Decisão (ok / corrigir / excluir):** corrigir
+- **Nova pergunta:** 
+- **Nova resposta:** A loja deve dar informação clara e verdadeira sobre o produto, o preço e as condições de pagamento (CDC, arts. 6º e 31).
+- **Comentário:** [proposta] A orientação de denúncia não está no trecho.
+
+## QA 121
+
+- **Pergunta:** O SAC pode ser usado para vender produtos?
+- **Resposta:** Não, o SAC não pode ser usado para oferecer ou contratar produtos ou serviços.
+- **Trecho:** § 4º Não se enquadra como SAC o atendimento destinado à oferta e à contratação de produtos ou serviços.
+- **Fonte:** decreto_13135_2026.docx
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 122
+
+- **Pergunta:** O QUE A LEI DIZ SOBRE A REVISÃO DE DÍVIDAS
+- **Resposta:** A lei permite a revisão e repactuação da dívida para garantir práticas de crédito responsável e preservar o mínimo existencial.
+- **Trecho:** XI - a garantia de práticas de crédito responsável, de educação financeira e de prevenção e tratamento de situações de superendividamento, preservado o mínimo existencial, nos termos da regulamentação, por meio da revisão e da repactuação da dívida, entre outras medidas; XII - a preservação do mínimo existencial, nos termos da regulamentação, na repactuação de dívidas e na concessão de crédito; XIII - a informação acerca dos preços dos produtos por unidade de medida, tal como por quilo, por litro, por metro ou por outra unidade, conforme o caso.
+- **Fonte:** lei_14181_2021.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 123
+
+- **Pergunta:** Como funciona a audiência global de conciliação?
+- **Resposta:** Em uma audiência global, todos os credores podem participar da conciliação administrativa para prevenir o superendividamento do consumidor pessoa natural.
+- **Trecho:** § 1º Em caso de conciliação administrativa para prevenir o superendividamento do consumidor pessoa natural, os órgãos públicos poderão promover, nas reclamações individuais, audiência global de conciliação com todos os credores e, em todos os casos, facilitar a elaboração de plano de pagamento, preservado o mínimo existencial, nos termos da regulamentação, sob a supervisão desses órgãos, sem prejuízo das demais atividades de reeducação financeira cabíveis.
+- **Fonte:** lei_14181_2021.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 124
+
+- **Pergunta:** Como o atendente acessa o histórico de demandas do consumidor?
+- **Resposta:** O atendente terá acesso ao histórico de demandas do consumidor que estejam ativas ou que sejam referentes ao mesmo fato gerador ou contratação.
+- **Trecho:** § 1º O sistema informatizado garantirá ao atendente o acesso ao histórico de demandas do consumidor que estejam ativas ou que sejam referentes ao mesmo fato gerador ou contratação.
+- **Fonte:** decreto_13135_2026.docx
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 125
+
+- **Pergunta:** QUAL É O PARZO MÁXIMO PARA PAGAR A DÍVIDA NA CONCILIAÇÃO??
+- **Resposta:** O prazo máximo é de 5 anos.
+- **Trecho:** 'Art. 104-A. A requerimento do consumidor superendividado pessoa natural, o juiz poderá instaurar processo de repactuação de dívidas, com vistas à realização de audiência conciliatória, presidida por ele ou por conciliador credenciado no juízo, com a presença de todos os credores de dívidas previstas no art. 54-A deste Código, na qual o consumidor apresentará proposta de plano de pagamento com prazo máximo de 5 (cinco) anos, preservados o mínimo existencial, nos termos da regulamentação, e as garantias e as formas de pagamento originalmente pactuadas.
+- **Fonte:** lei_14181_2021.html
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.
+
+## QA 126
+
+- **Pergunta:** Qual órgão recebe as informações sobre os modelos de atendimento
+- **Resposta:** As informações devem ser enviadas à Secretaria Nacional do Consumidor do Ministério da Justiça e Segurança Pública.
+- **Trecho:** Art. 2º Os fornecedores que operem plataformas digitais de intermediação da oferta ou comercialização de produtos ou serviços por terceiros, de transporte remunerado privado individual de passageiros ou de entrega de produtos ou mercadorias apresentarão à Secretaria Nacional do Consumidor do Ministério da Justiça e Segurança Pública, na forma e no prazo estabelecidos, os seus modelos de atendimento ao consumidor, acompanhados, no mínimo, das seguintes informações:
+- **Fonte:** decreto_13135_2026.docx
+- **Decisão (ok / corrigir / excluir):** ok
+- **Nova pergunta:** 
+- **Nova resposta:** 
+- **Comentário:** [proposta] Sem objeção na leitura do trecho.

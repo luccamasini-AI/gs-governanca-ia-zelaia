@@ -1,0 +1,553 @@
+{
+  "id": "R01",
+  "rodada": 0,
+  "variante": "preparacao",
+  "pergunta": "Uma geladeira quebrada pode ser entregue em um ecoponto de São Paulo?",
+  "historico": [],
+  "criterio": "Negar entrega de eletrodoméstico no ecoponto e diferenciar Cata-Bagulho. Não inventar agendamento.",
+  "status_esperados": [
+    "respondido"
+  ],
+  "status_correto": true,
+  "respondivel": true,
+  "segundos": 2.94570860004751,
+  "resposta": {
+    "status": "respondido",
+    "mensagem": "",
+    "afirmacoes": [
+      {
+        "texto": "Uma geladeira quebrada não aparece como aceita em ecopontos no Município de São Paulo; a base informa que eletrodomésticos aparecem como aceitos no Cata-Bagulho e não nos ecopontos.",
+        "evidencias": [
+          "servicos-3"
+        ]
+      },
+      {
+        "texto": "Os ecopontos são descritos como locais para pequenos volumes de resíduos e materiais inservíveis, com recebimento de entulho, móveis, podas e recicláveis, sem confirmação de eletrodomésticos.",
+        "evidencias": [
+          "ecopontos-1"
+        ]
+      }
+    ],
+    "fontes": [
+      {
+        "id": "servicos-3",
+        "fonte_id": "servicos",
+        "titulo": "Cata-Bagulho e Ecopontos",
+        "url": "https://prefeitura.sp.gov.br/8cb6a170766763c7815c6c9a3de1c810",
+        "consultado_em": "2026-11-10",
+        "texto": "Para entulho ensacado, a tabela informa até 15 sacos de 50 litros nos dois serviços. Papelão, plástico, vidro e metal são aceitos nos ecopontos; no Cata-Bagulho, a tabela exige sacos transparentes. Gesso é aceito somente em algumas unidades de ecopontos e não no Cata-Bagulho. Eletrodomésticos aparecem como aceitos no Cata-Bagulho e não nos ecopontos. Resíduos orgânicos domiciliares e telhas de amianto aparecem como não aceitos em ambos."
+      },
+      {
+        "id": "ecopontos-1",
+        "fonte_id": "ecopontos",
+        "titulo": "Ecopontos e limites de entrega",
+        "url": "https://prefeitura.sp.gov.br/web/subprefeituras/w/ecoponto-esta%C3%A7%C3%A3o-de-entrega-volunt%C3%A1ria-de-inserv%C3%ADveis",
+        "consultado_em": "2026-11-10",
+        "texto": "Os ecopontos são áreas municipais de entrega voluntária para pequenos volumes de resíduos e materiais inservíveis. O atendimento é gratuito. O cidadão deve separar os materiais conforme seu tipo. São recebidos entulho de pequenas reformas, móveis velhos como sofás e colchões, podas domiciliares e recicláveis como papelão, plástico, vidro e metais. Algumas unidades também recebem gesso; essa exceção não permite afirmar que todos os ecopontos o recebem."
+      }
+    ]
+  },
+  "registro": {
+    "pergunta": "Uma geladeira quebrada pode ser entregue em um ecoponto de São Paulo?",
+    "configuracao": {
+      "modelo_openai": "gpt-5.4-mini-2026-03-17",
+      "modelo_jev": "jev-1.14.0",
+      "tamanho_chunk_palavras": 90,
+      "sobreposicao_palavras": 15,
+      "top_k_busca": 12,
+      "top_k_contexto": 6,
+      "bm25_k1": 1.5,
+      "bm25_b": 0.75,
+      "limiar_relevancia": 0.35,
+      "limiar_injecao": 0.7,
+      "limiar_suficiencia": 0.75,
+      "limiar_sustentacao": 0.8,
+      "limiar_desvio_material": 0.5,
+      "max_caracteres_pergunta": 1500,
+      "max_output_tokens": 4000,
+      "esforco_raciocinio": "low",
+      "cache_respostas": true,
+      "timeout_segundos": 45,
+      "max_tentativas_http": 2,
+      "versao_prompt": "2026-11-10.18",
+      "nota": "Limiares iniciais definidos pelo projeto; não representam garantia estatística. Ajustar com calibração, sem alterar o conjunto de teste. Tamanho em palavras, não tokens."
+    },
+    "candidatos": [
+      {
+        "id": "oleo-1",
+        "titulo": "Doação de óleo de cozinha usado",
+        "url": "https://smartsampa.prefeitura.sp.gov.br/web/sesana/w/doe-seu-oleo-usado",
+        "consultado_em": "2026-11-10",
+        "publicado_em": "2026-05-15",
+        "escopo": "Município de São Paulo",
+        "texto": "A Prefeitura de São Paulo, em parceria com a VivaTerra, mantém uma ação de coleta de óleo de cozinha usado em equipamentos de segurança alimentar. O óleo usado deve ser armazenado em garrafas e entregue nos pontos participantes. A publicação menciona mercados e sacolões municipais, Armazéns Solidários e unidades da Rede Cozinha Escola. A página oferece um link para a relação completa de pontos de coleta. Esta síntese não contém os endereços nem horários individuais desses pontos. Para indicar um local exato, é necessário consultar essa lista oficial.",
+        "fonte_id": "oleo",
+        "hash": "4153eb1ab6c059d819df104fbfdd02b682d316b6236707d6fbe5f87a3868634f",
+        "bm25": 4.228887
+      },
+      {
+        "id": "pinheiros-1",
+        "titulo": "Ecopontos de Pinheiros e recebimento de gesso",
+        "url": "https://prefeitura.sp.gov.br/web/pinheiros/w/catabagulho/132398",
+        "consultado_em": "2026-11-10",
+        "publicado_em": "2026-05-04",
+        "escopo": "Subprefeitura de Pinheiros, São Paulo",
+        "texto": "A publicação da Subprefeitura de Pinheiros identifica três ecopontos na região: Berrini, Vila Madalena e Alto de Pinheiros. São locais de entrega gratuita de pequenos volumes de entulho, móveis, podas e recicláveis. O Ecoponto Berrini fica na Praça do Cancioneiro, 15, sob a Ponte Engenheiro Ary Torres. A publicação identifica especificamente o Berrini como unidade que recebe gesso. O Ecoponto Vila Madalena fica na Rua Girassol, 15, esquina com a Rua Luís Murat. O Ecoponto Alto de Pinheiros fica na Praça Arcipreste Anselmo de Oliveira.",
+        "fonte_id": "pinheiros",
+        "hash": "3300f6fa965325397e51751c7c807b7259955e0ed7e62223d0793cbac4e43c50",
+        "bm25": 0.771782
+      },
+      {
+        "id": "servicos-1",
+        "titulo": "Cata-Bagulho e Ecopontos",
+        "url": "https://prefeitura.sp.gov.br/8cb6a170766763c7815c6c9a3de1c810",
+        "consultado_em": "2026-11-10",
+        "publicado_em": null,
+        "escopo": "Município de São Paulo",
+        "texto": "Cata-Bagulho e ecopontos são serviços municipais gratuitos. O Cata-Bagulho percorre bairros conforme itinerários e datas programadas; o ecoponto é um local fixo de entrega voluntária. A página oficial permite consultar itinerários e unidades por endereço. Esta base não contém os resultados dessa consulta dinâmica. Os horários gerais publicados para ecopontos são de segunda a sábado, das 6h às 22h, e aos domingos e feriados, das 6h às 18h.",
+        "fonte_id": "servicos",
+        "hash": "9d4eb4f91d0b3b3f5b246fb63db8d1f9ac407274b416ba420d8e98d90e7afb50",
+        "bm25": 0.763251
+      },
+      {
+        "id": "servicos-3",
+        "titulo": "Cata-Bagulho e Ecopontos",
+        "url": "https://prefeitura.sp.gov.br/8cb6a170766763c7815c6c9a3de1c810",
+        "consultado_em": "2026-11-10",
+        "publicado_em": null,
+        "escopo": "Município de São Paulo",
+        "texto": "Para entulho ensacado, a tabela informa até 15 sacos de 50 litros nos dois serviços. Papelão, plástico, vidro e metal são aceitos nos ecopontos; no Cata-Bagulho, a tabela exige sacos transparentes. Gesso é aceito somente em algumas unidades de ecopontos e não no Cata-Bagulho. Eletrodomésticos aparecem como aceitos no Cata-Bagulho e não nos ecopontos. Resíduos orgânicos domiciliares e telhas de amianto aparecem como não aceitos em ambos.",
+        "fonte_id": "servicos",
+        "hash": "cead9766c9d42de670af26be99c39e01dec53f0ce60d3b2a4d0739bb4582bd5c",
+        "bm25": 0.75685
+      },
+      {
+        "id": "ecopontos-1",
+        "titulo": "Ecopontos e limites de entrega",
+        "url": "https://prefeitura.sp.gov.br/web/subprefeituras/w/ecoponto-esta%C3%A7%C3%A3o-de-entrega-volunt%C3%A1ria-de-inserv%C3%ADveis",
+        "consultado_em": "2026-11-10",
+        "publicado_em": null,
+        "escopo": "Município de São Paulo",
+        "texto": "Os ecopontos são áreas municipais de entrega voluntária para pequenos volumes de resíduos e materiais inservíveis. O atendimento é gratuito. O cidadão deve separar os materiais conforme seu tipo. São recebidos entulho de pequenas reformas, móveis velhos como sofás e colchões, podas domiciliares e recicláveis como papelão, plástico, vidro e metais. Algumas unidades também recebem gesso; essa exceção não permite afirmar que todos os ecopontos o recebem.",
+        "fonte_id": "ecopontos",
+        "hash": "283196ec68e3ab81f0c6e98ae699123a92d1c33a18baece8499d900a7d6d16cb",
+        "bm25": 0.695529
+      },
+      {
+        "id": "ecopontos-2",
+        "titulo": "Ecopontos e limites de entrega",
+        "url": "https://prefeitura.sp.gov.br/web/subprefeituras/w/ecoponto-esta%C3%A7%C3%A3o-de-entrega-volunt%C3%A1ria-de-inserv%C3%ADveis",
+        "consultado_em": "2026-11-10",
+        "publicado_em": null,
+        "escopo": "Município de São Paulo",
+        "texto": "unidades também recebem gesso; essa exceção não permite afirmar que todos os ecopontos o recebem. A página geral de ecopontos publica limite de até 1 m³ ou 20 sacos por descarga. Outra página municipal de comparação com o Cata-Bagulho informa 15 sacos de 50 litros para entulho ensacado. As formulações divergem e não devem ser convertidas em uma equivalência universal sem confirmar o serviço e a unidade.",
+        "fonte_id": "ecopontos",
+        "hash": "8ce5c8fc076ff64e295ccef5644bd81c70e46734ba86d6ae829175be9295d3a3",
+        "bm25": 0.695529
+      },
+      {
+        "id": "ipiranga-1",
+        "titulo": "Ecopontos no Ipiranga",
+        "url": "https://prefeitura.sp.gov.br/web/ipiranga/w/confira-os-principais-ecopontos-no-ipiranga",
+        "consultado_em": "2026-11-10",
+        "publicado_em": null,
+        "escopo": "Subprefeitura do Ipiranga, São Paulo",
+        "texto": "A publicação da Subprefeitura do Ipiranga lista os ecopontos Comandante Taylor, Teresa Cristina, Santa Cruz e Vila Mercês/Italva. O Ecoponto Teresa Cristina fica na Rua Teresa Cristina, 10. O Santa Cruz fica na Rua Santa Cruz, 1452. O Vila Mercês/Italva é listado na Rua Itavalva, 86. A grafia dos nomes e endereços acompanha a publicação. O horário publicado é de segunda a sábado, das 6h às 22h, e domingos e feriados, das 6h às 18h.",
+        "fonte_id": "ipiranga",
+        "hash": "b92852af7a6b58f42bf3797c50fe237cfec1d6a69bc29b27058380f09d6f386d",
+        "bm25": 0.684969
+      },
+      {
+        "id": "pinheiros-2",
+        "titulo": "Ecopontos de Pinheiros e recebimento de gesso",
+        "url": "https://prefeitura.sp.gov.br/web/pinheiros/w/catabagulho/132398",
+        "consultado_em": "2026-11-10",
+        "publicado_em": "2026-05-04",
+        "escopo": "Subprefeitura de Pinheiros, São Paulo",
+        "texto": "Rua Luís Murat. O Ecoponto Alto de Pinheiros fica na Praça Arcipreste Anselmo de Oliveira. O funcionamento publicado é de segunda a sábado, das 6h às 22h; domingos e feriados, das 6h às 18h. Para esclarecimentos, a publicação encaminha à Central SP156. Os endereços são informações publicadas, sem confirmação de operação em tempo real.",
+        "fonte_id": "pinheiros",
+        "hash": "fbe49cbe1d3e3050af0303fd48d0a69887b35f1f4863205b980568de3486cf45",
+        "bm25": 0.645651
+      },
+      {
+        "id": "ipiranga-2",
+        "titulo": "Ecopontos no Ipiranga",
+        "url": "https://prefeitura.sp.gov.br/web/ipiranga/w/confira-os-principais-ecopontos-no-ipiranga",
+        "consultado_em": "2026-11-10",
+        "publicado_em": null,
+        "escopo": "Subprefeitura do Ipiranga, São Paulo",
+        "texto": "segunda a sábado, das 6h às 22h, e domingos e feriados, das 6h às 18h. A página informa que pilhas, baterias, lixo orgânico, óleo de cozinha e lâmpadas fluorescentes não podem ser descartados nesses ecopontos. Recomenda o Portal SP156 para denúncias de descarte irregular e solicitações de limpeza urbana. Não há informação sobre lotação ou funcionamento excepcional em tempo real.",
+        "fonte_id": "ipiranga",
+        "hash": "953e0577eaf8249d905ae16bb2c425238f848fa99fc1ee8e67488dfbb51ca318",
+        "bm25": 0.619073
+      },
+      {
+        "id": "servicos-2",
+        "titulo": "Cata-Bagulho e Ecopontos",
+        "url": "https://prefeitura.sp.gov.br/8cb6a170766763c7815c6c9a3de1c810",
+        "consultado_em": "2026-11-10",
+        "publicado_em": null,
+        "escopo": "Município de São Paulo",
+        "texto": "a sábado, das 6h às 22h, e aos domingos e feriados, das 6h às 18h. A tabela municipal admite móveis velhos, colchões e podas domiciliares nos dois serviços. Entulho de pequenas reformas sem ensacamento, até 1 m³, aparece como aceito em ecopontos e não no Cata-Bagulho. Para entulho ensacado, a tabela informa até 15 sacos de 50 litros nos dois serviços.",
+        "fonte_id": "servicos",
+        "hash": "26f3d348d11dac0da273bdf928a1e2ad9dcc8192115bb5ffe969c09e1d735a0b",
+        "bm25": 0.619073
+      },
+      {
+        "id": "ecopontos-3",
+        "titulo": "Ecopontos e limites de entrega",
+        "url": "https://prefeitura.sp.gov.br/web/subprefeituras/w/ecoponto-esta%C3%A7%C3%A3o-de-entrega-volunt%C3%A1ria-de-inserv%C3%ADveis",
+        "consultado_em": "2026-11-10",
+        "publicado_em": null,
+        "escopo": "Município de São Paulo",
+        "texto": "não devem ser convertidas em uma equivalência universal sem confirmar o serviço e a unidade. Para visitas monitoradas aos equipamentos, o canal publicado é educacaoambiental@smsub.prefeitura.sp.gov.br. A lista oficial de equipamentos deve ser consultada para localizar uma unidade; esta síntese não contém todos os endereços da cidade.",
+        "fonte_id": "ecopontos",
+        "hash": "0892f575e8685fa31eaa0205f8759a5a3d55f037e576451c3c2c4f3d07b218f0",
+        "bm25": 0.470401
+      }
+    ],
+    "tentativas": [
+      {
+        "rascunho": {
+          "status": "respondido",
+          "mensagem": "",
+          "afirmacoes": [
+            {
+              "texto": "Uma geladeira quebrada não aparece como aceita em ecopontos no Município de São Paulo; a base informa que eletrodomésticos aparecem como aceitos no Cata-Bagulho e não nos ecopontos.",
+              "evidencias": [
+                "servicos-3"
+              ]
+            },
+            {
+              "texto": "Os ecopontos são descritos como locais para pequenos volumes de resíduos e materiais inservíveis, com recebimento de entulho, móveis, podas e recicláveis, sem confirmação de eletrodomésticos.",
+              "evidencias": [
+                "ecopontos-1"
+              ]
+            }
+          ]
+        },
+        "citacoes_validas": true,
+        "verificacao": {
+          "sustenta_0": 0.85,
+          "sustenta_1": 0.83,
+          "desvio_0": 0.14,
+          "desvio_1": 0.23
+        }
+      }
+    ],
+    "cache": {
+      "acerto": false
+    },
+    "selecao": [
+      {
+        "id": "oleo-1",
+        "titulo": "Doação de óleo de cozinha usado",
+        "url": "https://smartsampa.prefeitura.sp.gov.br/web/sesana/w/doe-seu-oleo-usado",
+        "consultado_em": "2026-11-10",
+        "publicado_em": "2026-05-15",
+        "escopo": "Município de São Paulo",
+        "texto": "A Prefeitura de São Paulo, em parceria com a VivaTerra, mantém uma ação de coleta de óleo de cozinha usado em equipamentos de segurança alimentar. O óleo usado deve ser armazenado em garrafas e entregue nos pontos participantes. A publicação menciona mercados e sacolões municipais, Armazéns Solidários e unidades da Rede Cozinha Escola. A página oferece um link para a relação completa de pontos de coleta. Esta síntese não contém os endereços nem horários individuais desses pontos. Para indicar um local exato, é necessário consultar essa lista oficial.",
+        "fonte_id": "oleo",
+        "hash": "4153eb1ab6c059d819df104fbfdd02b682d316b6236707d6fbe5f87a3868634f",
+        "bm25": 4.228887,
+        "relevancia": 0.02,
+        "injecao": 0.04
+      },
+      {
+        "id": "pinheiros-1",
+        "titulo": "Ecopontos de Pinheiros e recebimento de gesso",
+        "url": "https://prefeitura.sp.gov.br/web/pinheiros/w/catabagulho/132398",
+        "consultado_em": "2026-11-10",
+        "publicado_em": "2026-05-04",
+        "escopo": "Subprefeitura de Pinheiros, São Paulo",
+        "texto": "A publicação da Subprefeitura de Pinheiros identifica três ecopontos na região: Berrini, Vila Madalena e Alto de Pinheiros. São locais de entrega gratuita de pequenos volumes de entulho, móveis, podas e recicláveis. O Ecoponto Berrini fica na Praça do Cancioneiro, 15, sob a Ponte Engenheiro Ary Torres. A publicação identifica especificamente o Berrini como unidade que recebe gesso. O Ecoponto Vila Madalena fica na Rua Girassol, 15, esquina com a Rua Luís Murat. O Ecoponto Alto de Pinheiros fica na Praça Arcipreste Anselmo de Oliveira.",
+        "fonte_id": "pinheiros",
+        "hash": "3300f6fa965325397e51751c7c807b7259955e0ed7e62223d0793cbac4e43c50",
+        "bm25": 0.771782,
+        "relevancia": 0.42,
+        "injecao": 0.04
+      },
+      {
+        "id": "servicos-1",
+        "titulo": "Cata-Bagulho e Ecopontos",
+        "url": "https://prefeitura.sp.gov.br/8cb6a170766763c7815c6c9a3de1c810",
+        "consultado_em": "2026-11-10",
+        "publicado_em": null,
+        "escopo": "Município de São Paulo",
+        "texto": "Cata-Bagulho e ecopontos são serviços municipais gratuitos. O Cata-Bagulho percorre bairros conforme itinerários e datas programadas; o ecoponto é um local fixo de entrega voluntária. A página oficial permite consultar itinerários e unidades por endereço. Esta base não contém os resultados dessa consulta dinâmica. Os horários gerais publicados para ecopontos são de segunda a sábado, das 6h às 22h, e aos domingos e feriados, das 6h às 18h.",
+        "fonte_id": "servicos",
+        "hash": "9d4eb4f91d0b3b3f5b246fb63db8d1f9ac407274b416ba420d8e98d90e7afb50",
+        "bm25": 0.763251,
+        "relevancia": 0.18,
+        "injecao": 0.05
+      },
+      {
+        "id": "servicos-3",
+        "titulo": "Cata-Bagulho e Ecopontos",
+        "url": "https://prefeitura.sp.gov.br/8cb6a170766763c7815c6c9a3de1c810",
+        "consultado_em": "2026-11-10",
+        "publicado_em": null,
+        "escopo": "Município de São Paulo",
+        "texto": "Para entulho ensacado, a tabela informa até 15 sacos de 50 litros nos dois serviços. Papelão, plástico, vidro e metal são aceitos nos ecopontos; no Cata-Bagulho, a tabela exige sacos transparentes. Gesso é aceito somente em algumas unidades de ecopontos e não no Cata-Bagulho. Eletrodomésticos aparecem como aceitos no Cata-Bagulho e não nos ecopontos. Resíduos orgânicos domiciliares e telhas de amianto aparecem como não aceitos em ambos.",
+        "fonte_id": "servicos",
+        "hash": "cead9766c9d42de670af26be99c39e01dec53f0ce60d3b2a4d0739bb4582bd5c",
+        "bm25": 0.75685,
+        "relevancia": 0.96,
+        "injecao": 0.05
+      },
+      {
+        "id": "ecopontos-1",
+        "titulo": "Ecopontos e limites de entrega",
+        "url": "https://prefeitura.sp.gov.br/web/subprefeituras/w/ecoponto-esta%C3%A7%C3%A3o-de-entrega-volunt%C3%A1ria-de-inserv%C3%ADveis",
+        "consultado_em": "2026-11-10",
+        "publicado_em": null,
+        "escopo": "Município de São Paulo",
+        "texto": "Os ecopontos são áreas municipais de entrega voluntária para pequenos volumes de resíduos e materiais inservíveis. O atendimento é gratuito. O cidadão deve separar os materiais conforme seu tipo. São recebidos entulho de pequenas reformas, móveis velhos como sofás e colchões, podas domiciliares e recicláveis como papelão, plástico, vidro e metais. Algumas unidades também recebem gesso; essa exceção não permite afirmar que todos os ecopontos o recebem.",
+        "fonte_id": "ecopontos",
+        "hash": "283196ec68e3ab81f0c6e98ae699123a92d1c33a18baece8499d900a7d6d16cb",
+        "bm25": 0.695529,
+        "relevancia": 0.69,
+        "injecao": 0.04
+      },
+      {
+        "id": "ecopontos-2",
+        "titulo": "Ecopontos e limites de entrega",
+        "url": "https://prefeitura.sp.gov.br/web/subprefeituras/w/ecoponto-esta%C3%A7%C3%A3o-de-entrega-volunt%C3%A1ria-de-inserv%C3%ADveis",
+        "consultado_em": "2026-11-10",
+        "publicado_em": null,
+        "escopo": "Município de São Paulo",
+        "texto": "unidades também recebem gesso; essa exceção não permite afirmar que todos os ecopontos o recebem. A página geral de ecopontos publica limite de até 1 m³ ou 20 sacos por descarga. Outra página municipal de comparação com o Cata-Bagulho informa 15 sacos de 50 litros para entulho ensacado. As formulações divergem e não devem ser convertidas em uma equivalência universal sem confirmar o serviço e a unidade.",
+        "fonte_id": "ecopontos",
+        "hash": "8ce5c8fc076ff64e295ccef5644bd81c70e46734ba86d6ae829175be9295d3a3",
+        "bm25": 0.695529,
+        "relevancia": 0.26,
+        "injecao": 0.06
+      },
+      {
+        "id": "ipiranga-1",
+        "titulo": "Ecopontos no Ipiranga",
+        "url": "https://prefeitura.sp.gov.br/web/ipiranga/w/confira-os-principais-ecopontos-no-ipiranga",
+        "consultado_em": "2026-11-10",
+        "publicado_em": null,
+        "escopo": "Subprefeitura do Ipiranga, São Paulo",
+        "texto": "A publicação da Subprefeitura do Ipiranga lista os ecopontos Comandante Taylor, Teresa Cristina, Santa Cruz e Vila Mercês/Italva. O Ecoponto Teresa Cristina fica na Rua Teresa Cristina, 10. O Santa Cruz fica na Rua Santa Cruz, 1452. O Vila Mercês/Italva é listado na Rua Itavalva, 86. A grafia dos nomes e endereços acompanha a publicação. O horário publicado é de segunda a sábado, das 6h às 22h, e domingos e feriados, das 6h às 18h.",
+        "fonte_id": "ipiranga",
+        "hash": "b92852af7a6b58f42bf3797c50fe237cfec1d6a69bc29b27058380f09d6f386d",
+        "bm25": 0.684969,
+        "relevancia": 0.15,
+        "injecao": 0.04
+      },
+      {
+        "id": "pinheiros-2",
+        "titulo": "Ecopontos de Pinheiros e recebimento de gesso",
+        "url": "https://prefeitura.sp.gov.br/web/pinheiros/w/catabagulho/132398",
+        "consultado_em": "2026-11-10",
+        "publicado_em": "2026-05-04",
+        "escopo": "Subprefeitura de Pinheiros, São Paulo",
+        "texto": "Rua Luís Murat. O Ecoponto Alto de Pinheiros fica na Praça Arcipreste Anselmo de Oliveira. O funcionamento publicado é de segunda a sábado, das 6h às 22h; domingos e feriados, das 6h às 18h. Para esclarecimentos, a publicação encaminha à Central SP156. Os endereços são informações publicadas, sem confirmação de operação em tempo real.",
+        "fonte_id": "pinheiros",
+        "hash": "fbe49cbe1d3e3050af0303fd48d0a69887b35f1f4863205b980568de3486cf45",
+        "bm25": 0.645651,
+        "relevancia": 0.14,
+        "injecao": 0.04
+      },
+      {
+        "id": "ipiranga-2",
+        "titulo": "Ecopontos no Ipiranga",
+        "url": "https://prefeitura.sp.gov.br/web/ipiranga/w/confira-os-principais-ecopontos-no-ipiranga",
+        "consultado_em": "2026-11-10",
+        "publicado_em": null,
+        "escopo": "Subprefeitura do Ipiranga, São Paulo",
+        "texto": "segunda a sábado, das 6h às 22h, e domingos e feriados, das 6h às 18h. A página informa que pilhas, baterias, lixo orgânico, óleo de cozinha e lâmpadas fluorescentes não podem ser descartados nesses ecopontos. Recomenda o Portal SP156 para denúncias de descarte irregular e solicitações de limpeza urbana. Não há informação sobre lotação ou funcionamento excepcional em tempo real.",
+        "fonte_id": "ipiranga",
+        "hash": "953e0577eaf8249d905ae16bb2c425238f848fa99fc1ee8e67488dfbb51ca318",
+        "bm25": 0.619073,
+        "relevancia": 0.34,
+        "injecao": 0.04
+      },
+      {
+        "id": "servicos-2",
+        "titulo": "Cata-Bagulho e Ecopontos",
+        "url": "https://prefeitura.sp.gov.br/8cb6a170766763c7815c6c9a3de1c810",
+        "consultado_em": "2026-11-10",
+        "publicado_em": null,
+        "escopo": "Município de São Paulo",
+        "texto": "a sábado, das 6h às 22h, e aos domingos e feriados, das 6h às 18h. A tabela municipal admite móveis velhos, colchões e podas domiciliares nos dois serviços. Entulho de pequenas reformas sem ensacamento, até 1 m³, aparece como aceito em ecopontos e não no Cata-Bagulho. Para entulho ensacado, a tabela informa até 15 sacos de 50 litros nos dois serviços.",
+        "fonte_id": "servicos",
+        "hash": "26f3d348d11dac0da273bdf928a1e2ad9dcc8192115bb5ffe969c09e1d735a0b",
+        "bm25": 0.619073,
+        "relevancia": 0.32,
+        "injecao": 0.04
+      },
+      {
+        "id": "ecopontos-3",
+        "titulo": "Ecopontos e limites de entrega",
+        "url": "https://prefeitura.sp.gov.br/web/subprefeituras/w/ecoponto-esta%C3%A7%C3%A3o-de-entrega-volunt%C3%A1ria-de-inserv%C3%ADveis",
+        "consultado_em": "2026-11-10",
+        "publicado_em": null,
+        "escopo": "Município de São Paulo",
+        "texto": "não devem ser convertidas em uma equivalência universal sem confirmar o serviço e a unidade. Para visitas monitoradas aos equipamentos, o canal publicado é educacaoambiental@smsub.prefeitura.sp.gov.br. A lista oficial de equipamentos deve ser consultada para localizar uma unidade; esta síntese não contém todos os endereços da cidade.",
+        "fonte_id": "ecopontos",
+        "hash": "0892f575e8685fa31eaa0205f8759a5a3d55f037e576451c3c2c4f3d07b218f0",
+        "bm25": 0.470401,
+        "relevancia": 0.11,
+        "injecao": 0.08
+      }
+    ],
+    "suficiencia": {
+      "escopo": 0.98,
+      "ambigua": 0.08,
+      "suficiente": 0.95
+    },
+    "segundos": 2.945,
+    "chamadas": [
+      {
+        "etapa": "selecao",
+        "modelo": "jev-1.14.0",
+        "uso": {
+          "input_tokens": 5807,
+          "output_tokens": 457
+        },
+        "segundos": 0.491,
+        "tentativas": 1
+      },
+      {
+        "etapa": "suficiencia",
+        "modelo": "jev-1.14.0",
+        "uso": {
+          "input_tokens": 1626,
+          "output_tokens": 57
+        },
+        "segundos": 0.202,
+        "tentativas": 1
+      },
+      {
+        "etapa": "geracao",
+        "modelo": "gpt-5.4-mini-2026-03-17",
+        "uso": {
+          "input_tokens": 1810,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0
+          },
+          "output_tokens": 188,
+          "output_tokens_details": {
+            "reasoning_tokens": 48
+          },
+          "total_tokens": 1998
+        },
+        "segundos": 2.059,
+        "tentativas": 1
+      },
+      {
+        "etapa": "verificacao",
+        "modelo": "jev-1.14.0",
+        "uso": {
+          "input_tokens": 3079,
+          "output_tokens": 82
+        },
+        "segundos": 0.19,
+        "tentativas": 1
+      }
+    ],
+    "resultado": {
+      "status": "respondido",
+      "mensagem": "",
+      "afirmacoes": [
+        {
+          "texto": "Uma geladeira quebrada não aparece como aceita em ecopontos no Município de São Paulo; a base informa que eletrodomésticos aparecem como aceitos no Cata-Bagulho e não nos ecopontos.",
+          "evidencias": [
+            "servicos-3"
+          ]
+        },
+        {
+          "texto": "Os ecopontos são descritos como locais para pequenos volumes de resíduos e materiais inservíveis, com recebimento de entulho, móveis, podas e recicláveis, sem confirmação de eletrodomésticos.",
+          "evidencias": [
+            "ecopontos-1"
+          ]
+        }
+      ],
+      "fontes": [
+        {
+          "id": "servicos-3",
+          "fonte_id": "servicos",
+          "titulo": "Cata-Bagulho e Ecopontos",
+          "url": "https://prefeitura.sp.gov.br/8cb6a170766763c7815c6c9a3de1c810",
+          "consultado_em": "2026-11-10",
+          "texto": "Para entulho ensacado, a tabela informa até 15 sacos de 50 litros nos dois serviços. Papelão, plástico, vidro e metal são aceitos nos ecopontos; no Cata-Bagulho, a tabela exige sacos transparentes. Gesso é aceito somente em algumas unidades de ecopontos e não no Cata-Bagulho. Eletrodomésticos aparecem como aceitos no Cata-Bagulho e não nos ecopontos. Resíduos orgânicos domiciliares e telhas de amianto aparecem como não aceitos em ambos."
+        },
+        {
+          "id": "ecopontos-1",
+          "fonte_id": "ecopontos",
+          "titulo": "Ecopontos e limites de entrega",
+          "url": "https://prefeitura.sp.gov.br/web/subprefeituras/w/ecoponto-esta%C3%A7%C3%A3o-de-entrega-volunt%C3%A1ria-de-inserv%C3%ADveis",
+          "consultado_em": "2026-11-10",
+          "texto": "Os ecopontos são áreas municipais de entrega voluntária para pequenos volumes de resíduos e materiais inservíveis. O atendimento é gratuito. O cidadão deve separar os materiais conforme seu tipo. São recebidos entulho de pequenas reformas, móveis velhos como sofás e colchões, podas domiciliares e recicláveis como papelão, plástico, vidro e metais. Algumas unidades também recebem gesso; essa exceção não permite afirmar que todos os ecopontos o recebem."
+        }
+      ]
+    }
+  },
+  "contexto_selecionado": [
+    {
+      "id": "servicos-3",
+      "titulo": "Cata-Bagulho e Ecopontos",
+      "url": "https://prefeitura.sp.gov.br/8cb6a170766763c7815c6c9a3de1c810",
+      "consultado_em": "2026-11-10",
+      "publicado_em": null,
+      "escopo": "Município de São Paulo",
+      "texto": "Para entulho ensacado, a tabela informa até 15 sacos de 50 litros nos dois serviços. Papelão, plástico, vidro e metal são aceitos nos ecopontos; no Cata-Bagulho, a tabela exige sacos transparentes. Gesso é aceito somente em algumas unidades de ecopontos e não no Cata-Bagulho. Eletrodomésticos aparecem como aceitos no Cata-Bagulho e não nos ecopontos. Resíduos orgânicos domiciliares e telhas de amianto aparecem como não aceitos em ambos.",
+      "fonte_id": "servicos",
+      "hash": "cead9766c9d42de670af26be99c39e01dec53f0ce60d3b2a4d0739bb4582bd5c",
+      "bm25": 0.75685,
+      "relevancia": 0.96,
+      "injecao": 0.05
+    },
+    {
+      "id": "ecopontos-1",
+      "titulo": "Ecopontos e limites de entrega",
+      "url": "https://prefeitura.sp.gov.br/web/subprefeituras/w/ecoponto-esta%C3%A7%C3%A3o-de-entrega-volunt%C3%A1ria-de-inserv%C3%ADveis",
+      "consultado_em": "2026-11-10",
+      "publicado_em": null,
+      "escopo": "Município de São Paulo",
+      "texto": "Os ecopontos são áreas municipais de entrega voluntária para pequenos volumes de resíduos e materiais inservíveis. O atendimento é gratuito. O cidadão deve separar os materiais conforme seu tipo. São recebidos entulho de pequenas reformas, móveis velhos como sofás e colchões, podas domiciliares e recicláveis como papelão, plástico, vidro e metais. Algumas unidades também recebem gesso; essa exceção não permite afirmar que todos os ecopontos o recebem.",
+      "fonte_id": "ecopontos",
+      "hash": "283196ec68e3ab81f0c6e98ae699123a92d1c33a18baece8499d900a7d6d16cb",
+      "bm25": 0.695529,
+      "relevancia": 0.69,
+      "injecao": 0.04
+    },
+    {
+      "id": "pinheiros-1",
+      "titulo": "Ecopontos de Pinheiros e recebimento de gesso",
+      "url": "https://prefeitura.sp.gov.br/web/pinheiros/w/catabagulho/132398",
+      "consultado_em": "2026-11-10",
+      "publicado_em": "2026-05-04",
+      "escopo": "Subprefeitura de Pinheiros, São Paulo",
+      "texto": "A publicação da Subprefeitura de Pinheiros identifica três ecopontos na região: Berrini, Vila Madalena e Alto de Pinheiros. São locais de entrega gratuita de pequenos volumes de entulho, móveis, podas e recicláveis. O Ecoponto Berrini fica na Praça do Cancioneiro, 15, sob a Ponte Engenheiro Ary Torres. A publicação identifica especificamente o Berrini como unidade que recebe gesso. O Ecoponto Vila Madalena fica na Rua Girassol, 15, esquina com a Rua Luís Murat. O Ecoponto Alto de Pinheiros fica na Praça Arcipreste Anselmo de Oliveira.",
+      "fonte_id": "pinheiros",
+      "hash": "3300f6fa965325397e51751c7c807b7259955e0ed7e62223d0793cbac4e43c50",
+      "bm25": 0.771782,
+      "relevancia": 0.42,
+      "injecao": 0.04
+    }
+  ],
+  "citacoes_validas": true,
+  "cobertura_bm25": {
+    "frases": [
+      "Eletrodomésticos aparecem como aceitos no Cata-Bagulho e não nos ecopontos"
+    ],
+    "encontradas": [
+      true
+    ],
+    "proporcao": 1.0
+  },
+  "cobertura_jev": {
+    "frases": [
+      "Eletrodomésticos aparecem como aceitos no Cata-Bagulho e não nos ecopontos"
+    ],
+    "encontradas": [
+      true
+    ],
+    "proporcao": 1.0
+  }
+}

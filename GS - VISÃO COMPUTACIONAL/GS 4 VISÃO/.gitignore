@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Secrets & Environment variables (Security Policy)
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.crt
+secrets.toml
+.streamlit/secrets.toml
+
+# OS & Editor artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+*.log
+*.tmp
+.vscode/
+.idea/
+
+# Large raw datasets & temporary archives
+dataset_concrete_cracks/
+*.rar
+*.zip
+*.mkv
+INTEGRANTES DO GRUPO.txt
+relatorio_tecnico_citizentech.html

@@ -1,0 +1,302 @@
+- navigation:
+  - link:
+    - /url: /
+  - list:
+    - link " Dashboard":
+      - /url: /studio/1161308
+      - generic: 
+      - text: Dashboard
+    - link " Devices":
+      - /url: /studio/1161308/devices
+      - generic: 
+      - text: Devices
+    - list
+    - link " Data acquisition":
+      - /url: /studio/1161308/acquisition/training
+      - generic: 
+      - text: Data acquisition
+    - list
+    - link " Experiments":
+      - /url: /studio/1161308/impulses
+      - generic: 
+      - text: Experiments
+    - list:
+      - link " EON Tuner":
+        - /url: /studio/1161308/tuner
+        - generic: 
+        - text: EON Tuner
+    - list
+    - button " 08 — MFE com FFT de 512 pontos ":
+      - generic: 
+      - generic "08 — MFE com FFT de 512 pontos"
+      - generic: 
+      - text: 
+    - list:
+      - link " Create impulse":
+        - /url: /studio/1161308/impulse/8/create-impulse
+        - generic: 
+        - generic: Create impulse
+      - list
+      - link " MFE":
+        - /url: /studio/1161308/impulse/8/dsp/mfe/24
+        - generic: 
+        - generic: MFE
+      - list
+      - link " Classifier":
+        - /url: /studio/1161308/impulse/8/learning/keras/25
+        - generic: 
+        - generic: Classifier
+      - list
+      - link " Retrain model":
+        - /url: /studio/1161308/impulse/8/retrain
+        - generic:  
+        - text: Retrain model
+      - link " Live classification":
+        - /url: /studio/1161308/impulse/8/classification
+        - generic: 
+        - text: Live classification
+      - list
+      - link " Model testing":
+        - /url: /studio/1161308/impulse/8/validation
+        - generic: 
+        - text: Model testing
+      - list
+      - link " Perf. calibration":
+        - /url: /studio/1161308/impulse/8/performance-calibration
+        - generic: 
+        - generic: Perf. calibration
+      - link " Deployment":
+        - /url: /studio/1161308/impulse/8/deployment
+        - generic: 
+        - text: Deployment
+      - list
+    - link " Versioning":
+      - /url: /studio/1161308/versions
+      - generic: 
+      - text: Versioning
+    - list
+  - separator
+  - heading "Getting started" [level=6]
+  - list:
+    - link " Documentation":
+      - /url: https://docs.edgeimpulse.com/
+      - generic: 
+      - text: Documentation
+    - link " Forums":
+      - /url: https://forum.edgeimpulse.com
+      - generic: 
+      - text: Forums
+    - link " Discord":
+      - /url: https://discord.gg/edgeimpulse
+      - generic: 
+      - generic: Discord
+  - text: 
+  - generic: 
+  - generic:      
+  - separator
+  - list:
+    - generic: 
+    - heading "Upgrade Plan" [level=3]
+    - paragraph: Get access to higher job limits and more collaborators.
+    - link "View plans":
+      - /url: "#"
+- link "betitanx":
+  - /url: /studio/profile/projects
+- generic: /
+- generic: OuviAí
+- generic: Personal
+- 'link " Target: Cortex-M4F 80MHz"':
+  - /url: "#"
+  - generic: 
+  - text: "Target: Cortex-M4F 80MHz"
+- text: 
+- list:
+  - button "b":
+    - generic "betitanx": b
+  - text:      
+- text: 
+- heading "Neural Network settings" [level=3]
+- text: 
+- button "":
+  - generic: 
+- text:    
+- heading "Training settings" [level=4]
+- text: Number of training cycles
+- generic: 
+- textbox "Number of training cycles ":
+  - /placeholder: "100"
+  - text: "100"
+- text: Use learned optimizer
+- generic: 
+- checkbox "Use learned optimizer "
+- text: Learning rate
+- generic: 
+- textbox "Learning rate ":
+  - /placeholder: "0.0001"
+  - text: "0.001"
+- text: Training processor
+- generic: 
+- combobox "Training processor ":
+  - option "CPU" [selected]
+  - option "GPU"
+- generic: 
+- text:  
+- heading "Advanced training settings" [level=4]
+- text: 
+- link "":
+  - /url: "#"
+  - generic: 
+- text: Batch size
+- generic: 
+- textbox "32"
+- text: Auto-weight classes
+- generic: 
+- checkbox
+- text: Profile int8 model
+- generic: 
+- checkbox [checked]
+- heading "Audio training options" [level=4]
+- text: Data augmentation
+- generic: 
+- checkbox
+- text:    
+- heading "Neural network architecture" [level=4]
+- text: 
+- button "Neural network"
+- button "Transfer learning"
+- button "Load preset... ":
+  - text: Load preset...
+  - generic: 
+- text:  
+- generic: Input layer (19,960 features)
+- text: 
+- text: 
+- generic: Reshape layer (40 columns)
+- text:    
+- text: 
+- generic: 1D conv / pool layer (8 filters, 3 kernel size, 1 layer)
+- text:    
+- text: 
+- generic: Dropout (rate 0.25)
+- text:    
+- text: 
+- generic: 1D conv / pool layer (16 filters, 3 kernel size, 1 layer)
+- text:    
+- text: 
+- generic: Dropout (rate 0.25)
+- text:    
+- text: 
+- generic: Flatten layer
+- text:    
+- generic: Add an extra layer
+- generic: Output layer (3 classes)
+- button "Save & train"
+- button
+- heading "Training output" [level=3]
+- generic: 
+- text: (0)
+- text: 
+- link "":
+  - /url: "#"
+  - generic: 
+- textbox "Terminal input"
+- heading "Model" [level=3]
+- text: "Model version:"
+- generic: 
+- button "Quantized (int8) ":
+  - text: Quantized (int8)
+  - generic: 
+- tabpanel:
+  - heading "Last training performance (validation set)" [level=4]
+  - link "":
+    - /url: "#"
+    - generic: 
+  - generic: 
+  - heading "Accuracy" [level=5]
+  - generic "66.7%"
+  - generic: 
+  - heading "Loss" [level=5]
+  - generic "0.80"
+  - heading "Confusion matrix (validation set)" [level=4]
+  - table:
+    - rowgroup:
+      - row "ambiente batida_porta campainha":
+        - columnheader
+        - columnheader "ambiente"
+        - columnheader "batida_porta"
+        - columnheader "campainha"
+    - rowgroup:
+      - row "ambiente 66.7% 33.3% 0%":
+        - rowheader "ambiente"
+        - cell "66.7%"
+        - cell "33.3%"
+        - cell "0%"
+      - row "batida_porta 16.7% 66.7% 16.7%":
+        - rowheader "batida_porta"
+        - cell "16.7%"
+        - cell "66.7%"
+        - cell "16.7%"
+      - row "campainha 33.3% 0% 66.7%":
+        - rowheader "campainha"
+        - cell "33.3%"
+        - cell "0%"
+        - cell "66.7%"
+      - row "f1 score 0.62 0.67 0.73":
+        - rowheader "f1 score"
+        - cell "0.62"
+        - cell "0.67"
+        - cell "0.73"
+  - heading "Metrics (validation set)" [level=4]
+  - link "":
+    - /url: /v1/api/1161308/learn-data/25/model/metrics
+    - generic: 
+  - table:
+    - rowgroup:
+      - row "Metric Value":
+        - columnheader "Metric"
+        - columnheader "Value"
+    - rowgroup:
+      - row "Area under ROC Curve  0.86":
+        - cell "Area under ROC Curve ":
+          - text: Area under ROC Curve
+          - generic: 
+        - cell "0.86"
+      - row "Weighted average Precision  0.68":
+        - cell "Weighted average Precision ":
+          - text: Weighted average Precision
+          - generic: 
+        - cell "0.68"
+      - row "Weighted average Recall  0.67":
+        - cell "Weighted average Recall ":
+          - text: Weighted average Recall
+          - generic: 
+        - cell "0.67"
+      - row "Weighted average F1 score  0.67":
+        - cell "Weighted average F1 score ":
+          - text: Weighted average F1 score
+          - generic: 
+        - cell "0.67"
+  - heading "Data explorer (classified samples) " [level=4]:
+    - text: Data explorer (classified samples)
+    - generic: 
+  - generic: 
+  - heading "On-device performance " [level=4]:
+    - text: On-device performance
+    - generic: 
+  - text: Calculating... this could take a few minutes
+  - link "Show logs":
+    - /url: "#"
+  - button "" [disabled]:
+    - generic: 
+- text:            
+- contentinfo:
+  - text: © 2026
+  - link "EdgeImpulse Inc.":
+    - /url: https://www.edgeimpulse.com
+  - text: All rights reserved
+- text:                      
+- button "":
+  - generic: 
+- text:    
+- text: 
+- text:                           

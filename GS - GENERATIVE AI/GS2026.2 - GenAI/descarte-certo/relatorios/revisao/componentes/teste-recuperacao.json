@@ -1,0 +1,635 @@
+[
+  {
+    "tamanho_palavras": 45,
+    "sobreposicao": 8,
+    "quantidade_chunks": 31,
+    "palavras_indexadas": 1038,
+    "media_cobertura_fontes": 1.0,
+    "mrr_fontes": 0.9615384615384616,
+    "itens": [
+      {
+        "id": "T01",
+        "encontrados": [
+          "ecopontos-2"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T02",
+        "encontrados": [
+          "ipiranga-3",
+          "servicos-2",
+          "ecopontos-4",
+          "ipiranga-4",
+          "servicos-3",
+          "pinheiros-4",
+          "seletiva-4",
+          "oleo-3",
+          "ecopontos-3",
+          "pinheiros-3",
+          "ipiranga-1",
+          "servicos-6"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 0.5,
+        "acerto": 1
+      },
+      {
+        "id": "T03",
+        "encontrados": [
+          "pinheiros-3",
+          "ipiranga-2",
+          "pinheiros-1",
+          "ipiranga-1",
+          "pinheiros-2",
+          "pinheiros-4",
+          "ecopontos-3",
+          "servicos-6",
+          "ecopontos-4",
+          "servicos-5",
+          "servicos-1",
+          "ecopontos-1"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T04",
+        "encontrados": [
+          "pinheiros-3",
+          "pinheiros-2",
+          "pinheiros-4",
+          "pinheiros-1",
+          "pinheiros-5",
+          "ipiranga-2",
+          "servicos-5",
+          "ecopontos-2",
+          "ecopontos-3",
+          "ipiranga-1",
+          "servicos-6",
+          "ecopontos-4"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T05",
+        "encontrados": [
+          "ecopontos-5",
+          "ecopontos-4",
+          "servicos-4",
+          "servicos-3",
+          "ecopontos-2",
+          "ecopontos-3",
+          "ecopontos-1",
+          "pinheiros-1",
+          "pinheiros-2",
+          "ecopontos-6",
+          "pinheiros-3",
+          "ipiranga-1"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T06",
+        "encontrados": [
+          "servicos-3",
+          "servicos-4",
+          "servicos-5",
+          "servicos-6",
+          "servicos-1",
+          "ecopontos-4",
+          "ecopontos-5",
+          "servicos-2",
+          "pinheiros-5",
+          "pinheiros-1",
+          "pinheiros-4",
+          "oleo-4"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T07",
+        "encontrados": [
+          "oleo-1",
+          "oleo-2",
+          "oleo-4",
+          "oleo-3",
+          "seletiva-5",
+          "ipiranga-4",
+          "seletiva-3",
+          "seletiva-1"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T08",
+        "encontrados": [
+          "seletiva-1",
+          "oleo-1",
+          "seletiva-2",
+          "oleo-3",
+          "oleo-4",
+          "oleo-2",
+          "seletiva-4",
+          "ipiranga-4",
+          "seletiva-3"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T09",
+        "encontrados": [
+          "seletiva-2",
+          "seletiva-1",
+          "seletiva-3",
+          "oleo-1",
+          "seletiva-4",
+          "oleo-3"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T10",
+        "encontrados": [
+          "seletiva-4",
+          "ipiranga-4",
+          "seletiva-2",
+          "seletiva-5",
+          "seletiva-1",
+          "seletiva-3"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T11",
+        "encontrados": [
+          "ipiranga-2",
+          "ipiranga-1",
+          "ipiranga-4",
+          "ipiranga-5",
+          "ipiranga-3",
+          "seletiva-3",
+          "ecopontos-3",
+          "pinheiros-3",
+          "servicos-6",
+          "ecopontos-4",
+          "servicos-5",
+          "servicos-1"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T12",
+        "encontrados": [
+          "ipiranga-2",
+          "ipiranga-1",
+          "ipiranga-3",
+          "seletiva-4",
+          "servicos-1",
+          "pinheiros-4",
+          "ecopontos-6",
+          "seletiva-5",
+          "oleo-3",
+          "seletiva-3",
+          "ecopontos-3",
+          "pinheiros-3"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T20",
+        "encontrados": [
+          "pinheiros-3",
+          "ipiranga-3",
+          "servicos-2",
+          "pinheiros-4",
+          "ipiranga-2",
+          "pinheiros-1",
+          "ipiranga-1",
+          "pinheiros-2",
+          "ecopontos-6",
+          "ipiranga-4",
+          "servicos-3",
+          "seletiva-4"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      }
+    ]
+  },
+  {
+    "tamanho_palavras": 90,
+    "sobreposicao": 15,
+    "quantidade_chunks": 15,
+    "palavras_indexadas": 973,
+    "media_cobertura_fontes": 1.0,
+    "mrr_fontes": 0.9230769230769231,
+    "itens": [
+      {
+        "id": "T01",
+        "encontrados": [
+          "ecopontos-1"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T02",
+        "encontrados": [
+          "ecopontos-2",
+          "servicos-1",
+          "ipiranga-1",
+          "pinheiros-2",
+          "ipiranga-2",
+          "servicos-2",
+          "seletiva-3",
+          "oleo-2",
+          "oleo-1",
+          "seletiva-2",
+          "pinheiros-1",
+          "servicos-3"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 0.5,
+        "acerto": 1
+      },
+      {
+        "id": "T03",
+        "encontrados": [
+          "pinheiros-1",
+          "ipiranga-1",
+          "pinheiros-2",
+          "servicos-1",
+          "servicos-3",
+          "ecopontos-1",
+          "ecopontos-2",
+          "ipiranga-2",
+          "servicos-2",
+          "ecopontos-3"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T04",
+        "encontrados": [
+          "pinheiros-1",
+          "pinheiros-2",
+          "ipiranga-1",
+          "servicos-3",
+          "ecopontos-1",
+          "ecopontos-2",
+          "servicos-1",
+          "ipiranga-2",
+          "servicos-2",
+          "ecopontos-3"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T05",
+        "encontrados": [
+          "ecopontos-2",
+          "servicos-2",
+          "servicos-3",
+          "ecopontos-1",
+          "ecopontos-3",
+          "pinheiros-1",
+          "servicos-1",
+          "ipiranga-1",
+          "pinheiros-2",
+          "ipiranga-2"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T06",
+        "encontrados": [
+          "servicos-2",
+          "servicos-3",
+          "ecopontos-2",
+          "servicos-1",
+          "ecopontos-3",
+          "oleo-2",
+          "pinheiros-2",
+          "ecopontos-1",
+          "pinheiros-1"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T07",
+        "encontrados": [
+          "oleo-1",
+          "oleo-2",
+          "seletiva-3",
+          "ipiranga-2",
+          "seletiva-2",
+          "seletiva-1"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T08",
+        "encontrados": [
+          "seletiva-1",
+          "oleo-1",
+          "seletiva-2",
+          "oleo-2",
+          "seletiva-3",
+          "ipiranga-2"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T09",
+        "encontrados": [
+          "seletiva-1",
+          "seletiva-2",
+          "oleo-1",
+          "seletiva-3"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T10",
+        "encontrados": [
+          "ipiranga-2",
+          "seletiva-2",
+          "seletiva-3",
+          "seletiva-1"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 0.5,
+        "acerto": 1
+      },
+      {
+        "id": "T11",
+        "encontrados": [
+          "ipiranga-1",
+          "ipiranga-2",
+          "seletiva-2",
+          "pinheiros-1",
+          "servicos-1",
+          "servicos-3",
+          "ecopontos-1",
+          "ecopontos-2",
+          "pinheiros-2",
+          "servicos-2",
+          "ecopontos-3"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T12",
+        "encontrados": [
+          "ipiranga-1",
+          "servicos-1",
+          "pinheiros-2",
+          "ecopontos-3",
+          "seletiva-2",
+          "seletiva-3",
+          "pinheiros-1",
+          "servicos-3",
+          "ecopontos-1",
+          "ecopontos-2",
+          "oleo-1",
+          "ipiranga-2"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T20",
+        "encontrados": [
+          "pinheiros-1",
+          "ipiranga-1",
+          "pinheiros-2",
+          "servicos-1",
+          "ecopontos-3",
+          "ipiranga-2",
+          "servicos-2",
+          "seletiva-3",
+          "oleo-2",
+          "oleo-1",
+          "seletiva-2",
+          "servicos-3"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      }
+    ]
+  },
+  {
+    "tamanho_palavras": 160,
+    "sobreposicao": 20,
+    "quantidade_chunks": 7,
+    "palavras_indexadas": 858,
+    "media_cobertura_fontes": 1.0,
+    "mrr_fontes": 1.0,
+    "itens": [
+      {
+        "id": "T01",
+        "encontrados": [
+          "ecopontos-1"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T02",
+        "encontrados": [
+          "servicos-1",
+          "ecopontos-1",
+          "ipiranga-1",
+          "pinheiros-1",
+          "servicos-2",
+          "oleo-1",
+          "seletiva-1"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T03",
+        "encontrados": [
+          "pinheiros-1",
+          "ipiranga-1",
+          "servicos-2",
+          "servicos-1",
+          "ecopontos-1"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T04",
+        "encontrados": [
+          "pinheiros-1",
+          "ipiranga-1",
+          "servicos-2",
+          "ecopontos-1",
+          "servicos-1"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T05",
+        "encontrados": [
+          "ecopontos-1",
+          "servicos-2",
+          "servicos-1",
+          "pinheiros-1",
+          "ipiranga-1"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T06",
+        "encontrados": [
+          "servicos-1",
+          "servicos-2",
+          "ecopontos-1",
+          "pinheiros-1",
+          "oleo-1"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T07",
+        "encontrados": [
+          "oleo-1",
+          "seletiva-1",
+          "ipiranga-1"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T08",
+        "encontrados": [
+          "seletiva-1",
+          "oleo-1",
+          "ipiranga-1"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T09",
+        "encontrados": [
+          "seletiva-1",
+          "oleo-1"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T10",
+        "encontrados": [
+          "seletiva-1",
+          "ipiranga-1"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T11",
+        "encontrados": [
+          "ipiranga-1",
+          "seletiva-1",
+          "servicos-2",
+          "servicos-1",
+          "pinheiros-1",
+          "ecopontos-1"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T12",
+        "encontrados": [
+          "ipiranga-1",
+          "servicos-1",
+          "pinheiros-1",
+          "ecopontos-1",
+          "servicos-2",
+          "seletiva-1",
+          "oleo-1"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      },
+      {
+        "id": "T20",
+        "encontrados": [
+          "pinheiros-1",
+          "ipiranga-1",
+          "servicos-1",
+          "ecopontos-1",
+          "servicos-2",
+          "oleo-1",
+          "seletiva-1"
+        ],
+        "cobertura_fontes": 1.0,
+        "reciproco_primeira_fonte": 1.0,
+        "acerto": 1
+      }
+    ]
+  }
+]

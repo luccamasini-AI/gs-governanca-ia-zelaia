@@ -1,0 +1,178 @@
+{
+ "documentos": {
+  "cdc_lei_8078_1990.html": {
+   "title": "Lei nº 8.078/1990 — Código de Defesa do Consumidor (texto compilado)",
+   "agency": "Presidência da República",
+   "link": "https://www.planalto.gov.br/ccivil_03/Leis/L8078compilado.htm",
+   "date": "1990-09",
+   "accessed": "2026-11-11",
+   "structure": "legal",
+   "is_test": false,
+   "volatile": "parcial (art. 57 alterado pela MP 1.393/2026)"
+  },
+  "lei_14181_2021.html": {
+   "title": "Lei nº 14.181/2021 — Superendividamento (altera o CDC)",
+   "agency": "Presidência da República",
+   "link": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/L14181.htm",
+   "date": "2021-07",
+   "accessed": "2026-11-11",
+   "structure": "legal",
+   "is_test": false,
+   "volatile": "não"
+  },
+  "decreto_13135_2026.docx": {
+   "title": "Decreto nº 13.135/2026 — Serviço de Atendimento ao Consumidor (SAC)",
+   "agency": "Presidência da República",
+   "link": "https://www.planalto.gov.br/ccivil_03/_Ato2023-2026/2026/Decreto/D13135.htm",
+   "date": "2026-10",
+   "validity": "2026-11-02",
+   "accessed": "2026-11-11",
+   "structure": "legal",
+   "is_test": false,
+   "volatile": "sim (substituiu o Decreto 11.034/2022)"
+  },
+  "decreto_7962_2013.txt": {
+   "title": "Decreto nº 7.962/2013 — Comércio eletrônico",
+   "agency": "Presidência da República",
+   "link": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d7962.htm",
+   "date": "2013-03",
+   "accessed": "2026-11-11",
+   "structure": "legal",
+   "is_test": false,
+   "volatile": "não"
+  },
+  "guia_senacon_black_friday.pdf": {
+   "title": "Guia do Consumidor para a Black Friday",
+   "agency": "Ministério da Justiça e Segurança Pública / Secretaria Nacional do Consumidor (Senacon)",
+   "link": "https://www.gov.br/mj/pt-br/assuntos/noticias/ministerio-da-justica-lanca-guia-do-consumidor-para-a-black-friday/copy2_of_CartilhaSenaconBlackFriday12.pdf",
+   "date": "2024-11",
+   "accessed": "2026-11-11",
+   "structure": "guia",
+   "is_test": false,
+   "volatile": "sim (edição de 2024)"
+  },
+  "documento_teste_ficticio.txt": {
+   "title": "Ficha de atendimento fictícia (teste de anonimização)",
+   "agency": "Fictício — dados pessoais sintéticos",
+   "link": "n/a",
+   "date": "2026-11",
+   "accessed": "2026-11-11",
+   "structure": "ficha",
+   "is_test": true,
+   "volatile": "n/a"
+  },
+  "texto_colado_demo.txt": {
+   "title": "Texto colado fictício (demonstração)",
+   "agency": "Fictício",
+   "link": "n/a",
+   "date": "2026-11",
+   "accessed": "2026-11-11",
+   "structure": "ficha",
+   "is_test": true,
+   "volatile": "n/a"
+  }
+ },
+ "limpeza": {
+  "cdc_lei_8078_1990.html": {
+   "caracteres estranhos removidos": 0,
+   "linhas repetidas removidas": 1,
+   "linhas de cabeçalho removidas": 8,
+   "notas de alteração removidas": 138,
+   "reticências removidas": 0,
+   "URLs removidas": 0,
+   "preâmbulo removido": 1,
+   "títulos movidos para metadado": 35,
+   "dispositivos vetados/revogados removidos": 32,
+   "rodapé/assinaturas removidos": 4
+  },
+  "lei_14181_2021.html": {
+   "caracteres estranhos removidos": 0,
+   "linhas de cabeçalho removidas": 3,
+   "notas de alteração removidas": 10,
+   "reticências removidas": 13,
+   "URLs removidas": 0,
+   "dispositivos vetados/revogados removidos": 2,
+   "rodapé/assinaturas removidos": 7
+  },
+  "decreto_13135_2026.docx": {
+   "caracteres estranhos removidos": 0,
+   "linhas de cabeçalho removidas": 6,
+   "notas de alteração removidas": 0,
+   "reticências removidas": 0,
+   "URLs removidas": 0,
+   "preâmbulo removido": 1,
+   "títulos movidos para metadado": 6,
+   "rodapé/assinaturas removidos": 1
+  },
+  "decreto_7962_2013.txt": {
+   "caracteres estranhos removidos": 0,
+   "linhas de cabeçalho removidas": 6,
+   "notas de alteração removidas": 1,
+   "reticências removidas": 1,
+   "URLs removidas": 0,
+   "preâmbulo removido": 1,
+   "rodapé/assinaturas removidos": 1
+  },
+  "guia_senacon_black_friday.pdf": {
+   "caracteres estranhos removidos": 0,
+   "números de página removidos": 11,
+   "palavras quebradas por hífen juntadas": 19,
+   "notas de alteração removidas": 0,
+   "reticências removidas": 0,
+   "URLs removidas": 0,
+   "títulos movidos para metadado": 10
+  },
+  "documento_teste_ficticio.txt": {
+   "caracteres estranhos removidos": 0,
+   "notas de alteração removidas": 0,
+   "reticências removidas": 0,
+   "URLs removidas": 0
+  },
+  "texto_colado_demo.txt": {
+   "caracteres estranhos removidos": 0,
+   "notas de alteração removidas": 0,
+   "reticências removidas": 0,
+   "URLs removidas": 0
+  }
+ },
+ "anonimizacao": {
+  "cdc_lei_8078_1990.html": {
+   "mascarados": {},
+   "preservados": {}
+  },
+  "lei_14181_2021.html": {
+   "mascarados": {},
+   "preservados": {}
+  },
+  "decreto_13135_2026.docx": {
+   "mascarados": {},
+   "preservados": {}
+  },
+  "decreto_7962_2013.txt": {
+   "mascarados": {},
+   "preservados": {}
+  },
+  "guia_senacon_black_friday.pdf": {
+   "mascarados": {},
+   "preservados": {}
+  },
+  "documento_teste_ficticio.txt": {
+   "mascarados": {
+    "EMAIL": 1,
+    "NOME": 6,
+    "CPF": 2,
+    "TELEFONE": 2
+   },
+   "preservados": {}
+  },
+  "texto_colado_demo.txt": {
+   "mascarados": {
+    "EMAIL": 1,
+    "TELEFONE": 1,
+    "CPF": 1,
+    "NOME": 1
+   },
+   "preservados": {}
+  }
+ }
+}

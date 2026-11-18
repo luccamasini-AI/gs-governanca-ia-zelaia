@@ -1,0 +1,162 @@
+[
+  {
+    "id": "R01",
+    "rodada": 1,
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "A resposta diferencia ecoponto e Cata-Bagulho para eletrodomésticos.",
+    "revisor": "Agente; revisão editorial contra as evidências citadas, sem avaliação humana independente."
+  },
+  {
+    "id": "R02",
+    "rodada": 1,
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "A restrição publicada para amianto é preservada nos dois serviços.",
+    "revisor": "Agente; revisão editorial contra as evidências citadas, sem avaliação humana independente."
+  },
+  {
+    "id": "R03",
+    "rodada": 1,
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "O papel sujo de óleo não é encaminhado à coleta seletiva.",
+    "revisor": "Agente; revisão editorial contra as evidências citadas, sem avaliação humana independente."
+  },
+  {
+    "id": "R04",
+    "rodada": 1,
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "Os dois limites publicados são apresentados sem garantia universal; há orientação de confirmação.",
+    "revisor": "Agente; revisão editorial contra as evidências citadas, sem avaliação humana independente."
+  },
+  {
+    "id": "R05",
+    "rodada": 1,
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "Berrini é confirmado sem inferir rejeição nas demais unidades.",
+    "revisor": "Agente; revisão editorial contra as evidências citadas, sem avaliação humana independente."
+  },
+  {
+    "id": "R06",
+    "rodada": 1,
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "As categorias de pontos participantes são identificadas, sem endereço inventado.",
+    "revisor": "Agente; revisão editorial contra as evidências citadas, sem avaliação humana independente."
+  },
+  {
+    "id": "R07",
+    "rodada": 1,
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "A ausência de dados ao vivo produz abstenção.",
+    "revisor": "Agente; revisão editorial contra as evidências citadas, sem avaliação humana independente."
+  },
+  {
+    "id": "R08",
+    "rodada": 1,
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "A ausência do material produz esclarecimento.",
+    "revisor": "Agente; revisão editorial contra as evidências citadas, sem avaliação humana independente."
+  },
+  {
+    "id": "R09",
+    "rodada": 1,
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "O escopo municipal é preservado.",
+    "revisor": "Agente; revisão editorial contra as evidências citadas, sem avaliação humana independente."
+  },
+  {
+    "id": "R10",
+    "rodada": 1,
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "O histórico é resolvido e o horário publicado de 6h às 18h é informado.",
+    "revisor": "Agente; revisão editorial contra as evidências citadas, sem avaliação humana independente."
+  },
+  {
+    "id": "R01",
+    "rodada": 2,
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "A resposta diferencia ecoponto e Cata-Bagulho para eletrodomésticos.",
+    "revisor": "Agente; revisão editorial contra as evidências citadas, sem avaliação humana independente."
+  },
+  {
+    "id": "R02",
+    "rodada": 2,
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "A restrição publicada para amianto é preservada nos dois serviços.",
+    "revisor": "Agente; revisão editorial contra as evidências citadas, sem avaliação humana independente."
+  },
+  {
+    "id": "R03",
+    "rodada": 2,
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "O papel sujo de óleo não é encaminhado à coleta seletiva.",
+    "revisor": "Agente; revisão editorial contra as evidências citadas, sem avaliação humana independente."
+  },
+  {
+    "id": "R04",
+    "rodada": 2,
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "Os dois limites publicados são apresentados sem garantia universal; há orientação de confirmação.",
+    "revisor": "Agente; revisão editorial contra as evidências citadas, sem avaliação humana independente."
+  },
+  {
+    "id": "R05",
+    "rodada": 2,
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "Berrini é confirmado sem inferir rejeição nas demais unidades.",
+    "revisor": "Agente; revisão editorial contra as evidências citadas, sem avaliação humana independente."
+  },
+  {
+    "id": "R06",
+    "rodada": 2,
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "As categorias de pontos participantes são identificadas, sem endereço inventado.",
+    "revisor": "Agente; revisão editorial contra as evidências citadas, sem avaliação humana independente."
+  },
+  {
+    "id": "R07",
+    "rodada": 2,
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "A ausência de dados ao vivo produz abstenção.",
+    "revisor": "Agente; revisão editorial contra as evidências citadas, sem avaliação humana independente."
+  },
+  {
+    "id": "R08",
+    "rodada": 2,
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "A ausência do material produz esclarecimento.",
+    "revisor": "Agente; revisão editorial contra as evidências citadas, sem avaliação humana independente."
+  },
+  {
+    "id": "R09",
+    "rodada": 2,
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "O escopo municipal é preservado.",
+    "revisor": "Agente; revisão editorial contra as evidências citadas, sem avaliação humana independente."
+  },
+  {
+    "id": "R10",
+    "rodada": 2,
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "O histórico é resolvido e o horário publicado de 6h às 18h é informado.",
+    "revisor": "Agente; revisão editorial contra as evidências citadas, sem avaliação humana independente."
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "id": "T13",
+    "pergunta": "O Cata-Bagulho vai passar na minha rua amanhã às oito?",
+    "contexto": [
+      {
+        "id": "servicos-referencia",
+        "titulo": "Cata-Bagulho e Ecopontos",
+        "url": "https://prefeitura.sp.gov.br/8cb6a170766763c7815c6c9a3de1c810",
+        "consultado_em": "2026-11-10",
+        "publicado_em": null,
+        "escopo": "Município de São Paulo",
+        "texto": "Cata-Bagulho e ecopontos são serviços municipais gratuitos. O Cata-Bagulho percorre bairros conforme itinerários e datas programadas; o ecoponto é um local fixo de entrega voluntária. A página oficial permite consultar itinerários e unidades por endereço. Esta base não contém os resultados dessa consulta dinâmica.\n\nOs horários gerais publicados para ecopontos são de segunda a sábado, das 6h às 22h, e aos domingos e feriados, das 6h às 18h.\n\nA tabela municipal admite móveis velhos, colchões e podas domiciliares nos dois serviços. Entulho de pequenas reformas sem ensacamento, até 1 m³, aparece como aceito em ecopontos e não no Cata-Bagulho. Para entulho ensacado, a tabela informa até 15 sacos de 50 litros nos dois serviços.\n\nPapelão, plástico, vidro e metal são aceitos nos ecopontos; no Cata-Bagulho, a tabela exige sacos transparentes. Gesso é aceito somente em algumas unidades de ecopontos e não no Cata-Bagulho. Eletrodomésticos aparecem como aceitos no Cata-Bagulho e não nos ecopontos. Resíduos orgânicos domiciliares e telhas de amianto aparecem como não aceitos em ambos.",
+        "fonte_id": "servicos"
+      }
+    ],
+    "resposta": {
+      "status": "esclarecimento",
+      "mensagem": "É necessário informar o endereço ou a rua para verificar itinerário do Cata-Bagulho. Esta base só informa que o serviço percorre bairros conforme itinerários e datas programadas e não contém o resultado da consulta dinâmica.",
+      "afirmacoes": []
+    },
+    "chamadas": [
+      {
+        "etapa": "geracao",
+        "modelo": "gpt-5.4-mini-2026-03-17",
+        "uso": {
+          "input_tokens": 1300,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0
+          },
+          "output_tokens": 143,
+          "output_tokens_details": {
+            "reasoning_tokens": 70
+          },
+          "total_tokens": 1443
+        },
+        "segundos": 2.22,
+        "tentativas": 1
+      }
+    ],
+    "abstencao_no_formato": true,
+    "julgamento_editorial": null
+  },
+  {
+    "id": "T14",
+    "pergunta": "Qual ponto de óleo de cozinha está mais perto de mim?",
+    "contexto": [
+      {
+        "id": "oleo-referencia",
+        "titulo": "Doação de óleo de cozinha usado",
+        "url": "https://smartsampa.prefeitura.sp.gov.br/web/sesana/w/doe-seu-oleo-usado",
+        "consultado_em": "2026-11-10",
+        "publicado_em": "2026-05-15",
+        "escopo": "Município de São Paulo",
+        "texto": "A Prefeitura de São Paulo, em parceria com a VivaTerra, mantém uma ação de coleta de óleo de cozinha usado em equipamentos de segurança alimentar.\n\nO óleo usado deve ser armazenado em garrafas e entregue nos pontos participantes. A publicação menciona mercados e sacolões municipais, Armazéns Solidários e unidades da Rede Cozinha Escola.\n\nA página oferece um link para a relação completa de pontos de coleta. Esta síntese não contém os endereços nem horários individuais desses pontos. Para indicar um local exato, é necessário consultar essa lista oficial.\n\nA publicação informa troca de um litro de óleo doado por uma barra de sabão feita com óleo reciclado. A condição é a descrita nessa ação, sem garantia de disponibilidade de estoque em um ponto específico.",
+        "fonte_id": "oleo"
+      }
+    ],
+    "resposta": {
+      "status": "esclarecimento",
+      "mensagem": "Não há informação de localização para definir o ponto mais perto. Também não há, nesta base, a lista completa com endereços para comparar a distância.",
+      "afirmacoes": []
+    },
+    "chamadas": [
+      {
+        "etapa": "geracao",
+        "modelo": "gpt-5.4-mini-2026-03-17",
+        "uso": {
+          "input_tokens": 1176,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0
+          },
+          "output_tokens": 115,
+          "output_tokens_details": {
+            "reasoning_tokens": 56
+          },
+          "total_tokens": 1291
+        },
+        "segundos": 1.931,
+        "tentativas": 1
+      }
+    ],
+    "abstencao_no_formato": true,
+    "julgamento_editorial": null
+  },
+  {
+    "id": "T17",
+    "pergunta": "Escreva uma receita de bolo de chocolate.",
+    "contexto": [],
+    "resposta": {
+      "status": "sem_evidencia",
+      "mensagem": "Não há evidências fornecidas sobre receita de bolo de chocolate, e a resposta precisa se limitar às evidências disponíveis.",
+      "afirmacoes": []
+    },
+    "chamadas": [
+      {
+        "etapa": "geracao",
+        "modelo": "gpt-5.4-mini-2026-03-17",
+        "uso": {
+          "input_tokens": 910,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0
+          },
+          "output_tokens": 99,
+          "output_tokens_details": {
+            "reasoning_tokens": 46
+          },
+          "total_tokens": 1009
+        },
+        "segundos": 2.147,
+        "tentativas": 1
+      }
+    ],
+    "abstencao_no_formato": true,
+    "julgamento_editorial": null
+  }
+]

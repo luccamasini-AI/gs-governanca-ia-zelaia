@@ -1,0 +1,124 @@
+[
+  {
+    "id": "T01",
+    "etapa": "geracao",
+    "correcao_factual": true,
+    "citacoes_validas": true,
+    "relevancia_plena": true,
+    "observacao": "Os fatos e as referências correspondem ao contexto fornecido."
+  },
+  {
+    "id": "T02",
+    "etapa": "geracao",
+    "correcao_factual": true,
+    "citacoes_validas": true,
+    "relevancia_plena": true,
+    "observacao": "O horário está sustentado; a redação poderia explicitar que se trata de informação publicada."
+  },
+  {
+    "id": "T03",
+    "etapa": "geracao",
+    "correcao_factual": true,
+    "citacoes_validas": true,
+    "relevancia_plena": true,
+    "observacao": "Os fatos e as referências correspondem ao contexto fornecido."
+  },
+  {
+    "id": "T04",
+    "etapa": "geracao",
+    "correcao_factual": true,
+    "citacoes_validas": true,
+    "relevancia_plena": true,
+    "observacao": "Os fatos e as referências correspondem ao contexto fornecido."
+  },
+  {
+    "id": "T05",
+    "etapa": "geracao",
+    "correcao_factual": true,
+    "citacoes_validas": true,
+    "relevancia_plena": true,
+    "observacao": "Os fatos e as referências correspondem ao contexto fornecido."
+  },
+  {
+    "id": "T06",
+    "etapa": "geracao",
+    "correcao_factual": true,
+    "citacoes_validas": true,
+    "relevancia_plena": true,
+    "observacao": "Os fatos e as referências correspondem ao contexto fornecido."
+  },
+  {
+    "id": "T07",
+    "etapa": "geracao",
+    "correcao_factual": true,
+    "citacoes_validas": true,
+    "relevancia_plena": false,
+    "observacao": "O armazenamento em garrafas está correto; os tipos de pontos de entrega excedem a dúvida sobre armazenamento."
+  },
+  {
+    "id": "T08",
+    "etapa": "geracao",
+    "correcao_factual": true,
+    "citacoes_validas": true,
+    "relevancia_plena": true,
+    "observacao": "Os fatos e as referências correspondem ao contexto fornecido."
+  },
+  {
+    "id": "T09",
+    "etapa": "geracao",
+    "correcao_factual": true,
+    "citacoes_validas": true,
+    "relevancia_plena": false,
+    "observacao": "O preparo está sustentado; a observação sobre papel com óleo acrescenta detalhe além da pergunta."
+  },
+  {
+    "id": "T10",
+    "etapa": "geracao",
+    "correcao_factual": true,
+    "citacoes_validas": true,
+    "relevancia_plena": true,
+    "observacao": "Os fatos e as referências correspondem ao contexto fornecido."
+  },
+  {
+    "id": "T11",
+    "etapa": "geracao",
+    "correcao_factual": true,
+    "citacoes_validas": true,
+    "relevancia_plena": true,
+    "observacao": "Os fatos e as referências correspondem ao contexto fornecido."
+  },
+  {
+    "id": "T12",
+    "etapa": "geracao",
+    "correcao_factual": true,
+    "citacoes_validas": true,
+    "relevancia_plena": true,
+    "observacao": "Os fatos e as referências correspondem ao contexto fornecido."
+  },
+  {
+    "id": "T20",
+    "etapa": "geracao",
+    "correcao_factual": true,
+    "citacoes_validas": true,
+    "relevancia_plena": true,
+    "observacao": "Os fatos e as referências correspondem ao contexto fornecido."
+  },
+  {
+    "id": "T13",
+    "etapa": "geracao_sem_evidencia",
+    "abstencao_no_formato": true,
+    "observacao": "O limite da base é informado, mas a solicitação de endereço para verificar itinerário pode sugerir uma consulta dinâmica inexistente no protótipo."
+  },
+  {
+    "id": "T14",
+    "etapa": "geracao_sem_evidencia",
+    "abstencao_no_formato": true,
+    "observacao": "A resposta reconhece a ausência de evidência sem inventar o dado solicitado."
+  },
+  {
+    "id": "T17",
+    "etapa": "geracao_sem_evidencia",
+    "abstencao_no_formato": true,
+    "observacao": "A resposta reconhece a ausência de evidência sem inventar o dado solicitado."
+  }
+]

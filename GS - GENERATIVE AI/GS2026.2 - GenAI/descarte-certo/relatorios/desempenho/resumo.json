@@ -1,0 +1,245 @@
+{
+  "variantes": {
+    "bm25": {
+      "execucoes": 20,
+      "media_s": 2.368400010000914,
+      "mediana_s": 2.3176576000114437,
+      "p95_s": 3.0369982999982312,
+      "estados_corretos": 17,
+      "citacoes_validas": 19,
+      "media_respondiveis_s": 2.261146164287181,
+      "media_nao_respondiveis_s": 2.6186589833329585,
+      "media_trechos": 5.6,
+      "media_palavras": 373.9,
+      "cobertura_literal": 1.0,
+      "etapas_media_s": {
+        "geracao": 2.3665499999999997
+      },
+      "chamadas": 20,
+      "tentativas_http_adicionais": 0
+    },
+    "vetorial": {
+      "execucoes": 20,
+      "media_s": 3.309131119993981,
+      "mediana_s": 2.9653498500119895,
+      "p95_s": 4.749670799996238,
+      "estados_corretos": 18,
+      "citacoes_validas": 19,
+      "media_respondiveis_s": 3.4194821928561265,
+      "media_nao_respondiveis_s": 3.0516452833156413,
+      "media_trechos": 6,
+      "media_palavras": 402.3,
+      "cobertura_literal": 1.0,
+      "etapas_media_s": {
+        "embedding_consulta": 0.59065,
+        "geracao": 2.7126499999999996
+      },
+      "chamadas": 40,
+      "tentativas_http_adicionais": 0
+    },
+    "hibrido": {
+      "execucoes": 20,
+      "media_s": 2.9476129299990133,
+      "mediana_s": 2.7279550500097685,
+      "p95_s": 4.149387800018303,
+      "estados_corretos": 18,
+      "citacoes_validas": 20,
+      "media_respondiveis_s": 2.843254757138701,
+      "media_nao_respondiveis_s": 3.191115333339743,
+      "media_trechos": 6,
+      "media_palavras": 398.9,
+      "cobertura_literal": 1.0,
+      "etapas_media_s": {
+        "embedding_consulta": 0.5478500000000001,
+        "geracao": 2.3939000000000004
+      },
+      "chamadas": 40,
+      "tentativas_http_adicionais": 0
+    },
+    "selecao_jev": {
+      "execucoes": 20,
+      "media_s": 2.5803718950017354,
+      "mediana_s": 2.309590799995931,
+      "p95_s": 4.279822400014382,
+      "estados_corretos": 19,
+      "citacoes_validas": 18,
+      "media_respondiveis_s": 2.3671401571440844,
+      "media_nao_respondiveis_s": 3.0779126166695883,
+      "media_trechos": 3.05,
+      "media_palavras": 208.35,
+      "cobertura_literal": 1.0,
+      "etapas_media_s": {
+        "selecao": 0.2244,
+        "geracao": 2.35405
+      },
+      "chamadas": 40,
+      "tentativas_http_adicionais": 0
+    },
+    "completo_jev": {
+      "execucoes": 20,
+      "media_s": 2.2338370650017167,
+      "mediana_s": 2.535749949980527,
+      "p95_s": 3.719226000015624,
+      "estados_corretos": 20,
+      "citacoes_validas": 20,
+      "media_respondiveis_s": 2.922678635713445,
+      "media_nao_respondiveis_s": 0.6265400666743517,
+      "media_trechos": 3,
+      "media_palavras": 204,
+      "cobertura_literal": 1.0,
+      "etapas_media_s": {
+        "selecao": 0.26575,
+        "suficiencia": 0.2568,
+        "geracao": 1.5478999999999998,
+        "verificacao": 0.1512,
+        "cobertura_resposta": 0.01005
+      },
+      "chamadas": 69,
+      "tentativas_http_adicionais": 0
+    },
+    "completo_llm": {
+      "execucoes": 20,
+      "media_s": 7.676075119999586,
+      "mediana_s": 7.935925950005185,
+      "p95_s": 11.431138799991459,
+      "estados_corretos": 20,
+      "citacoes_validas": 20,
+      "media_respondiveis_s": 8.957965507142944,
+      "media_nao_respondiveis_s": 4.684997549998418,
+      "media_trechos": 2.95,
+      "media_palavras": 195.55,
+      "cobertura_literal": 1.0,
+      "etapas_media_s": {
+        "selecao": 2.7443999999999997,
+        "suficiencia": 1.8568000000000002,
+        "geracao": 1.5603500000000001,
+        "verificacao": 1.29175,
+        "cobertura_resposta": 0.2206
+      },
+      "chamadas": 70,
+      "tentativas_http_adicionais": 0
+    }
+  },
+  "comparacoes": [
+    {
+      "referencia": "bm25",
+      "alvo": "selecao_jev",
+      "recorte": "todos",
+      "perguntas_pareadas": 10,
+      "reducao_percentual_media": -8.950003551162776,
+      "intervalo_bootstrap_95": [
+        -18.000629764547217,
+        0.4939574268847613
+      ],
+      "nota": "Valor negativo indica aumento de latência. Intervalo descritivo por pergunta; não mede variação entre dias, regiões ou cargas."
+    },
+    {
+      "referencia": "bm25",
+      "alvo": "selecao_jev",
+      "recorte": "respondiveis",
+      "perguntas_pareadas": 7,
+      "reducao_percentual_media": -4.687622345294851,
+      "intervalo_bootstrap_95": [
+        -14.560365880446934,
+        5.846413269465522
+      ],
+      "nota": "Valor negativo indica aumento de latência. Intervalo descritivo por pergunta; não mede variação entre dias, regiões ou cargas."
+    },
+    {
+      "referencia": "bm25",
+      "alvo": "completo_jev",
+      "recorte": "todos",
+      "perguntas_pareadas": 10,
+      "reducao_percentual_media": 5.6815970457264715,
+      "intervalo_bootstrap_95": [
+        -27.604132385471324,
+        39.27950731281323
+      ],
+      "nota": "Valor negativo indica aumento de latência. Intervalo descritivo por pergunta; não mede variação entre dias, regiões ou cargas."
+    },
+    {
+      "referencia": "bm25",
+      "alvo": "completo_jev",
+      "recorte": "respondiveis",
+      "perguntas_pareadas": 7,
+      "reducao_percentual_media": -29.256510785308286,
+      "intervalo_bootstrap_95": [
+        -35.14983140332279,
+        -22.139433088562477
+      ],
+      "nota": "Valor negativo indica aumento de latência. Intervalo descritivo por pergunta; não mede variação entre dias, regiões ou cargas."
+    },
+    {
+      "referencia": "vetorial",
+      "alvo": "completo_jev",
+      "recorte": "todos",
+      "perguntas_pareadas": 10,
+      "reducao_percentual_media": 32.494755148723755,
+      "intervalo_bootstrap_95": [
+        9.926177985574236,
+        53.992020137707584
+      ],
+      "nota": "Valor negativo indica aumento de latência. Intervalo descritivo por pergunta; não mede variação entre dias, regiões ou cargas."
+    },
+    {
+      "referencia": "vetorial",
+      "alvo": "completo_jev",
+      "recorte": "respondiveis",
+      "perguntas_pareadas": 7,
+      "reducao_percentual_media": 14.528619513813757,
+      "intervalo_bootstrap_95": [
+        -5.047908794274014,
+        32.36474253699746
+      ],
+      "nota": "Valor negativo indica aumento de latência. Intervalo descritivo por pergunta; não mede variação entre dias, regiões ou cargas."
+    },
+    {
+      "referencia": "hibrido",
+      "alvo": "completo_jev",
+      "recorte": "todos",
+      "perguntas_pareadas": 10,
+      "reducao_percentual_media": 24.21538655000863,
+      "intervalo_bootstrap_95": [
+        -1.0569475209432966,
+        50.626955474961946
+      ],
+      "nota": "Valor negativo indica aumento de latência. Intervalo descritivo por pergunta; não mede variação entre dias, regiões ou cargas."
+    },
+    {
+      "referencia": "hibrido",
+      "alvo": "completo_jev",
+      "recorte": "respondiveis",
+      "perguntas_pareadas": 7,
+      "reducao_percentual_media": -2.793414075025469,
+      "intervalo_bootstrap_95": [
+        -6.991918731127855,
+        0.7848431483340246
+      ],
+      "nota": "Valor negativo indica aumento de latência. Intervalo descritivo por pergunta; não mede variação entre dias, regiões ou cargas."
+    },
+    {
+      "referencia": "completo_llm",
+      "alvo": "completo_jev",
+      "recorte": "todos",
+      "perguntas_pareadas": 10,
+      "reducao_percentual_media": 70.89870760668329,
+      "intervalo_bootstrap_95": [
+        67.57693735390906,
+        76.16235968893285
+      ],
+      "nota": "Valor negativo indica aumento de latência. Intervalo descritivo por pergunta; não mede variação entre dias, regiões ou cargas."
+    },
+    {
+      "referencia": "completo_llm",
+      "alvo": "completo_jev",
+      "recorte": "respondiveis",
+      "perguntas_pareadas": 7,
+      "reducao_percentual_media": 67.37341047604006,
+      "intervalo_bootstrap_95": [
+        66.31488660974141,
+        68.30774419838232
+      ],
+      "nota": "Valor negativo indica aumento de latência. Intervalo descritivo por pergunta; não mede variação entre dias, regiões ou cargas."
+    }
+  ]
+}

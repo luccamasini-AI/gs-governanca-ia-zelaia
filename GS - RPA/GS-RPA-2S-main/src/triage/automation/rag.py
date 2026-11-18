@@ -1,0 +1,107 @@
+"""Resposta redigida pelo LLM a partir das fontes aprovadas recuperadas do catálogo (RAG), com guarda na saída."""
+
+import logging
+from collections.abc import Sequence
+from dataclasses import dataclass
+
+from triage.automation.catalog import ServiceEntry
+from triage.automation.llm_client import LlmClient, LlmInvalidResponse, LlmUnavailable
+from triage.automation.response import (
+    FALLBACK_LLM_INVALID_RESPONSE,
+    FALLBACK_LLM_OUTPUT_REJECTED,
+    FALLBACK_LLM_UNAVAILABLE,
+)
+from triage.automation.response_guard import validate_rag_output
+
+ANSWER_TASK = "answer"
+NO_SOURCE_MARKER = "NENHUMA_FONTE"
+REQUEST_OPEN = "<<<PEDIDO"
+REQUEST_CLOSE = "PEDIDO>>>"
+HISTORY_OPEN = "<<<CONVERSA ANTERIOR"
+HISTORY_CLOSE = "CONVERSA ANTERIOR>>>"
+DELIMITERS = (REQUEST_OPEN, REQUEST_CLOSE, HISTORY_OPEN, HISTORY_CLOSE)
+SOURCE_HEADER = "FONTE {number}"
+SOURCE_FIELDS = (
+    "Nome: {display_name}",
+    "Órgão: {agency}",
+    "Abrangência: {coverage}",
+    "Instruções: {instructions}",
+)
+CONTENT_FIELD = "Conteúdo: {content}"
+LINKS_HEADER = "Links:"
+PHONES_HEADER = "Telefones:"
+
+logger = logging.getLogger("triage.automation")
+
+
+@dataclass(frozen=True)
+class RagResult:
+    """Desfecho da chamada: o texto válido do LLM, `no_source` (ele disse que nenhuma fonte atende) ou o motivo de fallback."""
+
+    text: str | None = None
+    no_source: bool = False
+    fallback_reason: str | None = None
+
+
+def _source_block(number: int, source: ServiceEntry) -> list[str]:
+    """Uma fonte exatamente como no catálogo: campos, `Conteúdo:` (se houver), `rótulo: url` por link e `rótulo: número` por telefone."""
+    lines = [SOURCE_HEADER.format(number=number)]
+    lines.extend(field.format(**vars(source)) for field in SOURCE_FIELDS)
+    if source.content:
+        lines.append(CONTENT_FIELD.format(content=_neutralize_delimiters(source.content)))
+    if source.links:
+        lines.extend([LINKS_HEADER, *(f"- {link.label}: {link.url}" for link in source.links)])
+    if source.phones:
+        lines.extend([PHONES_HEADER, *(f"- {phone.label}: {phone.number}" for phone in source.phones)])
+    return lines
+
+
+def _neutralize_delimiters(text: str) -> str:
+    """Tira do texto os delimitadores da mensagem, para que ele não feche um bloco de dado e simule instrução."""
+    for delimiter in DELIMITERS:
+        text = text.replace(delimiter, " ")
+    return text
+
+
+def _history_block(history: Sequence[str]) -> list[str]:
+    """As mensagens anteriores do cidadão (já anonimizadas), em ordem, entre delimitadores: dado, não ordem."""
+    messages = (f"- {_neutralize_delimiters(message)}" for message in history)
+    return ["", HISTORY_OPEN, *messages, HISTORY_CLOSE]
+
+
+def build_rag_message(text: str, sources: Sequence[ServiceEntry], history: Sequence[str] = ()) -> str:
+    """Mensagem do usuário: o pedido anonimizado entre delimitadores (dado, não ordem), a conversa anterior e as fontes numeradas."""
+    lines = [REQUEST_OPEN, _neutralize_delimiters(text), REQUEST_CLOSE]
+    if history:
+        lines.extend(_history_block(history))
+    for number, source in enumerate(sources, start=1):
+        lines.extend(["", *_source_block(number, source)])
+    return "\n".join(lines)
+
+
+def answer_with_sources(
+    client: LlmClient, text: str, sources: Sequence[ServiceEntry], history: Sequence[str] = ()
+) -> RagResult:
+    """Pede ao LLM a resposta sobre as fontes; só devolve texto que a guarda aprova.
+
+    `history` são as mensagens anteriores anonimizadas da conversa. Sem fonte o LLM não é chamado. O log traz só o tipo
+    do erro ou o motivo da rejeição, nunca o pedido, a conversa nem a saída.
+    """
+    if not sources:
+        return RagResult(no_source=True)
+    try:
+        answer = client.complete(ANSWER_TASK, build_rag_message(text, sources, history))
+    except LlmUnavailable as error:
+        logger.warning("LLM indisponível (%s); sem resposta redigida", type(error).__name__)
+        return RagResult(fallback_reason=FALLBACK_LLM_UNAVAILABLE)
+    except LlmInvalidResponse as error:
+        logger.warning("Resposta inválida do LLM (%s); sem resposta redigida", type(error).__name__)
+        return RagResult(fallback_reason=FALLBACK_LLM_INVALID_RESPONSE)
+    if answer.strip() == NO_SOURCE_MARKER:
+        logger.info("LLM respondeu que nenhuma fonte atende o pedido")
+        return RagResult(no_source=True)
+    rejection = validate_rag_output(answer, sources)
+    if rejection is not None:
+        logger.warning("Saída do LLM rejeitada (%s); sem resposta redigida", rejection)
+        return RagResult(fallback_reason=FALLBACK_LLM_OUTPUT_REJECTED)
+    return RagResult(text=answer)

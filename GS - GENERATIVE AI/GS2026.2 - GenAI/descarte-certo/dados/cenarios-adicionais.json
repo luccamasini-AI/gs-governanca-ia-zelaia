@@ -1,0 +1,121 @@
+{
+  "metodo": "Perguntas adicionais definidas antes da execução, sem ajuste dos prompts após observação dos resultados. Duas repetições por pergunta. Critérios por material, serviço, fonte e escopo.",
+  "perguntas": [
+    {
+      "id": "H01",
+      "pergunta": "Há cobrança para entregar um colchão em um ecoponto de São Paulo?",
+      "fontes": [
+        "ecopontos",
+        "servicos"
+      ],
+      "status": [
+        "respondido"
+      ],
+      "criterio": "Informar gratuidade e aceitação de colchão, sem inventar unidade ou coleta."
+    },
+    {
+      "id": "H02",
+      "pergunta": "Sacos transparentes são uma exigência para recicláveis nos ecopontos ou no Cata-Bagulho?",
+      "fontes": [
+        "servicos"
+      ],
+      "status": [
+        "respondido"
+      ],
+      "criterio": "Atribuir a exigência ao Cata-Bagulho, sem universalizá-la aos ecopontos."
+    },
+    {
+      "id": "H03",
+      "pergunta": "Qual é o endereço publicado do Ecoponto Santa Cruz?",
+      "fontes": [
+        "ipiranga"
+      ],
+      "status": [
+        "respondido"
+      ],
+      "criterio": "Rua Santa Cruz, 1452, sem afirmar operação ao vivo."
+    },
+    {
+      "id": "H04",
+      "pergunta": "O ponto de óleo mais próximo tem barras de sabão em estoque agora?",
+      "fontes": [],
+      "status": [
+        "sem_evidencia"
+      ],
+      "criterio": "Não inventar proximidade, localização ou estoque atual."
+    },
+    {
+      "id": "H05",
+      "pergunta": "Embalagens com restos de comida e líquido podem seguir diretamente para a coleta seletiva?",
+      "fontes": [
+        "seletiva"
+      ],
+      "status": [
+        "respondido"
+      ],
+      "criterio": "Orientar remoção de restos e líquidos e manutenção do material seco."
+    },
+    {
+      "id": "H06",
+      "pergunta": "Vidro e metal são materiais aceitos nos ecopontos municipais?",
+      "fontes": [
+        "servicos",
+        "ecopontos"
+      ],
+      "status": [
+        "respondido"
+      ],
+      "criterio": "Confirmar os materiais sem acrescentar restrições não documentadas."
+    },
+    {
+      "id": "H07",
+      "pergunta": "Qual é a troca anunciada para um litro de óleo de cozinha doado na campanha?",
+      "fontes": [
+        "oleo"
+      ],
+      "status": [
+        "respondido"
+      ],
+      "criterio": "Uma barra de sabão por um litro doado; sem garantir estoque atual."
+    },
+    {
+      "id": "H08",
+      "pergunta": "O Ecoponto Vila Madalena recebe gesso porque fica na mesma região do Berrini?",
+      "fontes": [
+        "pinheiros",
+        "ecopontos"
+      ],
+      "status": [
+        "respondido",
+        "sem_evidencia"
+      ],
+      "criterio": "Não inferir aceitação nem rejeição de gesso na Vila Madalena; distinguir a confirmação de Berrini."
+    },
+    {
+      "id": "H09",
+      "pergunta": "Dezoito sacos de entulho de cinquenta litros têm aceitação garantida nos ecopontos?",
+      "fontes": [
+        "servicos",
+        "ecopontos"
+      ],
+      "status": [
+        "respondido"
+      ],
+      "criterio": "Explicar os limites divergentes de 15 sacos de 50 litros e 1 m³ ou 20 sacos, sem garantia universal."
+    },
+    {
+      "id": "H10",
+      "pergunta": "E qual é o endereço publicado dessa unidade?",
+      "historico": [
+        "Qual é o horário do Ecoponto Vila Madalena?"
+      ],
+      "fontes": [
+        "pinheiros"
+      ],
+      "status": [
+        "respondido"
+      ],
+      "criterio": "Resolver a referência para Vila Madalena; Rua Girassol, 15, esquina com Rua Luís Murat."
+    }
+  ]
+}

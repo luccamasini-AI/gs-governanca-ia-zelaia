@@ -1,0 +1,142 @@
+[
+  {
+    "id": "H01-R1",
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "A resposta atende ao critério definido e preserva o escopo das fontes.",
+    "revisor": "Agente; revisão editorial sem avaliação humana independente."
+  },
+  {
+    "id": "H02-R1",
+    "atende_criterio": false,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "Abstenção indevida: a regra sobre sacos transparentes está nas evidências, mas recebeu sustentação 0,73 e 0,74, abaixo de 0,80 nas duas tentativas.",
+    "revisor": "Agente; revisão editorial sem avaliação humana independente."
+  },
+  {
+    "id": "H03-R1",
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "A resposta atende ao critério definido e preserva o escopo das fontes.",
+    "revisor": "Agente; revisão editorial sem avaliação humana independente."
+  },
+  {
+    "id": "H04-R1",
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "A resposta atende ao critério definido e preserva o escopo das fontes.",
+    "revisor": "Agente; revisão editorial sem avaliação humana independente."
+  },
+  {
+    "id": "H05-R1",
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "A resposta atende ao critério definido e preserva o escopo das fontes.",
+    "revisor": "Agente; revisão editorial sem avaliação humana independente."
+  },
+  {
+    "id": "H06-R1",
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "A informação está sustentada; a segunda afirmação repete a primeira.",
+    "revisor": "Agente; revisão editorial sem avaliação humana independente."
+  },
+  {
+    "id": "H07-R1",
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "A resposta atende ao critério definido e preserva o escopo das fontes.",
+    "revisor": "Agente; revisão editorial sem avaliação humana independente."
+  },
+  {
+    "id": "H08-R1",
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "A abstenção preserva o limite de conhecimento sobre Vila Madalena; a aceitação em Berrini não é generalizada.",
+    "revisor": "Agente; revisão editorial sem avaliação humana independente."
+  },
+  {
+    "id": "H09-R1",
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "A resposta atende ao critério definido e preserva o escopo das fontes.",
+    "revisor": "Agente; revisão editorial sem avaliação humana independente."
+  },
+  {
+    "id": "H10-R1",
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "A resposta atende ao critério definido e preserva o escopo das fontes.",
+    "revisor": "Agente; revisão editorial sem avaliação humana independente."
+  },
+  {
+    "id": "H01-R2",
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "A resposta atende ao critério definido e preserva o escopo das fontes.",
+    "revisor": "Agente; revisão editorial sem avaliação humana independente."
+  },
+  {
+    "id": "H02-R2",
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "A resposta atende ao critério definido e preserva o escopo das fontes.",
+    "revisor": "Agente; revisão editorial sem avaliação humana independente."
+  },
+  {
+    "id": "H03-R2",
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "A resposta atende ao critério definido e preserva o escopo das fontes.",
+    "revisor": "Agente; revisão editorial sem avaliação humana independente."
+  },
+  {
+    "id": "H04-R2",
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "A resposta atende ao critério definido e preserva o escopo das fontes.",
+    "revisor": "Agente; revisão editorial sem avaliação humana independente."
+  },
+  {
+    "id": "H05-R2",
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "A resposta atende ao critério definido e preserva o escopo das fontes.",
+    "revisor": "Agente; revisão editorial sem avaliação humana independente."
+  },
+  {
+    "id": "H06-R2",
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "A informação está sustentada; a segunda afirmação repete a primeira.",
+    "revisor": "Agente; revisão editorial sem avaliação humana independente."
+  },
+  {
+    "id": "H07-R2",
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "A resposta atende ao critério definido e preserva o escopo das fontes.",
+    "revisor": "Agente; revisão editorial sem avaliação humana independente."
+  },
+  {
+    "id": "H08-R2",
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "A abstenção preserva o limite de conhecimento sobre Vila Madalena; a aceitação em Berrini não é generalizada.",
+    "revisor": "Agente; revisão editorial sem avaliação humana independente."
+  },
+  {
+    "id": "H09-R2",
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "A resposta atende ao critério definido e preserva o escopo das fontes.",
+    "revisor": "Agente; revisão editorial sem avaliação humana independente."
+  },
+  {
+    "id": "H10-R2",
+    "atende_criterio": true,
+    "afirmacoes_nao_sustentadas": [],
+    "observacao": "A resposta atende ao critério definido e preserva o escopo das fontes.",
+    "revisor": "Agente; revisão editorial sem avaliação humana independente."
+  }
+]

@@ -1,0 +1,139 @@
+{
+  "metodo": "Dez cenários em terceira pessoa, executados duas vezes. Gabarito por material, município, escopo e evidência. No comparativo de desempenho, R10 utiliza o mesmo histórico textual fixo em todas as variantes; o turno preparatório não é cronometrado.",
+  "cenarios": [
+    {
+      "id": "R01",
+      "pergunta": "Uma geladeira quebrada pode ser entregue em um ecoponto de São Paulo?",
+      "status": [
+        "respondido"
+      ],
+      "fontes": [
+        "servicos"
+      ],
+      "evidencias": [
+        "Eletrodomésticos aparecem como aceitos no Cata-Bagulho e não nos ecopontos"
+      ],
+      "criterio": "Negar entrega de eletrodoméstico no ecoponto e diferenciar Cata-Bagulho. Não inventar agendamento."
+    },
+    {
+      "id": "R02",
+      "pergunta": "Telhas de amianto podem seguir para o Cata-Bagulho ou para um ecoponto?",
+      "status": [
+        "respondido"
+      ],
+      "fontes": [
+        "servicos"
+      ],
+      "evidencias": [
+        "telhas de amianto aparecem como não aceitos em ambos"
+      ],
+      "criterio": "Negar os dois serviços. Não inventar tratamento ou endereço alternativo."
+    },
+    {
+      "id": "R03",
+      "pergunta": "A caixa de papel da pizza ficou suja de óleo. Ela vai com os recicláveis?",
+      "status": [
+        "respondido"
+      ],
+      "fontes": [
+        "seletiva"
+      ],
+      "evidencias": [
+        "Papel sujo de óleo não deve seguir para a coleta seletiva"
+      ],
+      "criterio": "Não colocar papel com óleo na seletiva; preservar o material da regra."
+    },
+    {
+      "id": "R04",
+      "pergunta": "Um cidadão tem 20 sacos de entulho, cada um com 50 litros. Está garantido que qualquer ecoponto aceitará tudo?",
+      "status": [
+        "respondido"
+      ],
+      "fontes": [
+        "servicos",
+        "ecopontos"
+      ],
+      "evidencias": [
+        "até 15 sacos de 50 litros",
+        "até 1 m³ ou 20 sacos por descarga"
+      ],
+      "criterio": "Não garantir aceitação universal. Explicar os limites divergentes e necessidade de confirmar unidade/serviço, sem equivalência automática."
+    },
+    {
+      "id": "R05",
+      "pergunta": "Qualquer ecoponto de Pinheiros recebe gesso? O Berrini é uma opção?",
+      "status": [
+        "respondido"
+      ],
+      "fontes": [
+        "pinheiros",
+        "ecopontos"
+      ],
+      "evidencias": [
+        "Berrini como unidade que recebe gesso",
+        "Algumas unidades também recebem gesso"
+      ],
+      "criterio": "Não universalizar; identificar Berrini como unidade publicada que recebe gesso."
+    },
+    {
+      "id": "R06",
+      "pergunta": "Óleo de cozinha usado foi guardado numa garrafa. Em quais tipos de locais pode ser entregue na campanha municipal?",
+      "status": [
+        "respondido"
+      ],
+      "fontes": [
+        "oleo"
+      ],
+      "evidencias": [
+        "mercados e sacolões municipais, Armazéns Solidários e unidades da Rede Cozinha Escola"
+      ],
+      "criterio": "Indicar os tipos de pontos participantes, sem inventar endereços, estoque ou funcionamento atual."
+    },
+    {
+      "id": "R07",
+      "pergunta": "O Ecoponto Berrini está sem fila e recebendo gesso neste exato minuto?",
+      "status": [
+        "sem_evidencia"
+      ],
+      "fontes": [],
+      "evidencias": [],
+      "criterio": "Abster-se de confirmar fila e funcionamento ao vivo; não confundir horário publicado com disponibilidade real."
+    },
+    {
+      "id": "R08",
+      "pergunta": "Um cidadão tem um material para descartar. O material é recebido?",
+      "status": [
+        "esclarecimento"
+      ],
+      "fontes": [],
+      "evidencias": [],
+      "criterio": "Perguntar qual material; não presumir que o assistente é um serviço de coleta nem confirmar aceitação."
+    },
+    {
+      "id": "R09",
+      "pergunta": "Um morador de Santo André pode seguir as regras dos ecopontos de São Paulo para descartar um sofá em Santo André?",
+      "status": [
+        "fora_escopo",
+        "sem_evidencia"
+      ],
+      "fontes": [],
+      "evidencias": [],
+      "criterio": "Não aplicar regras de São Paulo ao outro município; orientar consulta à prefeitura competente."
+    },
+    {
+      "id": "R10",
+      "preparacao": "Onde fica o Ecoponto Teresa Cristina?",
+      "pergunta": "E no domingo, qual é o horário publicado?",
+      "status": [
+        "respondido"
+      ],
+      "fontes": [
+        "ipiranga"
+      ],
+      "evidencias": [
+        "domingos e feriados, das 6h às 18h"
+      ],
+      "criterio": "Responder 6h–18h para a unidade referida no turno anterior, com fonte; não afirmar operação ao vivo."
+    }
+  ]
+}

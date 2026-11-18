@@ -1,0 +1,32 @@
+FICHA DE ATENDIMENTO AO CONSUMIDOR Nº 2026/0457
+DOCUMENTO FICTÍCIO PARA TESTE DE ANONIMIZAÇÃO. Todos os dados pessoais abaixo são inventados.
+
+Data do registro: 05/11/2026
+Canal: telefone
+
+DADOS DO CONSUMIDOR
+Nome: Maria Aparecida dos Santos Oliveira
+CPF: 123.456.789-09
+E-mail: maria.oliveira1975@exemplo.com.br
+Telefone: (11) 98765-4321
+Telefone alternativo: 11 3456-7890
+Endereço: Rua das Acácias, 120, apto 34, São Paulo/SP
+
+RELATO
+A consumidora procurou o atendimento porque recebeu cobrança de um serviço de internet
+que nunca contratou. Disse que o filho dela, João Pedro Oliveira, tentou cancelar pelo
+SAC da operadora, mas foi transferido várias vezes e não resolveu. O atendente Carlos
+Eduardo Ferreira registrou o protocolo 8890123 e orientou a consumidora a guardar as
+faturas e a procurar o Procon-SP caso não houvesse resposta em 7 dias.
+
+A consumidora também perguntou se o Código de Defesa do Consumidor garante o
+cancelamento sem multa. Foi informada de que a Senacon mantém a plataforma
+consumidor.gov.br para reclamações. Ela mencionou ter lido uma reportagem sobre a
+Lei Maria da Penha e quis saber se isso tinha relação com o caso. O atendente explicou
+que não tinha.
+
+Contato para retorno: dona Maria, pelo e-mail acima ou pelo CPF 987.654.321-00 na
+central. Procurar também a advogada Dra. Fernanda Lima Costa, que acompanha o caso.
+
+ENCAMINHAMENTO
+Caso encaminhado ao Procon-SP e registrado na plataforma consumidor.gov.br.

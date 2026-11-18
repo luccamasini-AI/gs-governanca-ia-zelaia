@@ -1,0 +1,23 @@
+{
+  "modelo_openai": "gpt-5.4-mini-2026-03-17",
+  "modelo_jev": "jev-1.14.0",
+  "tamanho_chunk_palavras": 90,
+  "sobreposicao_palavras": 15,
+  "top_k_busca": 12,
+  "top_k_contexto": 6,
+  "bm25_k1": 1.5,
+  "bm25_b": 0.75,
+  "limiar_relevancia": 0.35,
+  "limiar_injecao": 0.7,
+  "limiar_suficiencia": 0.75,
+  "limiar_sustentacao": 0.8,
+  "limiar_desvio_material": 0.5,
+  "max_caracteres_pergunta": 1500,
+  "max_output_tokens": 4000,
+  "esforco_raciocinio": "low",
+  "cache_respostas": true,
+  "timeout_segundos": 45,
+  "max_tentativas_http": 2,
+  "versao_prompt": "2026-11-10.18",
+  "nota": "Limiares iniciais definidos pelo projeto; não representam garantia estatística. Ajustar com calibração, sem alterar o conjunto de teste. Tamanho em palavras, não tokens."
+}

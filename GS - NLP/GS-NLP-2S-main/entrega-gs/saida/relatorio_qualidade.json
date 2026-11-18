@@ -1,0 +1,62 @@
+{
+ "corpus": {
+  "corpus_texto.jsonl": {
+   "exemplos": 68,
+   "media_tokens": 461.0,
+   "duplicatas_removidas": 4,
+   "recusas_encaminhamentos": 0
+  },
+  "corpus_qa.jsonl": {
+   "exemplos": 126,
+   "media_tokens": 45.0,
+   "duplicatas_removidas": 65,
+   "recusas_encaminhamentos": 2
+  },
+  "corpus_chat.jsonl": {
+   "exemplos": 36,
+   "media_tokens": 281.3,
+   "duplicatas_removidas": 7,
+   "recusas_encaminhamentos": 12
+  },
+  "corpus_teste.jsonl": {
+   "exemplos": 24,
+   "media_tokens": 51.5,
+   "duplicatas_removidas": 0,
+   "recusas_encaminhamentos": 7
+  }
+ },
+ "qa_filtros": {
+  "pares gerados": 475,
+  "rejeitados: número fora do trecho": 5,
+  "rejeitados: resposta": 8,
+  "rejeitados: resposta pouco apoiada no trecho": 114,
+  "rejeitados: valor de multa em Ufir (volátil)": 1,
+  "rejeitados: pergunta sem contexto": 8,
+  "rejeitados: resposta em primeira pessoa": 1,
+  "rejeitados: prazo ou valor de documento volátil (fica no RAG)": 16,
+  "rejeitados: juiz: informação fora do trecho": 36,
+  "rejeitados: juiz: não responde à pergunta": 2,
+  "rejeitados: juiz: português incorreto": 1,
+  "rejeitados: número fora do trecho de apoio": 5,
+  "quase-duplicatas removidas": 24,
+  "duplicatas exatas removidas": 41
+ },
+ "chat_filtros": {
+  "rejeitados: juiz: informação fora do trecho": 28,
+  "quase-duplicatas removidas": 7,
+  "rejeitados: 2ª pergunta não depende da 1ª": 1
+ },
+ "vazamento_maior_similaridade": 0.848,
+ "teste_sha256": "b68e5c371a349ae7d655ffc3e49c9625b731358a63c2311de761c57e3492829c",
+ "lingua_real": {
+  "corpus_qa.jsonl": 0.381,
+  "corpus_chat.jsonl": 0.583,
+  "corpus_teste.jsonl": 0.5
+ },
+ "modelos": {
+  "geracao": "Qwen/Qwen2.5-7B-Instruct",
+  "tokenizador": "Qwen/Qwen2.5-0.5B-Instruct",
+  "embeddings": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "ner": "pt_core_news_lg"
+ }
+}

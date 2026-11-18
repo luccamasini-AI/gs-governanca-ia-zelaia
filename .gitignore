@@ -1,0 +1,23 @@
+# Segredos e Variáveis de Ambiente (Segurança / LGPD)
+.env
+.env.local
+*.env
+!.env.example
+!.env.exemplo
+
+# Ambientes Virtuais e Cache Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Dependências Node / Build temporário
+node_modules/
+
+# Arquivos temporários do Sistema Operacional / Office
+~$*.docx
+~$*.xlsx
+.DS_Store
+Thumbs.db

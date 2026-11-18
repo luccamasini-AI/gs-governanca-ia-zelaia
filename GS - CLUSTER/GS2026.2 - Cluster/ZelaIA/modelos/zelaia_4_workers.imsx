@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE system SYSTEM "iSPD.dtd">
+<system version="1.2">
+  <owner id="ZelaIA"/>
+  <cluster id="ZelaIA" nodes="4" power="1000.0" bandwidth="1000.0" latency="0.001" scheduler="RoundRobin" owner="ZelaIA" master="true">
+    <position x="250" y="180"/>
+    <icon_id global="0" local="0"/>
+    <characteristic>
+      <process power="1000.0" number="1" model="x86"/>
+      <memory size="8.0"/>
+      <hard_disk size="100.0"/>
+    </characteristic>
+  </cluster>
+  <load>
+    <trace file_path="carga/ocorrencias.wmsx" tasks="1000" format="iSPD"/>
+  </load>
+</system>

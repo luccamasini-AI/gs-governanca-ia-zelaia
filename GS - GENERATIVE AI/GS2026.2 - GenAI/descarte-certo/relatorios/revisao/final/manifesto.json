@@ -1,0 +1,20 @@
+{
+  "consolidado_em": "2026-11-11T01:11:02.136Z",
+  "versao_prompt": "2026-11-10.18",
+  "origem": "relatorios/otimizacao/execucoes.json",
+  "sha256_origem": "a7bf8e62f1803587cf71071531e0d62982ebbb466d4851047cd7f270a37b0890",
+  "extracao": "Todas as vinte primeiras consultas, com cache vazio, sem exclusões ou novas tentativas. As vinte repetições permanecem no registro de origem.",
+  "controles": "Duas rodadas adicionais com APIs reais e cache desativado, no fluxo e provedores da versão 18.",
+  "sha256_codigo": {
+    "fluxo.py": "1a1cafb24891d3f6a2ca4b2a08da5fba7dd03dc2da0e8bdd5eaa25736c2b16b8",
+    "provedores.py": "3fc6ffe6204fefbda74a56fff4dab0f7913c9f2b76237a089ece076776879927",
+    "revisao.py": "9561f9f6d09468387bbc379f7c4c5a606b6eeb8169fb0d25141fb092a351d69d",
+    "cache.py": "0e5593a24d74580d76ad6c29a9ab9457d581a87fcf8f8835da4c089374cf13aa"
+  },
+  "sha256_resultados": {
+    "fluxo-repetido.json": "141d5d25bb4a0a12956615428b85a362c2ca98c0827caebca3729b0d4122fa27",
+    "jev-controles.json": "7ba94adc179bebe4d6e1f61f61ee112e7706146bca757c503852062cc22c1964",
+    "julgamentos.json": "40104866962e6dfce8b4f9e64ed83244afbd0d64de6cac3baa396d4318084974",
+    "metricas.json": "bd533de7c5025a188a1194b0e1c61f0ad1c2ba4d7e953ae02b899068dc040c7f"
+  }
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ ==========================================================
+ iSPD : iconic Simulator of Parallel and Distributed System
+ ==========================================================
+ 
+ (C) Copyright 2010-2014, by Grupo de pesquisas em Sistemas Paralelos e Distribuídos da Unesp (GSPD).
+ 
+ Project Info:  http://gspd.dcce.ibilce.unesp.br/
+ 
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License
+ as published by the Free Software Foundation; either version 2
+ of the License, or (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ 
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ 
+ ===============
+ iSPD.dtd
+ ===============
+ (C) Copyright 2014, by Grupo de pesquisas em Sistemas Paralelos e Distribuídos da Unesp (GSPD).
+ 
+ Original Author:  Denison Menezes (for GSPD);
+ Contributor(s):   -;
+ 
+ Changes
+ ===============
+ =============== iSPD 1.3 =============================================
+ 01-Jul-2014 : Add DAG tasks
+ 09-Set-2014 : Version 2.0;
+-->
+
+<!-- TODO define your own vocabulary/syntax. Example follows:  -->
+<!ELEMENT system (trace)>
+
+<!ELEMENT trace (format,(task|file)+)>
+
+<!ELEMENT format EMPTY>
+<!ATTLIST format kind CDATA "iSPD" >
+
+<!ELEMENT task (dag|thread)?>
+<!ATTLIST task id CDATA "task1">
+<!ATTLIST task arr CDATA "0.0">
+<!-- The deﬁned states are the same used by SWF and GWF
+        0 : job crash
+        1 : job successful conclusion
+        2 : job preemption
+        3 : conclusion of preempted job
+        4 : crash of preempted job
+        5 : job canceled
+-->
+<!ATTLIST task sts CDATA "1">
+<!ATTLIST task cpsz CDATA "-1">
+<!ATTLIST task cmsz CDATA "-1">
+<!ATTLIST task usr CDATA "user1">
+
+<!ELEMENT file (receive*,send*)>
+<!ATTLIST file id ID #REQUIRED>
+<!ATTLIST file size_min CDATA #REQUIRED>
+<!ATTLIST file size_max CDATA #REQUIRED>
+
+<!-- dag character: wait | release -->
+<!ELEMENT dag (receive*,send*)>
+
+<!ELEMENT thread (process|send|receive|loop|thread)*>
+
+<!ELEMENT loop (process|send|receive|loop|thread)*>
+<!ATTLIST loop id ID #REQUIRED>
+<!ATTLIST loop iteration CDATA "2">
+<!ATTLIST loop start CDATA "0">
+
+<!ELEMENT process EMPTY>
+<!ATTLIST process size_min CDATA #REQUIRED>
+<!ATTLIST process size_max CDATA #REQUIRED>
+
+<!-- send: task -->
+<!ELEMENT send EMPTY>
+<!ATTLIST send to CDATA #REQUIRED>
+<!ATTLIST send size CDATA #REQUIRED>
+<!ATTLIST send port CDATA "80">
+
+<!ELEMENT receive EMPTY>
+<!ATTLIST receive id ID #IMPLIED>
+<!ATTLIST receive from CDATA "ANY">
+<!ATTLIST receive port CDATA "80">

@@ -1,0 +1,29 @@
+{
+  "variantes": {
+    "primeira_consulta": {
+      "execucoes": 20,
+      "media_s": 2.1851524350029647,
+      "mediana_s": 2.418838000012329,
+      "p95_s": 3.8197375999880023,
+      "media_respondiveis_s": 2.9384808785731105,
+      "estados_corretos": 20,
+      "citacoes_validas": 20,
+      "acertos_cache": 0,
+      "chamadas": 71
+    },
+    "repetida": {
+      "execucoes": 20,
+      "media_s": 0.12865801999869292,
+      "mediana_s": 0.0010760999866761267,
+      "p95_s": 0.43805500003509223,
+      "media_respondiveis_s": 0.0010588642783529525,
+      "estados_corretos": 20,
+      "citacoes_validas": 20,
+      "acertos_cache": 14,
+      "chamadas": 12
+    }
+  },
+  "pares_resposta_identica": 20,
+  "reducao_percentual_amostra_repetida": 94.1121718586869,
+  "reducao_percentual_respondiveis_repetidas": 99.96396558895196
+}

@@ -1,0 +1,6 @@
+# Python / ambiente
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.bak

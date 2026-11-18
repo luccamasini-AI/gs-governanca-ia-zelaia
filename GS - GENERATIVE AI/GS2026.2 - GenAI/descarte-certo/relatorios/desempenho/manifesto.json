@@ -1,0 +1,77 @@
+{
+  "inicio_utc": "2026-11-11T00:08:37.686218+00:00",
+  "parametros": {
+    "modelo_openai": "gpt-5.4-mini-2026-03-17",
+    "modelo_jev": "jev-1.14.0",
+    "tamanho_chunk_palavras": 90,
+    "sobreposicao_palavras": 15,
+    "top_k_busca": 12,
+    "top_k_contexto": 6,
+    "bm25_k1": 1.5,
+    "bm25_b": 0.75,
+    "limiar_relevancia": 0.35,
+    "limiar_injecao": 0.7,
+    "limiar_suficiencia": 0.75,
+    "limiar_sustentacao": 0.8,
+    "limiar_desvio_material": 0.5,
+    "max_caracteres_pergunta": 1500,
+    "max_output_tokens": 4000,
+    "esforco_raciocinio": "low",
+    "timeout_segundos": 45,
+    "max_tentativas_http": 2,
+    "versao_prompt": "2026-11-10.13",
+    "nota": "Limiares iniciais definidos pelo projeto; não representam garantia estatística. Ajustar com calibração, sem alterar o conjunto de teste. Tamanho em palavras, não tokens."
+  },
+  "variantes": [
+    "bm25",
+    "vetorial",
+    "hibrido",
+    "selecao_jev",
+    "completo_jev",
+    "completo_llm"
+  ],
+  "rodadas": 2,
+  "modelo_embedding": "text-embedding-3-small",
+  "metodo": "120 execuções sequenciais intercaladas; rotação determinística da ordem por cenário e rodada. Sem cache local de consultas. Uma preparação por variante e indexação vetorial excluídas do tempo de consulta. Histórico fixo em R10. Mesmos corpus, chunks, gerador, prompt e limite de contexto. RRF com constante 60. As variantes simples não incluem checagens semânticas posteriores.",
+  "sha256": {
+    "descarte/avaliacao.py": "2a263261fb5691108191e246a0b37fd79951b2bd04f063ec143e908498a80cb8",
+    "descarte/configuracao.py": "7ea578f8ebc5aaf276b9ff393676c9287e7243c7157193398b6078367f98afc2",
+    "descarte/corpus.py": "a0bdad79445e8d89763ffeca9a205211f0d3b05051087480d057a4f03e0b9a26",
+    "descarte/desempenho.py": "dce72e5487c8a8b2a8de4e8de705583c7b4510da4a5b4bad241ea88055464e73",
+    "descarte/fluxo.py": "a1bfa326eb87ff8e24307e049fbecfd13d2bc08b4427c0c9e4421eaf5a2222ce",
+    "descarte/metricas.py": "22dfbf0f362e6a2e38d22a06a5fe88e1cd73023eeeedcbf79efad64de41695da",
+    "descarte/provedores.py": "3fc6ffe6204fefbda74a56fff4dab0f7913c9f2b76237a089ece076776879927",
+    "descarte/resumo_revisao.py": "699999db6c584d2607a7b5f7f62d648089e5df5b1fedcb3d1f15d6932b2b107f",
+    "descarte/revisao.py": "8a96117441d206097aae7f6d530a2cae0f19319b074bf8cb02fb9ef7805973ff",
+    "descarte/__init__.py": "8d3f00ab7720950d4ef366939a7ed13bda16f89fb7d78f363af48af107689e3e",
+    "descarte/__main__.py": "f6db3745bd658a5aa752635174a8a21d44348e8518cca62190ebde147d120b8f",
+    "dados/cenarios-revisao.json": "bf710ef0448b21a62c77c923f55d8b50d5a9d95bef0a27e1cfdccf3b7943136c",
+    "dados/configuracao.json": "7a55e5d2ebbc8d814162bdf5bfabf83b50b35d9c22d0d3341710c8bbc9ecdcd7",
+    "dados/corpus.json": "0bdd8fe64d509246e28cc50891f8a8bd238e9410d343994eb1c0caec358a1f50",
+    "dados/equipe.json": "d6a693c351ca9f66efc03dd94b010335967a7f460dc3c265e680880a6ebadc9e",
+    "dados/perguntas.json": "a92ab11aac1c9c1395bccba0bfe6be8c762b04ab87ee60e96f37dd5efde2dd1d"
+  },
+  "indexacao": {
+    "segundos": 2.0113536000135355,
+    "trechos": 15,
+    "dimensoes": 1536,
+    "chamadas": [
+      {
+        "etapa": "indexacao",
+        "modelo": "text-embedding-3-small",
+        "uso": {
+          "prompt_tokens": 1966,
+          "total_tokens": 1966
+        },
+        "segundos": 2.011,
+        "tentativas": 1
+      }
+    ]
+  },
+  "concluido_utc": "2026-11-11T00:16:17.477862+00:00",
+  "sha256_resultados": {
+    "execucoes.json": "e1576ae04335ddcecde58f1305676bc1cae5ef7458d395770f7b1bc0916b6965",
+    "indice-vetorial.json": "2d1b635e9679e0da2cf93da85719d7bdf9fc2ad877ac1375d26a08cad345f12a",
+    "preparacao.json": "8c6b6831ee67cc6ab3c2aba2fabbbfc7ca7c8250e7f6c1b7ae2e440d02c3962e"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "integrantes": [
+    {"nome": "Lucca Phelipe Masini", "rm": "564121"},
+    {"nome": "Igor Paixão Sarak", "rm": "563726"},
+    {"nome": "Bernardo Braga Perobeli", "rm": "562468"}
+  ],
+  "prazo_entrega": null,
+  "turma": "2TIAPF",
+  "disciplina": "Generative AI & Advanced Nets",
+  "projeto": "Global Solution 2026.2 — CitizenTech"
+}

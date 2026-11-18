@@ -1,0 +1,133 @@
+# Fontes públicas (piloto São Paulo) — lista para aprovação
+
+**Estado: lista aprovada pelo grupo em 2026-11-10** (todas as linhas `[x]`; as quatro da prefeitura, que deram HTTP 403 nessa data, foram aprovadas em 2026-11-12).
+
+Documento de trabalho: **não é o catálogo** (`data/catalog.json`). Ele reúne a lista inicial do grupo, as sugestões acrescentadas depois e o resultado da verificação automática. Nada daqui entra no catálogo sem a marca de aprovação do grupo. A lista
+aprovada já está carregada no catálogo (`data/catalog.d/sp_expanded.json`); as quatro fontes da Prefeitura (M04 a M07)
+foram aprovadas em 2026-11-12 e estão `approved` em `data/catalog.json` (ver a nota da seção 3).
+
+- **Verificação:** feita em 2026-11-10 com o `check_link` do projeto (HEAD, depois GET; cliente sem disfarce de
+  navegador). `✓` = respondeu 200–399; `✗` = falhou (motivo ao lado). Telefone `confirmado` = o número aparece no texto
+  da página; `não confirmado` = a página abriu mas não mostra o número (pode estar em outra página ou carregar por script).
+- **Origem:** `lista inicial` = veio da lista do grupo; `sugestão` = acrescentada depois, com o link verificado.
+- **Nenhum link foi deduzido:** vieram da lista do grupo, de páginas oficiais abertas na verificação ou de teste direto. Várias
+  URLs que se tentou deduzir (CTPS digital, MEI, segunda via de certidão, pontos da CNH) deram 404 e **não** estão aqui.
+
+## Como responder
+Em cada linha, na coluna **Decisão**: `[x]` aprovada, `[-]` cortada, `[?]` pendente de decisão do grupo. Acrescente linhas no fim de
+cada seção para fontes novas (órgão, link, telefone). Se um telefone ou link não estiver certo, escreva a correção na
+coluna **Notas**.
+
+---
+
+## 1. Federal
+
+| ID | Fonte | O que é | Link(s) | Telefone | Verificação | Origem | Decisão | Notas |
+|---|---|---|---|---|---|---|---|---|
+| F01 | Portal gov.br | portal geral dos serviços federais | `https://www.gov.br/pt-br` | — | link ✓ | lista inicial | [x] | O 135 que veio na lista é do INSS, não do portal |
+| F02 | Ministério da Saúde | SUS, cadastros nacionais, campanhas | `https://www.gov.br/saude/pt-br`; `https://www.gov.br/saude/pt-br/sus` | 136 | links ✓; 136 **confirmado** | lista inicial | [x] | |
+| F03 | Meu SUS Digital | histórico de saúde e carteira de vacinação | `https://www.gov.br/saude/pt-br/composicao/seidigi/meususdigital`; `https://meususdigital.saude.gov.br` | — | links ✓ | sugestão | [x] | |
+| F04 | Farmácia Popular | medicamentos gratuitos ou com desconto | `https://www.gov.br/saude/pt-br/composicao/sectics/farmacia-popular` | — | link ✓ | sugestão | [x] | |
+| F05 | Vacinação | calendário e dúvidas | `https://www.gov.br/saude/pt-br/vacinacao`; `https://www.gov.br/saude/pt-br/vacinacao/calendario`; `https://www.gov.br/saude/pt-br/vacinacao/faq` | — | links ✓ | sugestão | [x] | |
+| F06 | Ouvidoria-Geral do SUS | reclamações e sugestões sobre o SUS | `https://www.gov.br/saude/pt-br/canais-de-atendimento/ouvsus` | 136 | link ✓; 136 não testado nesta página | sugestão | [x] | |
+| F07 | ANVISA | medicamentos, alimentos, cosméticos | `https://www.gov.br/anvisa/pt-br` | 0800 642 9782 | link ✓; telefone **não confirmado** | lista inicial | [x] | Aprovar o telefone mesmo sem confirmação? |
+| F08 | INEP | exames nacionais (ENEM) | `https://www.gov.br/inep/pt-br` | 0800 61 61 61 | link ✓; telefone **não confirmado** | lista inicial | [x] | |
+| F09 | MEC | educação, programas de acesso e bolsas | `https://www.gov.br/mec/pt-br` | 0800 61 61 61 | **✗ erro de conexão** (2 rodadas) | lista inicial | [x] | Fica `candidate` até o link responder |
+| F10 | ENEM | página do exame | `https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem` | — | link ✓ | sugestão | [x] | |
+| F11 | SISU, ProUni e FIES | acesso ao ensino superior e financiamento | `https://acessounico.mec.gov.br/sisu`; `https://acessounico.mec.gov.br/prouni`; `https://acessounico.mec.gov.br/fies` | — | 3 links ✓ | sugestão | [x] | |
+| F12 | Pé-de-Meia | bolsa para estudantes do ensino médio | `https://www.gov.br/mec/pt-br/pe-de-meia` | — | **✗ erro de conexão** | lista inicial | [x] | Fica `candidate` até responder |
+| F13 | Senatran | trânsito nacional: CNH, CDT, Renainf | `https://www.gov.br/transportes/pt-br/assuntos/senatran`; `https://www.gov.br/transportes/pt-br/cnh-do-brasil`; `https://www.gov.br/transportes/pt-br/assuntos/transito/senatran/veiculos` | — | 3 links ✓ | lista inicial (+ sugestão) | [x] | |
+| F14 | Receita Federal | CPF, CNPJ, imposto de renda, certidões | `https://www.gov.br/receitafederal/pt-br`; `https://www.gov.br/receitafederal/pt-br/assuntos/meu-cpf`; `https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda` | — | 3 links ✓ | lista inicial (+ sugestão) | [x] | |
+| F15 | Certidão negativa de débitos | emissão pelo gov.br | `https://www.gov.br/pt-br/servicos/emitir-certidao-negativa-de-debitos` | — | link ✓ | sugestão | [x] | |
+| F16 | Trabalho e Emprego | CTPS digital, seguro-desemprego, abono | `https://www.gov.br/trabalho-e-emprego/pt-br` | — | link ✓ | lista inicial | [x] | |
+| F17 | Meu INSS | aposentadoria e benefícios | `https://meu.inss.gov.br` | 135 | link ✓; 135 **confirmado** em `gov.br/inss` (já no catálogo) | sugestão | [x] | |
+| F18 | Bolsa Família e Cadastro Único | benefícios sociais | `https://www.gov.br/pt-br/servicos/receber-o-bolsa-familia`; `https://www.gov.br/pt-br/servicos/consultar-dados-do-cadastro-unico-cadunico` | — | 2 links ✓ | sugestão | [x] | |
+| F19 | MEI | emissão do DAS do MEI | `https://www.gov.br/pt-br/servicos/emitir-das-para-pagamento-de-tributos-do-mei` | — | link ✓ | sugestão | [x] | Cobre só o pagamento; abertura de MEI não achada |
+
+## 2. Estadual — Estado de São Paulo
+
+| ID | Fonte | O que é | Link(s) | Telefone | Verificação | Origem | Decisão | Notas |
+|---|---|---|---|---|---|---|---|---|
+| E01 | Portal de serviços do Estado de SP | serviços estaduais unificados | `https://servicos.sp.gov.br`; `https://www.gov.br/pt-br/servicos-estaduais` | — | 2 links ✓ | lista inicial (+ sugestão) | [x] | |
+| E02 | Portal do Governo de SP | institucional | `https://www.sp.gov.br` | — | link ✓ | sugestão | [x] | |
+| E03 | Poupatempo | documentos pessoais (RG, antecedentes etc.) | `https://www.poupatempo.sp.gov.br`; `https://www.poupatempo.sp.gov.br/servicos`; `https://www.poupatempo.sp.gov.br/orgaos/` | — | 3 links ✓ | lista inicial (+ sugestão) | [x] | |
+| E04 | DETRAN-SP | veículos, habilitação, multas | `https://www.detran.sp.gov.br`; `https://www.detran.sp.gov.br/wps/portal/portaldetran/cidadao/veiculos`; `https://www.detran.sp.gov.br/wps/portal/portaldetran/cidadao/habilitacao` | — | 3 links ✓ | lista inicial (+ sugestão) | [x] | |
+| E05 | SEFAZ-SP e IPVA | IPVA, notas fiscais paulistas | `https://portal.fazenda.sp.gov.br`; `https://portal.fazenda.sp.gov.br/servicos/ipva`; `https://www.ipva.fazenda.sp.gov.br` | — | 3 links ✓ | lista inicial (+ sugestão) | [x] | |
+| E06 | Secretaria de Estado da Saúde | hospitais estaduais, diretrizes | `https://www.saude.sp.gov.br` | — | link ✓ | lista inicial | [x] | |
+| E07 | Secretaria da Educação (SEDUC-SP) | rede estadual e matrícula | `https://www.educacao.sp.gov.br`; `https://www.educacao.sp.gov.br/matricula` | — | 2 links ✓ | lista inicial (+ sugestão) | [x] | |
+| E08 | JUCESP | registro de empresas | `https://www.jucesponline.sp.gov.br` | — | link ✓ | sugestão | [x] | Relevante para abrir empresa; não é o alvará municipal |
+
+## 3. Municipal — cidade de São Paulo
+
+| ID | Fonte | O que é | Link(s) | Telefone | Verificação | Origem | Decisão | Notas |
+|---|---|---|---|---|---|---|---|---|
+| M01 | SP156 | zeladoria (buraco, poda, iluminação) e serviços da cidade | `https://sp156.prefeitura.sp.gov.br`; `https://sp156.prefeitura.sp.gov.br/portal/servicos`; `https://sp156.prefeitura.sp.gov.br/portal/perguntas-frequentes` | 156 | 3 links ✓; 156 **confirmado** | lista inicial (+ sugestão) | [x] | |
+| M02 | Secretaria Municipal de Educação (SME) | matrícula e vaga em creche | `https://educacao.sme.prefeitura.sp.gov.br` | 156 | link ✓ | sugestão | [x] | |
+| M03 | Nota Fiscal Paulistana (NF-e) | notas fiscais municipais | `https://nfe.prefeitura.sp.gov.br` | — | link ✓ | sugestão | [x] | |
+| M04 | Portal da Prefeitura | institucional | `https://www.prefeitura.sp.gov.br` | — | **✓ HTTP 200** (2026-11-12; 403 em 2026-11-10) | lista inicial | [x] | Aprovada em 2026-11-12 |
+| M05 | Secretaria Municipal da Fazenda | IPTU, alvará, taxas | `https://www.prefeitura.sp.gov.br/cidade/secretarias/fazenda` | 156 | **✓ HTTP 200** (2026-11-12; 403 em 2026-11-10) | lista inicial | [x] | |
+| M06 | Secretaria Municipal da Saúde | UBS, AMA, vacinação | `https://www.prefeitura.sp.gov.br/cidade/secretarias/saude` | 156 | **✓ HTTP 200** (2026-11-12; 403 em 2026-11-10) | lista inicial | [x] | |
+| M07 | Secretaria Municipal de Educação (página da secretaria) | matrícula | `https://www.prefeitura.sp.gov.br/cidade/secretarias/educacao` | 156 | **✓ HTTP 200** (2026-11-12; 403 em 2026-11-10) | lista inicial | [x] | M02 cobre o mesmo assunto em outro endereço |
+
+> **Prefeitura (M04 a M07):** em 2026-11-10, `www.prefeitura.sp.gov.br` recusou (HTTP 403) o cliente automatizado, e as
+> quatro linhas ficaram `candidate`. O verificador agora se identifica com o User-Agent descritivo do projeto
+> (`link_check.user_agent` em `config/settings.json`); em 2026-11-12, `check_link` com esse identificador devolveu **HTTP
+> 200** nas quatro páginas. Nessa data o grupo aprovou as quatro: estão `approved` no catálogo, com `verified_on`
+> 2026-11-12, e respondem ao cidadão.
+
+## 4. Emergência e direitos (transversais)
+
+Canais de telefone usados também quando o pedido é urgente. Um telefone sem página que o cite só pode ser `approved` por
+decisão do grupo, pois o verificador não consegue confirmá-lo.
+
+| ID | Canal | Telefone | Página para conferir | Verificação | Origem | Decisão | Notas |
+|---|---|---|---|---|---|---|---|
+| S01 | Polícia Militar | 190 | `https://www.policiamilitar.sp.gov.br` | link ✓; número não testado | lista inicial | [x] | |
+| S02 | Corpo de Bombeiros | 193 | `https://www.corpodebombeiros.sp.gov.br` | **✗ erro de SSL** | lista inicial | [x] | Sem página verificável hoje |
+| S03 | SAMU | 192 | `https://www.gov.br/saude/pt-br/composicao/saes/samu-192` | link ✓; número não testado | lista inicial | [x] | |
+| S04 | Defesa Civil | 199 | `https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil`; `https://www.defesacivil.sp.gov.br` | 2 links ✓; 199 **não confirmado** | lista inicial (+ sugestão) | [x] | |
+| S05 | Disque Direitos Humanos | 100 | `https://www.gov.br/mdh/pt-br` | **✗ HTTP 403** | lista inicial | [x] | |
+| S06 | Central de Atendimento à Mulher | 180 | `https://www.gov.br/mulheres/pt-br/ligue180` | link ✓; 180 **confirmado** | lista inicial (+ sugestão) | [x] | |
+
+## 5. Lacunas e o caminho oficial que o sistema informa
+
+Assuntos sem fonte própria verificada. Decisão do grupo: **se houver caminho pelos links oficiais, o sistema o informa**,
+dizendo ao cidadão que é o caminho geral e não o serviço específico. O caminho usa só fontes já listadas acima.
+
+| Assunto | Caminho oficial informado | Fontes usadas | Decisão |
+|---|---|---|---|
+| Alvará de funcionamento e IPTU municipal | ligar para o **156** ou usar o SP156 (atende os serviços da cidade); a Fazenda municipal (M05) assume quando o link puder ser verificado | M01 | [x] |
+| Abrir MEI ou empresa | pagamento do MEI no gov.br; registro de empresas na JUCESP | F19, E08 | [x] |
+| Título de eleitor | buscar "título de eleitor" no catálogo de serviços do gov.br (caminho que o catálogo atual já usa) | F01 | [x] |
+| Certidão de nascimento e segunda via | buscar "certidão" no catálogo de serviços do gov.br; a segunda via é pedida ao cartório | F01 | [x] |
+| Assistência social (CRAS) | Cadastro Único e Bolsa Família no gov.br; atendimento municipal pelo **156** | F18, M01 | [x] |
+| Antecedentes criminais e segunda via do RG (SP) | Poupatempo | E03 | [x] |
+| Bombeiros | telefone **193** (sem página verificável hoje) | S02 | [x] |
+
+## 6. Decisões do grupo (2026-11-10)
+1. **Prefeitura (M04 a M07):** aprovadas em 2026-11-12, depois de o link responder HTTP 200 com o identificador do
+   projeto (nota da seção 3); estavam pendentes por causa do HTTP 403 de 2026-11-10.
+2. **Telefones:** só números **oficiais**. Valem os confirmados numa página oficial da própria fonte e os códigos oficiais
+   de emergência e atendimento (190, 192, 193, 199, 100, 180, 136 e 156). O restante só entra se for achado e
+   confirmado na página de contato do órgão; senão fica de fora.
+3. **Sugestões acrescentadas:** aprovadas (todas as linhas `[x]`).
+4. **Lacunas:** informar o caminho oficial, conforme a seção 5.
+
+## 7. Validação manual: estado em 2026-11-12
+
+Com o identificador descritivo do robô, `check_link` abre hoje quase todas as páginas que antes exigiam validação à mão.
+Resultado de 2026-11-12:
+
+| ID | Página | Erro antigo | `check_link` hoje | Situação |
+|---|---|---|---|---|
+| M04 | `https://www.prefeitura.sp.gov.br` | HTTP 403 | HTTP 200 | resolvida: aprovada em 2026-11-12 |
+| M05 | `https://www.prefeitura.sp.gov.br/cidade/secretarias/fazenda` | HTTP 403 | HTTP 200 | resolvida: aprovada em 2026-11-12 |
+| M06 | `https://www.prefeitura.sp.gov.br/cidade/secretarias/saude` | HTTP 403 | HTTP 200 | resolvida: aprovada em 2026-11-12 |
+| M07 | `https://www.prefeitura.sp.gov.br/cidade/secretarias/educacao` | HTTP 403 | HTTP 200 | resolvida: aprovada em 2026-11-12 |
+| S05 | `https://www.gov.br/mdh/pt-br` | HTTP 403 | HTTP 200 | resolvida: o robô abre a página (registro `xl_f20`, `approved`) |
+| F09 | `https://www.gov.br/mec/pt-br` | erro de conexão | HTTP 200 | resolvida (registro `mec`, `approved`) |
+| F12 | `https://www.gov.br/mec/pt-br/pe-de-meia` | erro de conexão | HTTP 200 | resolvida (registros `pe_de_meia` e `xl_f11`, `approved`) |
+| S02 | `https://www.corpodebombeiros.sp.gov.br` | erro de SSL | **erro de SSL** (`CERTIFICATE_VERIFY_FAILED`) | **pendente** `[ ]`: o robô não abre; o canal segue só com o telefone 193 |
+
+Nenhuma validação manual por atestado é necessária: a única pendência real é o S02, que não pode ser aceito por atestado
+(erro de SSL) e fica sem link no catálogo até o certificado do site passar na verificação.

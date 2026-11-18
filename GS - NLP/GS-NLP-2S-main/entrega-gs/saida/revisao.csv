@@ -1,0 +1,149 @@
+﻿arquivo,linha,alterado,comentário
+corpus_qa.jsonl,1,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,2,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,3,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,4,sim,[proposta] Pergunta sobre loja que só atende crianças maiores de 10 anos não tem relação com a resposta (publicidade abusiva).
+corpus_qa.jsonl,5,sim,"[proposta] A pergunta falava em arrependimento, que o trecho não cobre."
+corpus_qa.jsonl,6,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,7,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,8,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,9,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,10,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,11,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,12,sim,[proposta] A resposta dizia 'data da assinatura'; o trecho fala em data prevista no acordo.
+corpus_qa.jsonl,13,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,14,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,15,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,16,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,17,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,18,sim,[proposta] A pergunta (pagar mais por ter processo) não corresponde ao trecho.
+corpus_qa.jsonl,19,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,20,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,21,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,22,sim,[proposta] Produto vencido não é respondido pelo art. 35 (recusa de cumprir a oferta).
+corpus_qa.jsonl,23,sim,"[proposta] A resposta (interesse social) trata de associação, não de pagar antes de ganhar."
+corpus_qa.jsonl,24,sim,[proposta] O cancelamento do contrato não está no trecho.
+corpus_qa.jsonl,25,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,26,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,27,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,28,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,29,sim,[revisão do grupo] reprovado na amostra de fidelidade (resposta vaga ou desconexa da pergunta).
+corpus_qa.jsonl,30,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,31,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,32,sim,"[proposta] Fiança em BTN: índice extinto, valor volátil."
+corpus_qa.jsonl,33,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,34,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,35,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,36,sim,[revisão do grupo] reprovado na amostra de fidelidade (resposta vaga ou desconexa da pergunta).
+corpus_qa.jsonl,37,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,38,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,39,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,40,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,41,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,42,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,43,sim,[proposta] A pergunta (cobrança acima do preço) não corresponde à resposta.
+corpus_qa.jsonl,44,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,45,sim,[proposta] A resposta sobre o papel do SNDC não responde à pergunta.
+corpus_qa.jsonl,46,sim,[revisão do grupo] reprovado na amostra de fidelidade (resposta vaga ou desconexa da pergunta).
+corpus_qa.jsonl,47,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,48,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,49,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,50,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,51,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,52,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,53,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,54,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,55,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,56,sim,[revisão do grupo] reprovado na amostra de fidelidade (resposta vaga ou desconexa da pergunta).
+corpus_qa.jsonl,57,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,58,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,59,sim,[proposta] A resposta generalizava para qualquer ação do consumidor.
+corpus_qa.jsonl,60,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,61,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,62,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,63,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,64,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,65,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,66,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,67,sim,[proposta] A pergunta (produto seguro) não corresponde à resposta (forma de pagamento).
+corpus_qa.jsonl,68,sim,[proposta] Pergunta confusa e resposta com o sentido invertido.
+corpus_qa.jsonl,69,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,70,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,71,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,72,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,73,sim,[proposta] Atribui 5 anos ao plano conciliado; o trecho é do plano judicial compulsório (duplica o item 98).
+corpus_qa.jsonl,74,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,75,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,76,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,77,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,78,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,79,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,80,sim,[revisão do grupo] reprovado na amostra de fidelidade (resposta vaga ou desconexa da pergunta).
+corpus_qa.jsonl,81,sim,[proposta] A pergunta (custas) não corresponde ao trecho.
+corpus_qa.jsonl,82,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,83,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,84,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,85,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,86,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,87,sim,[proposta] Valores em reais da multa: dado volátil.
+corpus_qa.jsonl,88,sim,"[proposta] O trecho diz 'meio eletrônico', não e-mail."
+corpus_qa.jsonl,89,sim,"[proposta] A resposta citava 'multa', que o trecho não menciona."
+corpus_qa.jsonl,90,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,91,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,92,sim,[revisão do grupo] reprovado na amostra de fidelidade (resposta vaga ou desconexa da pergunta).
+corpus_qa.jsonl,93,sim,[proposta] A pergunta não correspondia à resposta.
+corpus_qa.jsonl,94,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,95,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,96,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,97,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,98,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,99,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,100,sim,[proposta] A resposta não respondia à pergunta 'como saber'.
+corpus_qa.jsonl,101,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,102,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,103,sim,[proposta] 'Enganosa' não está no trecho.
+corpus_qa.jsonl,104,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,105,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,106,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,107,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,108,sim,[proposta] 'Sem nenhum ônus' não está no trecho.
+corpus_qa.jsonl,109,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,110,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,111,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,112,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,113,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,114,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,115,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,116,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,117,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,118,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,119,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,120,sim,[proposta] A orientação de denúncia não está no trecho.
+corpus_qa.jsonl,121,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,122,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,123,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,124,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,125,não,[proposta] Sem objeção na leitura do trecho.
+corpus_qa.jsonl,126,não,[proposta] Sem objeção na leitura do trecho.
+corpus_chat.jsonl,2,não,[proposta] Sem objeção na leitura.
+corpus_chat.jsonl,3,sim,[proposta] A 2ª resposta repetia a 1ª sem informar o prazo.
+corpus_chat.jsonl,4,sim,[proposta] A 1ª resposta não tratava de cobrança indevida; a 2ª terminava de forma estranha.
+corpus_chat.jsonl,8,não,[proposta] Sem objeção na leitura.
+corpus_chat.jsonl,9,sim,"[proposta] Citava 'reexecução dos serviços', que vale para serviço, não para TV."
+corpus_chat.jsonl,10,sim,"[proposta] Afirmava que as informações estariam 'no contrato ou na fatura', sem apoio."
+corpus_chat.jsonl,12,sim,"[proposta] Misturava o prazo de 5 anos (art. 27), mandava procurar outro vendedor e citava uma 'defensoria do consumidor' inexistente."
+corpus_chat.jsonl,14,não,[proposta] Sem objeção na leitura.
+corpus_chat.jsonl,16,sim,[proposta] A resposta não dizia se a cobrança era correta.
+corpus_chat.jsonl,17,sim,[proposta] Devolução de compra online respondida com cancelamento de contrato (SAC).
+corpus_chat.jsonl,18,sim,[proposta] A resposta sobre perda das prestações não tem relação com a garantia e cita 'defensoria do consumidor'.
+corpus_chat.jsonl,19,sim,[proposta] O prazo de 48 horas vem de documento volátil.
+corpus_chat.jsonl,21,não,[proposta] Sem objeção na leitura.
+corpus_chat.jsonl,22,não,[proposta] Sem objeção na leitura.
+corpus_chat.jsonl,26,não,[proposta] Sem objeção na leitura.
+corpus_chat.jsonl,28,não,[proposta] Sem objeção na leitura.
+corpus_chat.jsonl,30,não,[proposta] Sem objeção na leitura.
+corpus_chat.jsonl,32,não,[proposta] Sem objeção na leitura.
+corpus_chat.jsonl,33,não,[proposta] Sem objeção na leitura.
+corpus_chat.jsonl,34,sim,[proposta] 'Imediatamente' não está no trecho.
+corpus_chat.jsonl,35,sim,[proposta] Prometia 'devolução do valor extra' sem apoio.
+corpus_chat.jsonl,36,sim,[proposta] O valor extra cobrado foi respondido com publicidade enganosa; a 2ª resposta é inventada.

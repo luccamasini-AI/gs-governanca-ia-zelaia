@@ -1,0 +1,52 @@
+{
+  "status": "treinado_no_colab",
+  "dataset_name": "Concrete Crack Images for Classification (Mendeley Data)",
+  "architecture": "MobileNetV3-Small (IMAGENET1K_V1 Transfer Learning + WSOL/Grad-CAM)",
+  "resolution": "224x224 px",
+  "confidence_threshold": 0.5,
+  "samples": {
+    "train": 2642,
+    "validation": 680,
+    "test": 678,
+    "total": 4000
+  },
+  "metrics": {
+    "accuracy": 0.9971,
+    "precision": 1.0,
+    "recall": 0.9941,
+    "f1_score": 0.997,
+    "roc_auc": 1.0,
+    "pr_auc": 1.0
+  },
+  "confusion_matrix": {
+    "true_negative": 339,
+    "false_positive": 0,
+    "false_negative": 2,
+    "true_positive": 337
+  },
+  "threshold_sensitivity": {
+    "clean_test_set_range_010_to_090": {
+      "precision": 1.0,
+      "recall": 0.9941,
+      "f1_score": 0.997
+    },
+    "shadow_illumination_interference": {
+      "borderline_sample_probability": 0.461,
+      "recall_at_threshold_050": 0.894,
+      "recall_at_threshold_035": 0.976
+    }
+  },
+  "performance": {
+    "evaluation_protocol": "200 imagens reais do conjunto de teste (224x224 px) apos 30 iteracoes de warm-up",
+    "hardware": "GPU NVIDIA Tesla T4 (Google Colab)",
+    "average_latency_ms": 4.48,
+    "std_latency_ms": 0.52,
+    "p95_latency_ms": 5.35,
+    "fps": 223.2,
+    "local_cpu_hardware": "CPU Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz",
+    "local_average_latency_ms": 30.72,
+    "local_std_latency_ms": 0.74,
+    "local_p95_latency_ms": 31.65,
+    "local_fps": 32.6
+  }
+}

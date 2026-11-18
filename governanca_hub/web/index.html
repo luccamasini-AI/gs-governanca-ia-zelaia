@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hub de Governança em IA & Business Analytics | CitizenTech ZelaIA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/web/styles.css" />
+</head>
+<body>
+
+  <!-- TOPBAR GLASSMORPHISM -->
+  <header class="topbar">
+    <div class="brand-block">
+      <div class="brand-logo">Z</div>
+      <div>
+        <div class="brand-title">CitizenTech &amp; ZelaIA • Governance Hub</div>
+        <div class="brand-subtitle">FIAP • Global Solution 2026.2 • Governança em IA e Business Analytics</div>
+      </div>
+    </div>
+
+    <nav class="nav-pills" aria-label="Navegação Principal">
+      <button class="nav-pill active" onclick="switchView('view-ecosystem', this)">
+        <span>1. Ecossistema &amp; Integração</span>
+      </button>
+      <button class="nav-pill" onclick="switchView('view-simulator', this)">
+        <span>2. Simulador Ponta a Ponta</span>
+      </button>
+      <button class="nav-pill" onclick="switchView('view-analytics', this)">
+        <span>3. Business Analytics</span>
+      </button>
+      <button class="nav-pill" onclick="switchView('view-governance', this)">
+        <span>4. Conformidade &amp; LGPD</span>
+      </button>
+    </nav>
+
+    <div class="topbar-actions">
+      <div class="team-pill" title="Lucca Phelipe Masini (RM 564121) • Igor Paixão Sarak (RM 563726) • Bernardo Braga Perobeli (RM 562468)">
+        👥 Lucca (564121) • Igor (563726) • Bernardo (562468)
+      </div>
+      <button class="theme-btn" id="themeToggleBtn" onclick="toggleTheme()">☀️ Tema Claro</button>
+    </div>
+  </header>
+
+  <main class="main-container">
+
+    <!-- =================================================================== -->
+    <!-- VISÃO 1: ECOSSISTEMA & MATRIZ DE INTEGRAÇÃO (BENTO GRID)            -->
+    <!-- =================================================================== -->
+    <section id="view-ecosystem" class="view-section active">
+
+      <div class="kpi-ribbon">
+        <div class="kpi-card">
+          <span class="kpi-label">Monorepo Unificado</span>
+          <span class="kpi-value">8 / 8 Pastas</span>
+          <span class="kpi-sub">100% dos módulos auditados no GitHub</span>
+        </div>
+        <div class="kpi-card emerald">
+          <span class="kpi-label">Bloco A • Núcleo Integrado ZelaIA</span>
+          <span class="kpi-value">4 Disciplinas</span>
+          <span class="kpi-sub">Front-End ➔ Visão ➔ Cluster ➔ Quântica</span>
+        </div>
+        <div class="kpi-card purple">
+          <span class="kpi-label">Bloco B • Verticais Governadas</span>
+          <span class="kpi-value">4 Disciplinas</span>
+          <span class="kpi-sub">RPA • GenAI • NLP • IoT (Isolamento Técnico)</span>
+        </div>
+        <div class="kpi-card amber">
+          <span class="kpi-label">Supervisão &amp; Proteção</span>
+          <span class="kpi-value">LGPD + HITL</span>
+          <span class="kpi-sub">Art. 6º, 20, 23 e 46 + Anti-Alucinação</span>
+        </div>
+      </div>
+
+      <!-- Fluxograma Interativo do Núcleo Integrado ZelaIA -->
+      <div class="pipeline-banner">
+        <div class="section-header-row">
+          <div>
+            <div class="section-title">🔗 Cadeia Operacional Integrada: Núcleo de Zeladoria Urbana (ZelaIA)</div>
+            <div class="section-subtitle">Clique em qualquer etapa abaixo para abrir a ficha técnica e as evidências da disciplina</div>
+          </div>
+          <span class="status-badge integrated">Fluxo Ponta a Ponta Conectado</span>
+        </div>
+
+        <div class="pipeline-steps">
+          <div class="pipe-node" onclick="openModuleModal('front_end')">
+            <span class="pipe-step-num">Etapa 1 • Entrada &amp; Clima</span>
+            <h4>Front-End (ZelaAI)</h4>
+            <p>Relato acessível (WCAG AAA) ➔ FastAPI ➔ Clima Open-Meteo + RandomForest + Gemini 2.5</p>
+          </div>
+          <div class="pipe-node" onclick="openModuleModal('visao_computacional')">
+            <span class="pipe-step-num">Etapa 2 • Inspeção Visual</span>
+            <h4>Visão Computacional</h4>
+            <p>Rede MobileNetV3-Small + Grad-CAM detecta fissuras em concreto (99,71% acurácia)</p>
+          </div>
+          <div class="pipe-node" onclick="openModuleModal('cluster_computing')">
+            <span class="pipe-step-num">Etapa 3 • Escala de Lote</span>
+            <h4>Cluster Computing (iSPD)</h4>
+            <p>Processa lotes de 1.000 fotos (1.000 MFLOP): 2 para 4 workers reduz fila em 49,99%</p>
+          </div>
+          <div class="pipe-node" onclick="openModuleModal('computacao_quantica')">
+            <span class="pipe-step-num">Etapa 4 • Decisão &amp; PQC</span>
+            <h4>Computação Quântica</h4>
+            <p>Otimização combinatória de equipes (20 pts vs 18 pts guloso em 8h) + Criptografia ML-KEM</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Barra de Filtro e Bento Grid das 8 Pastas -->
+      <div class="filter-bar">
+        <div>
+          <div class="section-title">📦 Arquitetura das 8 Disciplinas (Integrados vs. Verticais Independentes)</div>
+          <div class="section-subtitle">Clique em um cartão para inspecionar arquivos verificados no disco, gráficos e governança</div>
+        </div>
+        <div class="filter-group">
+          <button class="filter-chip active" onclick="filterModules('ALL', this)">Todas as 8 Matérias (8)</button>
+          <button class="filter-chip" onclick="filterModules('INTEGRATED', this)">🟢 Integrados no ZelaIA (4)</button>
+          <button class="filter-chip" onclick="filterModules('VERTICAL', this)">🔵 Verticais Independentes (4)</button>
+        </div>
+      </div>
+
+      <div id="modulesBentoGrid" class="bento-grid"></div>
+    </section>
+
+    <!-- =================================================================== -->
+    <!-- VISÃO 2: SIMULADOR PONTA A PONTA ZELAIA                             -->
+    <!-- =================================================================== -->
+    <section id="view-simulator" class="view-section">
+      <div class="section-header-row" style="margin-bottom: 20px;">
+        <div>
+          <div class="section-title">⚡ Simulador Interativo da Cadeia Integrada ZelaIA</div>
+          <div class="section-subtitle">Demonstração prática conectando LGPD (Front-End), Visão Computacional, Cluster (iSPD) e Otimização Quântica</div>
+        </div>
+        <span class="status-badge integrated">Execução em Tempo Real (0 ms)</span>
+      </div>
+
+      <div class="sim-grid">
+
+        <!-- PASSO 1: LGPD -->
+        <div class="sim-card">
+          <div class="card-top-meta">
+            <span class="sim-step-badge">1 • Front-End &amp; Back-End ZelaAI</span>
+            <span class="folder-tag">Art. 6º e 46 LGPD</span>
+          </div>
+          <h3 class="module-title">Portão de Sanitização e Anonimização de PII</h3>
+          <div class="preset-row">
+            <button class="preset-btn" onclick="setLgpdPreset(1)">Exemplo 1: Relato c/ CPF, Tel e E-mail</button>
+            <button class="preset-btn" onclick="setLgpdPreset(2)">Exemplo 2: Risco Escolar s/ Dados Pessoais</button>
+          </div>
+          <textarea id="simLgpdInput" class="sim-textarea" oninput="runLiveSimulation()">Sou morador de São Paulo, meu CPF é 412.890.123-45, telefone (11) 98877-6655 e e-mail cidadao.teste@email.com. A calçada e o muro em frente à escola estão com fissura no concreto e bueiro entupido na chuva.</textarea>
+          <div class="sim-output-box" id="simLgpdOutput"></div>
+          <div class="section-subtitle" id="simLgpdCounters"></div>
+        </div>
+
+        <!-- PASSO 2: VISÃO COMPUTACIONAL -->
+        <div class="sim-card">
+          <div class="card-top-meta">
+            <span class="sim-step-badge">2 • Visão Computacional</span>
+            <span class="folder-tag">MobileNetV3 + Grad-CAM</span>
+          </div>
+          <h3 class="module-title">Triagem Preventiva de Fissuras em Concreto</h3>
+          <div class="cv-workbench">
+            <img id="simCvImage" class="cv-preview-img" src="" alt="Amostra de Concreto" />
+            <div>
+              <label class="mini-metric-label" style="margin-bottom:4px;">Selecionar Amostra Real do Conjunto de Teste:</label>
+              <select id="simCvSelect" class="cv-select" onchange="updateCvSimulator()"></select>
+              <label style="display:flex; align-items:center; gap:8px; font-size:0.82rem; cursor:pointer; margin-bottom:10px;">
+                <input type="checkbox" id="simShadowToggle" onchange="updateCvSimulator()" />
+                <span>Ativar Modo Sombra / Baixa Luz (Limiar <strong>T = 0,35</strong>)</span>
+              </label>
+              <div id="simCvResultBadge" style="margin-bottom:8px;"></div>
+              <div class="bar-track">
+                <div id="simCvProbBar" class="bar-fill emerald" style="width:99%;"></div>
+              </div>
+              <div id="simCvMetaText" style="font-size:0.76rem; color:var(--text-muted); margin-top:6px;"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PASSO 3: CLUSTER iSPD -->
+        <div class="sim-card">
+          <div class="card-top-meta">
+            <span class="sim-step-badge">3 • Cluster Computing (iSPD 2.0)</span>
+            <span class="folder-tag">RoundRobin • 1.000 MFLOP/img</span>
+          </div>
+          <h3 class="module-title">Escalabilidade Horizontal do Lote de Imagens</h3>
+          <div>
+            <div class="bar-label-row" style="margin-bottom:6px;">
+              <span>Volume do Lote Simultâneo: <strong id="simClusterCountLabel">1.000 fotos</strong></span>
+              <span id="simClusterWorkloadLabel" style="color:var(--accent-cyan); font-family:'JetBrains Mono',monospace; font-size:0.78rem;">1.000.000 MFLOP | 8.000 Mbit</span>
+            </div>
+            <input type="range" id="simClusterSlider" class="range-slider" min="100" max="5000" step="100" value="1000" oninput="runLiveSimulation()" />
+          </div>
+
+          <div class="bar-group">
+            <div class="bar-item">
+              <div class="bar-label-row">
+                <span>Cenário A: Cluster com 2 Workers</span>
+                <span id="simCluster2WText" style="font-family:'JetBrains Mono',monospace;">500,02 s</span>
+              </div>
+              <div class="bar-track"><div class="bar-fill amber" style="width: 100%;"></div></div>
+            </div>
+            <div class="bar-item">
+              <div class="bar-label-row">
+                <span>Cenário B: Cluster com 4 Workers (Redução de 49,9945%)</span>
+                <span id="simCluster4WText" style="font-family:'JetBrains Mono',monospace; color:var(--accent-emerald);">250,04 s (-249,98 s)</span>
+              </div>
+              <div class="bar-track"><div class="bar-fill emerald" style="width: 50%;"></div></div>
+            </div>
+          </div>
+          <div class="section-subtitle">Vazão efetiva: <strong>1,9999 tarefas/s</strong> (2 workers) ➔ <strong>3,9994 tarefas/s</strong> (4 workers).</div>
+        </div>
+
+        <!-- PASSO 4: COMPUTAÇÃO QUÂNTICA -->
+        <div class="sim-card">
+          <div class="card-top-meta">
+            <span class="sim-step-badge">4 • Computação Quântica &amp; PQC</span>
+            <span class="folder-tag">Mochila Binária / QAOA</span>
+          </div>
+          <h3 class="module-title">Decisão de Despacho: Heurística Gulosa vs. Ótimo</h3>
+          <div>
+            <div class="bar-label-row" style="margin-bottom:6px;">
+              <span>Orçamento Diário da Equipe: <strong id="simQuantumHoursLabel">8 horas</strong></span>
+              <span style="color:var(--accent-purple); font-family:'JetBrains Mono',monospace; font-size:0.78rem;">32 combinações (2^5)</span>
+            </div>
+            <input type="range" id="simQuantumSlider" class="range-slider" min="3" max="13" step="1" value="8" oninput="runLiveSimulation()" />
+          </div>
+
+          <div class="compare-scoreboard">
+            <div class="score-box">
+              <span class="mini-metric-label">Heurística Gulosa (Prioridade/Hora)</span>
+              <div class="mini-metric-val" id="simGreedyScore" style="font-size:1.15rem; margin:4px 0;">18 pts (7h)</div>
+              <span class="section-subtitle" id="simGreedyItems">Escolhe: C + A + D</span>
+            </div>
+            <div class="score-box winner">
+              <span class="mini-metric-label" style="color:var(--accent-emerald);">Ótimo Combinatório / QAOA</span>
+              <div class="mini-metric-val" id="simOptimalScore" style="font-size:1.15rem; color:var(--accent-emerald); margin:4px 0;">20 pts (8h)</div>
+              <span class="section-subtitle" id="simOptimalItems">Escolhe: A + B + C (+2 pts)</span>
+            </div>
+          </div>
+          <div class="section-subtitle" id="simQuantumVerdict"></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =================================================================== -->
+    <!-- VISÃO 3: BUSINESS ANALYTICS (4 PAINÉIS VISUAIS LIMPOS)              -->
+    <!-- =================================================================== -->
+    <section id="view-analytics" class="view-section">
+      <div class="section-header-row" style="margin-bottom: 20px;">
+        <div>
+          <div class="section-title">📊 Business Analytics Consolidado (8 Disciplinas)</div>
+          <div class="section-subtitle">Indicadores reais extraídos dos arquivos JSON, CSV e relatórios experimentais das 8 pastas</div>
+        </div>
+      </div>
+
+      <div class="sim-grid">
+
+        <!-- Painel Analytics 1 -->
+        <div class="sim-card">
+          <div class="card-top-meta">
+            <span class="sim-step-badge">Qualidade Preditiva &amp; Guardrails</span>
+            <span class="folder-tag">Acurácia e Precisão (%)</span>
+          </div>
+          <h3 class="module-title">Como o Human-in-the-Loop Eleva a Confiabilidade</h3>
+          <div class="bar-group">
+            <div class="bar-item">
+              <div class="bar-label-row"><span>Visão Computacional • Precisão no Teste (FP = 0)</span><span>100,00%</span></div>
+              <div class="bar-track"><div class="bar-fill emerald" style="width:100%"></div></div>
+            </div>
+            <div class="bar-item">
+              <div class="bar-label-row"><span>Visão Computacional • Acurácia Global (678 imgs)</span><span>99,71%</span></div>
+              <div class="bar-track"><div class="bar-fill cyan" style="width:99.71%"></div></div>
+            </div>
+            <div class="bar-item">
+              <div class="bar-label-row"><span>RPA • Acurácia Automática (c/ Corte Confiança 0,60)</span><span style="color:var(--accent-emerald)">100,00%</span></div>
+              <div class="bar-track"><div class="bar-fill emerald" style="width:100%"></div></div>
+            </div>
+            <div class="bar-item">
+              <div class="bar-label-row"><span>RPA • Acurácia Bruta Sem Revisão Humana (54 casos)</span><span>88,90%</span></div>
+              <div class="bar-track"><div class="bar-fill amber" style="width:88.9%"></div></div>
+            </div>
+            <div class="bar-item">
+              <div class="bar-label-row"><span>GenAI Descarte Certo • Estados Esperados (20/20)</span><span>100,00%</span></div>
+              <div class="bar-track"><div class="bar-fill purple" style="width:100%"></div></div>
+            </div>
+            <div class="bar-item">
+              <div class="bar-label-row"><span>GenAI • Bateria de Controles Factual Jev (33/34)</span><span>97,06%</span></div>
+              <div class="bar-track"><div class="bar-fill purple" style="width:97.06%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Painel Analytics 2 -->
+        <div class="sim-card">
+          <div class="card-top-meta">
+            <span class="sim-step-badge">Eficiência Operacional &amp; Escala</span>
+            <span class="folder-tag">Redução de Tempo (%)</span>
+          </div>
+          <h3 class="module-title">Ganhos Medidos de Latência e Processamento</h3>
+          <div class="bar-group">
+            <div class="bar-item">
+              <div class="bar-label-row"><span>GenAI • Cache de Respostas Aprovadas (2,185s ➔ 0,129s)</span><span>-94,10%</span></div>
+              <div class="bar-track"><div class="bar-fill emerald" style="width:94.1%"></div></div>
+            </div>
+            <div class="bar-item">
+              <div class="bar-label-row"><span>Visão Computacional • GPU T4 vs. CPU i5 (30,72ms ➔ 4,48ms)</span><span>-85,42%</span></div>
+              <div class="bar-track"><div class="bar-fill cyan" style="width:85.42%"></div></div>
+            </div>
+            <div class="bar-item">
+              <div class="bar-label-row"><span>GenAI • Verificador Jev vs. Decisão LLM Puro (7,676s ➔ 2,234s)</span><span>-70,90%</span></div>
+              <div class="bar-track"><div class="bar-fill purple" style="width:70.9%"></div></div>
+            </div>
+            <div class="bar-item">
+              <div class="bar-label-row"><span>Cluster iSPD • Escalabilidade 2 ➔ 4 Workers (500,02s ➔ 250,04s)</span><span>-49,99%</span></div>
+              <div class="bar-track"><div class="bar-fill amber" style="width:49.99%"></div></div>
+            </div>
+          </div>
+          <div class="section-subtitle" style="margin-top:6px;">
+            Todos os ganhos preservam 100% da integridade das decisões (zero degradação de resposta).
+          </div>
+        </div>
+
+        <!-- Painel Analytics 3: IoT Completo -->
+        <div class="sim-card">
+          <div class="card-top-meta">
+            <span class="sim-step-badge">GS - IOT • OuviAí (3.900 Decisões + PyTorch)</span>
+            <span class="folder-tag">Cortex-M4F 80MHz</span>
+          </div>
+          <h3 class="module-title">Impacto dos Áudios Sintéticos e 72 Variações sob Ruído</h3>
+          <div id="iotAnalyticsTableContainer"></div>
+          <div class="section-subtitle">
+            <strong>Conclusão Analítica:</strong> Os 31 sintéticos e 72 variações elevaram a resistência sob chuva intensa (<strong>SNR 10 dB subiu de 34,8% para 40,7%</strong> e <strong>SNR 20 dB de 38,5% para 43,0%</strong>), com trade-off nos áudios limpos (65,2% para 60,7%).
+          </div>
+        </div>
+
+        <!-- Painel Analytics 4: NLP -->
+        <div class="sim-card">
+          <div class="card-top-meta">
+            <span class="sim-step-badge">GS - NLP • Fábrica de Corpus CDC</span>
+            <span class="folder-tag">Qwen2.5-7B 4-bit + spaCy</span>
+          </div>
+          <h3 class="module-title">Inclusão Linguística Cidadã &amp; Curadoria Humana</h3>
+          <div class="bar-group">
+            <div class="bar-item">
+              <div class="bar-label-row"><span>Corpus Chat (33 diálogos revisados) • Gírias/Informal</span><span>58,3% (Meta ≥ 30%)</span></div>
+              <div class="bar-track"><div class="bar-fill emerald" style="width:58.3%"></div></div>
+            </div>
+            <div class="bar-item">
+              <div class="bar-label-row"><span>Corpus Teste (24 perguntas inéditas) • Gírias/Informal</span><span>50,0% (Meta ≥ 30%)</span></div>
+              <div class="bar-track"><div class="bar-fill cyan" style="width:50.0%"></div></div>
+            </div>
+            <div class="bar-item">
+              <div class="bar-label-row"><span>Corpus QA (112 pares revisados) • Gírias/Informal</span><span>38,1% (Meta ≥ 30%)</span></div>
+              <div class="bar-track"><div class="bar-fill purple" style="width:38.1%"></div></div>
+            </div>
+            <div class="bar-item">
+              <div class="bar-label-row"><span>Fidelidade Bruta Antes da Revisão Humana (13/20 amostra)</span><span>65,0% ➔ 100% Pós-Revisão</span></div>
+              <div class="bar-track"><div class="bar-fill amber" style="width:65.0%"></div></div>
+            </div>
+          </div>
+          <div class="section-subtitle">
+            De 475 pares gerados, 197 foram barrados por filtros automáticos e 100% dos restantes passaram por revisão humana.
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =================================================================== -->
+    <!-- VISÃO 4: GOVERNANÇA, LGPD & RISCOS (CARDS DE AUDITORIA LIMPOS)      -->
+    <!-- =================================================================== -->
+    <section id="view-governance" class="view-section">
+      <div class="kpi-ribbon">
+        <div class="kpi-card">
+          <span class="kpi-label">Pilar 1 • Lei 13.709/2018</span>
+          <span class="kpi-value">Art. 6º, 23 e 46</span>
+          <span class="kpi-sub">Anonimização prévia de PII + PQC ML-KEM</span>
+        </div>
+        <div class="kpi-card emerald">
+          <span class="kpi-label">Pilar 2 • Supervisão Humana</span>
+          <span class="kpi-value">Art. 20 (HITL)</span>
+          <span class="kpi-sub">Filas de revisão humana no ZelaAI, RPA e NLP</span>
+        </div>
+        <div class="kpi-card purple">
+          <span class="kpi-label">Pilar 3 • Rigor Metodológico</span>
+          <span class="kpi-value">Zero Leakage</span>
+          <span class="kpi-sub">GroupShuffleSplit (Visão) e Hashes SHA-256 (IoT)</span>
+        </div>
+        <div class="kpi-card amber">
+          <span class="kpi-label">Pilar 4 • Anti-Alucinação</span>
+          <span class="kpi-value">Guardrails Ativos</span>
+          <span class="kpi-sub">Allowlist .gov.br, Guarda Jev e Schema Pydantic</span>
+        </div>
+      </div>
+
+      <div class="section-header-row">
+        <div>
+          <div class="section-title">🛡️ Auditoria Individual de Governança por Disciplina</div>
+          <div class="section-subtitle">Visão direta sem tabelas cortadas • Clique em qualquer cartão para ver os arquivos e evidências</div>
+        </div>
+      </div>
+
+      <div id="governanceCardsGrid" class="sim-grid"></div>
+    </section>
+
+  </main>
+
+  <!-- MODAL DE INSPEÇÃO DE DISCIPLINA E EVIDÊNCIAS -->
+  <div id="moduleModalBackdrop" class="modal-backdrop" onclick="closeModuleModal(event)">
+    <div class="modal-panel" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <div>
+          <span id="modalStatusBadge" class="status-badge integrated"></span>
+          <span id="modalFolderTag" class="folder-tag" style="margin-left:8px;"></span>
+          <h2 id="modalTitle" style="margin-top:8px; font-size:1.35rem;"></h2>
+          <p id="modalStack" style="font-size:0.84rem; color:var(--accent-cyan); margin-top:4px;"></p>
+        </div>
+        <button class="close-btn" onclick="closeModuleModal()">✕</button>
+      </div>
+
+      <div id="modalBodyContent"></div>
+    </div>
+  </div>
+
+  <script src="/web/app.js"></script>
+</body>
+</html>
