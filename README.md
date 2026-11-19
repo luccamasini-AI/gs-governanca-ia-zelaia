@@ -2,7 +2,7 @@
 
 **FIAP | Global Solution 2026.2 | Disciplina: Governança em IA e Business Analytics**
 
-Repositório unificado (monorepo) contendo os **8 módulos disciplinares** desenvolvidos na Global Solution 2026.2, o **Hub Visual Executivo de Governança e Business Analytics** (`hub_governanca.py`) e o **Relatório Técnico em formato ABNT/FIAP** (`Relatorio_Integracao_Governanca_IA_ZelaIA_ABNT.docx`).
+Repositório unificado (monorepo) contendo os **8 módulos disciplinares** desenvolvidos na Global Solution 2026.2, o **Hub Visual Executivo de Governança e Business Analytics** (`hub_governanca.py`) e o **Relatório Técnico em formato ABNT/FIAP** (`Relatorio_Integracao_Governanca_IA_ZelaIA_ABNT.pdf`).
 
 ---
 
@@ -25,7 +25,7 @@ Repositório unificado (monorepo) contendo os **8 módulos disciplinares** desen
 │   ├── repository_data_loader.py                          # Carregador de métricas JSON/CSV e artefatos das 8 pastas
 │   ├── governance_simulation_engine.py                    # Sanitizador LGPD, simulador iSPD e solver combinatório QAOA
 │   └── web/                                               # Front-End SPA (Bento Grid / Glassmorphism: index.html, styles.css, app.js)
-├── Relatorio_Integracao_Governanca_IA_ZelaIA_ABNT.docx    # Relatório Técnico Oficial (Normas ABNT/FIAP - 13 páginas)
+├── Relatorio_Integracao_Governanca_IA_ZelaIA_ABNT.pdf    # Relatório Técnico Oficial (Normas ABNT/FIAP - 15 páginas)
 ├── requirements.txt                                       # Dependências do Hub de Governança
 ├── GS - FRONT END/                                        # 1. Plataforma ZelaAI (Streamlit + FastAPI + ML + Gemini 2.5)
 ├── GS - VISÃO COMPUTACIONAL/                              # 2. Inspeção Preventiva de Fissuras (MobileNetV3 + Grad-CAM)
@@ -74,4 +74,4 @@ O Hub Web Moderno (Design *Bento Grid / Glassmorphism*) abrirá automaticamente 
 ## 4. Links de Entrega
 
 - **Vídeo de Demonstração (YouTube Não Listado - 5 a 7 minutos):** [https://youtu.be/NVlXG8PhlQo](https://youtu.be/NVlXG8PhlQo)
-- **Relatório Técnico ABNT/FIAP:** [`Relatorio_Integracao_Governanca_IA_ZelaIA_ABNT.docx`](Relatorio_Integracao_Governanca_IA_ZelaIA_ABNT.docx)
+- **Relatório Técnico ABNT/FIAP:** [`Relatorio_Integracao_Governanca_IA_ZelaIA_ABNT.pdf`](Relatorio_Integracao_Governanca_IA_ZelaIA_ABNT.pdf)

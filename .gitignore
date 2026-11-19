@@ -16,10 +16,8 @@ __pycache__/
 # Dependências Node / Build temporário
 node_modules/
 
-# Arquivos temporários do Sistema Operacional / Office / Notas Internas locais
+# Arquivos temporários do Sistema Operacional / Office
 ~$*.docx
 ~$*.xlsx
 .DS_Store
 Thumbs.db
-CONTEXTO_E_MEMORIA_DO_PROJETO.md
-ROTEIRO_VIDEO_5_A_7_MINUTOS.md
