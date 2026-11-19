@@ -1,4 +1,4 @@
-/* Front-End Controller do Hub Executivo de Governança e Business Analytics */
+/* Front-End Controller do Painel Web de Governança e Business Analytics */
 
 let hubTelemetry = null;
 let currentFilter = 'ALL';

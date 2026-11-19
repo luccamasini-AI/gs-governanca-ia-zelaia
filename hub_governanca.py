@@ -1,4 +1,4 @@
-"""Servidor Web do Hub Executivo de Governança em IA e Business Analytics (CitizenTech / ZelaIA)."""
+"""Servidor Web do Painel de Governança em IA e Business Analytics (CitizenTech / ZelaIA)."""
 
 import json
 import mimetypes
